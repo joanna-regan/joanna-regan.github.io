@@ -1,51 +1,95 @@
 <!DOCTYPE html>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 
-<style> .chart rect { fill: steelblue } </style>
+<style>
+.link line {stroke: black;}
+.node circle {stroke: black; fill: white;}
+.node text {text-anchor: middle; font-size: 20px}
+</style>
 
-<html><body>
-<p>JR! Here are the magic numbers from Lost: <span id="data"></span></p>
-
-<svg class="chart"></svg>
+<svg width="300" height="300"></svg>
 
 <script>
-var margin = 30;
-var width = 120;
-var height = 300;
+var svg = d3.select("svg"),
+    width = +svg.attr("width"),
+    height = +svg.attr("height");
 
-var data = [4,8,15,16,23,42];
-document.getElementById("data").innerHTML = data;
+var simulation = d3.forceSimulation()
+    .force("link", d3.forceLink().distance(75)
+        .id(function(d) { return d.value;}))
+    .force("charge", d3.forceManyBody())
+    .force("center", d3.forceCenter(width / 2, height / 2));
 
-var x = d3.scaleBand()
-	.domain([0,1,2,3,4,5])
-    .range([0,width]);
-    
-var y = d3.scaleLinear()
-	.domain([0,42])
-    .range([height,0]);
+var nodes = [
+    {"value": 4},
+    {"value": 8},
+    {"value": 15},
+    {"value": 16},
+    {"value": 23},
+    {"value": 42}
+];
 
-var chart = d3.select(".chart");
+simulation.nodes(nodes)
 
-chart.attr("width",width + 2*margin)
-    .attr("height",height + 2*margin)
-    .append("g")
-        .attr("transform","translate(" + margin + "," + margin + ")")
-    .selectAll("rect")
-	.data(data)
-    .enter().append("rect")
-    .attr("width",19)
-    .attr("height",function(d) { return height - y(d); })
-    .attr("x",function(d,i) { return x(i); })
-    .attr("y",function(d) { return y(d); });
+var links = [
+    {"source":  8, "target":  4},
+    {"source": 16, "target":  4},
+    {"source": 16, "target":  8},
+    {"source": 23, "target":  8},
+    {"source": 23, "target": 15},
+    {"source": 42, "target":  4},
+    {"source": 42, "target": 15},
+    {"source": 42, "target": 23}
+];
 
-chart.append("g")
-    .attr("transform", "translate(" + margin + "," + margin + ")")
-    .call(d3.axisLeft(y));
+simulation.force("link").links(links);
 
-chart.append("g")
-    .attr("transform", "translate(" + margin + "," + (height+margin) + ")")
-    .call(d3.axisBottom(x));
-    
+var linksel = svg.append("g")
+    .attr("class", "link")
+    .selectAll("line").data(links).enter().append("line")
+
+var nodesel = svg.selectAll(".node")
+    .data(nodes)
+    .enter().append("g")
+    .attr("class", "node")
+    .call(d3.drag()
+          .on("start", dragstarted)
+          .on("drag", dragged)
+          .on("end", dragended));
+
+nodesel.append("circle")
+    .attr("r",20);
+
+nodesel.append("text")
+    .attr("transform","translate(0,6)")
+    .text(function (d) { return d.value; });
+
+// replace "tick" with "end" for static layout
+simulation.on("tick", ticked);
+
+function ticked() {
+    linksel.attr("x1", function(d) { return d.source.x; })
+        .attr("y1", function(d) { return d.source.y; })
+        .attr("x2", function(d) { return d.target.x; })
+        .attr("y2", function(d) { return d.target.y; });
+
+    nodesel.attr("transform", function(d) {
+        return "translate(" + d.x + "," + d.y + ")";
+    });
+}
+
+function dragstarted(d) {
+  if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+  d.fx = d.x;
+  d.fy = d.y;
+}
+function dragged(d) {
+  d.fx = d3.event.x;
+  d.fy = d3.event.y;
+}
+function dragended(d) {
+  if (!d3.event.active) simulation.alphaTarget(0);
+  d.fx = null;
+  d.fy = null;
+}
 </script>
-
-</body></html>
