@@ -16,7 +16,7 @@ async function init() {
     .data(data)
     .enter()
     .append("p")
-      .html(function(d,i) { return 'countries: ' + d.Country_Name;})
+      .html(function(d,i) { return 'countries: ' + d.['Country Name'];})
   
   }
 </script>  
