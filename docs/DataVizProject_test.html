@@ -2,7 +2,7 @@
 <html>
 <body>
 <h1> This is a heading </h1>
-<p> This is a paragraph that now has additional text AGAIN!!! keyword:axes8 </p>
+<p> This is a paragraph that now has additional text AGAIN!!! keyword:axes9 </p>
 </body>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -13,18 +13,11 @@ async function init() {
   const data = await d3.csv("https://raw.githubusercontent.com/joanna-regan/joanna-regan.github.io/main/docs/CO2vsPOPbyCountry.csv");
   console.log(data)
   
-  d3.select("body")
-    .selectAll("p")
-    .data(data)
-    .enter()
-    .append("p")
-      .html(function(d,i) { return 'year ' + d.Year;})
-  
   var margin = 50;
   var width = 700;
   var height = 700;
   
-  var x = d3.scaleLog().range([0,width]);
+  var x = d3.scaleLog().domain([0,10]).range([0,width]);
   var y = d3.scaleLinear().domain([0,35]).range([height,0]);
   
   d3.select("svg")
