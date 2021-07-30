@@ -2,12 +2,14 @@
 <html>
 <body>
 <h1> This is a heading </h1>
-<p> This is a paragraph that now has additional text AGAIN!!! keyword:susie + legend</p>
+<p> This is a paragraph that now has additional text AGAIN!!! keyword:legend</p>
 </body>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
+  
+import {legend, swatches} from "@d3/color-legend"  
   
 <svg width=800 height=800></svg>
 <body onload="init()">
@@ -26,6 +28,8 @@ async function init() {
   var colors = d3.scaleOrdinal(["East Asia & Pacific", "Europe & Central Asia", "Latin America & Caribbean", "Middle East & North Africa", "North America", "South Asia", "Sub-Saharan Africa"],d3.schemeCategory10)
 //  	.domain(["East Asia & Pacific", "Europe & Central Asia", "Latin America & Caribbean", "Middle East & North Africa", "North America", "South Asia", "Sub-Saharan Africa"])
 //  	.range(["#E01A25", "#2074A0", "#10A66E", "#66489F", "#EFB605"]);
+  
+  var legend = d3.legendColor().scale(colors)
   
   d3.select("svg")
     .append("g")
@@ -61,6 +65,11 @@ async function init() {
        .attr("transform","translate("+ ((margin+width)/2) +"," + (margin+height+50) + ")")
        .style("text-anchor", "middle")
        .text("Population Density (log10)");
+  
+  d3.select("svg")
+    .append("g")
+      .attr("transform","translate(500,500)")
+      .call(legend);
   
   }
 </script>  
