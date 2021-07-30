@@ -2,7 +2,7 @@
 <html>
 <body>
 <h1> This is a heading </h1>
-<p> This is a paragraph that now has additional text AGAIN!!! keyword:axis label </p>
+<p> This is a paragraph that now has additional text AGAIN!!! keyword:axis label2 </p>
 </body>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -49,9 +49,7 @@ async function init() {
       .call(d3.axisBottom(x))
   
    svg.append("text")             
-      .attr("transform",
-            "translate(" + (width/2) + " ," + 
-                           (height + margin.top + 20) + ")")
+      .attr("transform","translate("+ margin +"," + (margin+height+20) + ")"
       .style("text-anchor", "middle")
       .text("Population Density (log10)");
   
