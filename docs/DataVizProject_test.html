@@ -2,7 +2,7 @@
 <html>
 <body>
 <h1> This is a heading </h1>
-<p> This is a paragraph that now has additional text AGAIN!!! keyword:3 </p>
+<p> This is a paragraph that now has additional text AGAIN!!! keyword:4 </p>
 </body>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -21,7 +21,7 @@ async function init() {
       .html(function(d,i) { return 'year ' + d.Year;})
   
   var x = d3.scaleLog().domain([10,150]).range([0,200]);
-  var y = d3.scaleLog().domain([10.150]).range([200,0]);
+  var y = d3.scaleLog().domain([10,150]).range([200,0]);
   
   d3.select("svg")
     .append("g")
