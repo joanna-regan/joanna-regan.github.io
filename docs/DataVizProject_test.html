@@ -43,9 +43,8 @@ async function init() {
       .call(d3.axisLeft(y))
   
    d3.select("svg")
-     .append("text")             
-//      .attr("transform", "")
-      .attr("transform","translate(10," + ((margin+height)/2) + ")rotate(-90)")
+     .append("text") 
+      .attr("transform","translate(15," + ((margin+height)/2) + ")rotate(-90)")
       .style("text-anchor", "middle")
       .text("CO2 Emissions");      
   
