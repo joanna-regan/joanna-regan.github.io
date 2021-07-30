@@ -2,7 +2,7 @@
 <html>
 <style>
   #tooltip {
-    opacity = 0;
+    opacity: 0;
     position: absolute;
     text-align: center;
     width: 60px;
@@ -17,7 +17,7 @@
   
 <body>
 <h1> This is a heading </h1>
-<p> This is a paragraph that now has additional text AGAIN!!! keyword:tooltip attempt1</p>
+<p> This is a paragraph that now has additional text AGAIN!!! keyword:tooltip attempt2</p>
 </body>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -92,7 +92,7 @@ async function init() {
     .on("mouseover",function(d,i) {
       tooltip.style("opacity",1)
         .style("left",(d3.event.pageX)+"px")
-        .style("top",9d3.event.apgeY)+"px")
+        .style("top",(d3.event.pageY)+"px")
         .html("Country: " + d.CountryName);
   })
     .on("mouseout", function() { tooltip.style("opacity",0) })
