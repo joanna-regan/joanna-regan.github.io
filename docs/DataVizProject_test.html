@@ -2,7 +2,7 @@
 <html>
 <body>
 <h1> This is a heading </h1>
-<p> This is a paragraph that now has additional text AGAIN!!! keyword:axis label 9 </p>
+<p> This is a paragraph that now has additional text AGAIN!!! keyword:axis label 10 </p>
 </body>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -20,7 +20,7 @@ async function init() {
   var x = d3.scaleLinear().domain([0,5]).range([0,width]);
   var y = d3.scaleLinear().domain([0,35]).range([height,0]);
   
-  var colors = d3.scaleOrdinal(d3.schemeCategory10)
+  var colors = d3.scaleOrdinal(["East Asia & Pacific", "Europe & Central Asia", "Latin America & Caribbean", "Middle East & North Africa", "North America", "South Asia", "Sub-Saharan Africa"],d3.schemeCategory10)
 //  	.domain(["East Asia & Pacific", "Europe & Central Asia", "Latin America & Caribbean", "Middle East & North Africa", "North America", "South Asia", "Sub-Saharan Africa"])
 //  	.range(["#E01A25", "#2074A0", "#10A66E", "#66489F", "#EFB605"]);
   
