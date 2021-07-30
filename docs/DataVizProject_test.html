@@ -7,7 +7,7 @@
     text-align: center;
     width: 60px;
     height: 40px;
-    background: black;
+    background: blue;
     border: 0px;
   }
 </style>
@@ -17,7 +17,7 @@
   
 <body>
 <h1> This is a heading </h1>
-<p> This is a paragraph that now has additional text AGAIN!!! keyword:tooltip attempt5</p>
+<p> This is a paragraph that now has additional text AGAIN!!! keyword:tooltip attempt6</p>
 </body>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -61,11 +61,11 @@ async function init() {
       .style("fill", function(d) {return colors(d.Region);})
       .on("mouseover",function(d) {
       tooltip.style("opacity",1)
-         .style("left", d3.select(this).attr("cx") + "px")     
-         .style("top", d3.select(this).attr("cy") + "px")
+         .style("left", d3.select(this).attr("cx"))     
+         .style("top", d3.select(this).attr("cy"))
          .html("Country: " + d.CountryName);
   })
-    .on("mouseout", function() { tooltip.style("opacity",0) })
+    .on("mouseout", function() { tooltip.transition().duration(500).style("opacity",0) })
   
   
   d3.select("svg")
