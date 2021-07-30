@@ -2,7 +2,7 @@
 <html>
 <body>
 <h1> This is a heading </h1>
-<p> This is a paragraph that now has additional text AGAIN!!! keyword:axes </p>
+<p> This is a paragraph that now has additional text AGAIN!!! keyword:axes2 </p>
 </body>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -45,7 +45,7 @@ async function init() {
   
   d3.select("svg")
     .append("g")
-      .attr("transform","translate("+ margin +",margin+height)")
+      .attr("transform","translate("+ margin +","margin + height")")
       .call(d3.axisBottom(x))
   
   }
