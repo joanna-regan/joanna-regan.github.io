@@ -2,7 +2,7 @@
 <html>
 <body>
 <h1> This is a heading </h1>
-<p> This is a paragraph that now has additional text AGAIN!!! keyword:3 </p>
+<p> This is a paragraph that now has additional text AGAIN!!! keyword:5 </p>
 </body>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -10,7 +10,7 @@
 <body onload="init()">
 <script>
 async function init() {
-  const data = await d3.csv("https://raw.githubusercontent.com/joanna-regan/joanna-regan.github.io/main/docs/CO2byPopDensity.csv");
+  const data = await d3.csv("https://raw.githubusercontent.com/joanna-regan/joanna-regan.github.io/main/docs/CO2vsPOPbyCountry.csv");
   console.log(data)
   
   d3.select("body")
@@ -24,8 +24,8 @@ async function init() {
   var width = 120;
   var height = 300;
   
-  var x = d3.scaleLinear().domain([1961,2018]).range([0,width]);
-  var y = d3.scaleLinear().domain([0,40]).range([height,0]);
+  var x = d3.scaleLinear().domain([0,20000]).range([0,width]);
+  var y = d3.scaleLinear().domain([0,35]).range([height,0]);
   
   d3.select("svg")
     .append("g")
@@ -34,8 +34,8 @@ async function init() {
     .data(data)
     .enter()
     .append("circle")
-      .attr("cx",function(d) {return x(d.Year);})
-      .attr("cy",function(d) {return y(d.PopulationDensity);})
+      .attr("cx",function(d) {return x(d.PopulationDensity);})
+      .attr("cy",function(d) {return y(d.CO2emissions);})
       .attr("r",5)
   
 //  d3.select("svg")
