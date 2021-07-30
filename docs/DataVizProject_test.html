@@ -2,7 +2,7 @@
 <html>
 <body>
 <h1> This is a heading </h1>
-<p> This is a paragraph that now has additional text AGAIN!!! keyword:2 </p>
+<p> This is a paragraph that now has additional text AGAIN!!! keyword:1 </p>
 </body>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -15,7 +15,7 @@ async function init() {
   
   d3.select("body")
     .selectAll("p")
-    .data(data)
+    .data(d3.map(data,function(d) { return d['Country Name'];}).keys()))
     .enter()
     .append("p")
       .html(function(d,i) { return 'countries: ' + d['Country Name'];})
