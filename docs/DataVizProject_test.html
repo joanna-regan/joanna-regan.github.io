@@ -2,14 +2,13 @@
 <html>
 <body>
 <h1> This is a heading </h1>
-<p> This is a paragraph that now has additional text AGAIN!!! keyword:legend</p>
+<p> This is a paragraph that now has additional text AGAIN!!! keyword:legend2</p>
 </body>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
   
-import {legend, swatches} from "@d3/color-legend"  
   
 <svg width=800 height=800></svg>
 <body onload="init()">
@@ -68,7 +67,7 @@ async function init() {
   
   d3.select("svg")
     .append("g")
-      .attr("transform","translate(500,500)")
+      .attr("transform","translate(500,0)")
       .call(legend);
   
   }
