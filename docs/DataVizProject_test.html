@@ -2,11 +2,11 @@
 <html>
 <body>
 <h1> This is a heading </h1>
-<p> This is a paragraph that now has additional text AGAIN!!! keyword:axes6 </p>
+<p> This is a paragraph that now has additional text AGAIN!!! keyword:axes7 </p>
 </body>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
-//<svg width=600 height=600></svg>
+//<svg width=1000 height=1000></svg>
 <body onload="init()">
 <script>
 async function init() {
@@ -21,8 +21,8 @@ async function init() {
       .html(function(d,i) { return 'year ' + d.Year;})
   
   var margin = 50;
-  var width = 120;
-  var height = 300;
+  var width = 900;
+  var height = 900;
   
   var x = d3.scaleLinear().domain([0,20000]).range([0,width]);
   var y = d3.scaleLinear().domain([0,35]).range([height,0]);
