@@ -2,7 +2,7 @@
 <html>
 <body>
 <h1> This is a heading </h1>
-<p> This is a paragraph that now has additional text AGAIN!!! keyword:2 </p>
+<p> This is a paragraph that now has additional text AGAIN!!! keyword:1 </p>
 </body>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -27,7 +27,7 @@ async function init() {
     .data(data)
     .enter()
     .append("circle")
-      .attr("cx",function(d) {return d.CO2;})
+      .attr("cx",function(d) {return d.CO2emissions;})
       .attr("cy", function(d) {return d.PopulationDensity})
       .attr("r",10)
   
