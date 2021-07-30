@@ -2,7 +2,7 @@
 <html>
 <body>
 <h1> This is a heading </h1>
-<p> This is a paragraph that now has additional text AGAIN!!! keyword:1 </p>
+<p> This is a paragraph that now has additional text AGAIN!!! keyword:2 </p>
 </body>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -20,14 +20,16 @@ async function init() {
     .append("p")
       .html(function(d,i) { return 'year ' + d.Year;})
   
-//  d3.select("svg")
-//    .append("g")
-//      .attr("transform","translate(50,50)")
-//    .selectAll("circle")
-//    .data(data)
-//    .enter()
-//    .append("circle")
-//      .attr("cx",function(d) { return d['
+  d3.select("svg")
+    .append("g")
+      .attr("transform","translate(50,50)")
+    .selectAll("circle")
+    .data(data)
+    .enter()
+    .append("circle")
+      .attr("cx",function(d) {return d.CO2;})
+      .attr("cy", function(d) {return d.PopulationDensity})
+      .attr("r",10)
   
   }
 </script>  
