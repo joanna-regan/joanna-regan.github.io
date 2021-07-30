@@ -2,7 +2,7 @@
 <html>
 <body>
 <h1> This is a heading </h1>
-<p> This is a paragraph that now has additional text AGAIN!!! keyword:5 </p>
+<p> This is a paragraph that now has additional text AGAIN!!! keyword:1 </p>
 </body>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -24,7 +24,7 @@ async function init() {
   var width = 120;
   var height = 300;
   
-  var x = d3.scaleLinear().domain([0,20000]).range([0,width]);
+  var x = d3.scaleLog().domain([0,20000]).range([0,width]);
   var y = d3.scaleLinear().domain([0,35]).range([height,0]);
   
   d3.select("svg")
