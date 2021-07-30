@@ -17,7 +17,7 @@
   
 <body>
 <h1> This is a heading </h1>
-<p> This is a paragraph that now has additional text AGAIN!!! keyword:tooltip attempt8</p>
+<p> This is a paragraph that now has additional text AGAIN!!! keyword:tooltip attempt9</p>
 </body>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -62,7 +62,7 @@ async function init() {
       .on("mouseover",function(d) {
       tooltip.style("opacity",1)
          .style("left", d3.select(this).attr("cx")+"px")     
-         .style("top", (d3.select(this).attr("cy")-50)+"px")
+         .style("top", (d3.select(this).attr("cy")+50)+"px")
          .html("Country: " + d.CountryName);
   })
     .on("mouseout", function() { tooltip.transition().duration(500).style("opacity",0) })
