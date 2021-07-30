@@ -48,10 +48,11 @@ async function init() {
       .attr("transform","translate("+ margin +"," + (margin+height) + ")")
       .call(d3.axisBottom(x))
   
-   svg.append("text")             
-      .attr("transform","translate("+ margin +"," + (margin+height+20) + ")")
-      .style("text-anchor", "middle")
-      .text("Population Density (log10)");
+   d3.select("svg")
+      .append("text")             
+        .attr("transform","translate("+ margin +"," + (margin+height+20) + ")")
+        .style("text-anchor", "middle")
+        .text("Population Density (log10)");
   
   }
 </script>  
