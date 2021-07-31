@@ -17,7 +17,7 @@
   
 <body>
 <h1> This is a heading </h1>
-<p> This is a paragraph that now has additional text AGAIN!!! keyword:tooltip attempt1</p>
+<p> This is a paragraph that now has additional text AGAIN!!! keyword:1</p>
 </body>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -69,32 +69,36 @@ async function init() {
   })
     .on("mouseout", function() { tooltip.transition().duration(500).style("opacity",0) })
   
-  
+  //Adding Y-Axis
   d3.select("svg")
     .append("g")
       .attr("transform","translate("+ margin +"," + margin + ")")
       .call(d3.axisLeft(y))
   
+  //Adding Y-Axis label
    d3.select("svg")
      .append("text") 
       .attr("transform","translate(25," + ((margin+height)/2) + ")rotate(-90)")
       .style("text-anchor", "middle")
       .text("CO2 Emissions");      
   
+  //Adding X-Axis
   d3.select("svg")
     .append("g")
       .attr("transform","translate("+ margin +"," + (margin+height) + ")")
       .call(d3.axisBottom(x))
   
+  //Adding X-Axis label
   d3.select("svg")
      .append("text")             
        .attr("transform","translate("+ ((margin+width)/2) +"," + (margin+height+50) + ")")
        .style("text-anchor", "middle")
        .text("Population Density (log10)");
   
+  //Adding legend
   d3.select("svg")
     .append("g")
-      .attr("transform","translate(500,0)")
+      .attr("transform","translate(800,0)")
       .call(legend);
  
   
