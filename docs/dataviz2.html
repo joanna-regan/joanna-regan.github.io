@@ -11,7 +11,7 @@
   }
 </style>
   
-<h1> This is a heading6 </h1>
+<h1> This is a heading7 </h1>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
@@ -57,7 +57,7 @@ async function init() {
       .attr("transform", "translate(0," + height + ")")
       .call(d3.axisBottom(x));
   
-    //Append the data
+    //Add the line
    svg.append("path")
       .datum(data)
       .attr("fill", "none")
@@ -67,6 +67,16 @@ async function init() {
         .x(function(d) { return x(d3.timeParse("%Y")(d.Year)) })
         .y(function(d) { return y(d.GDP) })
         )
+    //Add the dots
+     svg.append("g")
+      .selectAll("dot")
+      .data(data)
+      .enter()
+      .append("circle")
+        .attr("cx", function(d) { return x(d3.timeParse("%Y")(d.Year)) } )
+        .attr("cy", function(d) { return y(d.GDP) } )
+        .attr("r", 5)
+        .attr("fill", "#69b3a2")
     
     
     
