@@ -18,7 +18,7 @@
   
 <body>
 <h1> This is a heading </h1>
-<p> This is a paragraph that now has additional text AGAIN!!! keyword:tooltips6 + ticks </p>
+<p> This is a paragraph that now has additional text AGAIN!!! keyword:tooltips7 + ticks </p>
 </body>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -67,7 +67,7 @@ async function init() {
          .style("left",(d3.event.pageX) + "px")
          .style("top",(d3.event.pageY) + "px")
          //.html(d.CountryName);
-         .html(d.CountryName + </br> + d.CO2emissions + </br> + d.PopDenLog);
+         .html(d.CountryName + "<br/>" + d.CO2emissions + "<br/>" + d.PopDenLog);
   })
     .on("mouseout", function() { tooltip.transition().duration(500).style("opacity",0) })
   
