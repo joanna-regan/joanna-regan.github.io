@@ -13,7 +13,7 @@
    
 <body>
 <h1> This is a heading </h1>
-<p> This is a paragraph that now has additional text AGAIN!!! keyword: 2 </p>
+<p> This is a paragraph that now has additional text AGAIN!!! keyword: 3 </p>
 </body>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -21,10 +21,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
   
 <div id="my_dataviz1"></div>
-  
-  
-//<svg width=1000 height=1000></svg>
 <div id="tooltip"></div>  
+  
 <body onload="loadData()">
 <script>
 
@@ -34,10 +32,10 @@ async function loadData() {
   return data
 };
  
-  var data = loadData()
-var margin = {top: 10, right: 30, bottom: 30, left: 60},
-    width = 460 - margin.left - margin.right,
-    height = 400 - margin.top - margin.bottom;
+  var data = loadData();
+  var margin = {top: 10, right: 50, bottom: 50, left: 50},
+    width = 1000 - margin.left - margin.right,
+    height = 1000 - margin.top - margin.bottom;
   
   var x = d3.scaleLinear().domain([0,5]).range([0,width]);
   var y = d3.scaleLinear().domain([0,35]).range([height,0]);
