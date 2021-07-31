@@ -18,7 +18,7 @@
   
 <body>
 <h1> This is a heading </h1>
-<p> This is a paragraph that now has additional text AGAIN!!! keyword:tooltips </p>
+<p> This is a paragraph that now has additional text AGAIN!!! keyword:tooltips + ticks </p>
 </body>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -75,7 +75,7 @@ async function init() {
   d3.select("svg")
     .append("g")
       .attr("transform","translate("+ margin +"," + margin + ")")
-      .call(d3.axisLeft(y))
+      .call(d3.axisLeft(y).ticks(7))
   
   //Adding Y-Axis label
    d3.select("svg")
@@ -88,7 +88,7 @@ async function init() {
   d3.select("svg")
     .append("g")
       .attr("transform","translate("+ margin +"," + (margin+height) + ")")
-      .call(d3.axisBottom(x))
+      .call(d3.axisBottom(x).ticks(10))
   
   //Adding X-Axis label
   d3.select("svg")
