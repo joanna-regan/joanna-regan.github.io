@@ -13,7 +13,7 @@
    
 <body>
 <h1> This is a heading </h1>
-<p> This is a paragraph that now has additional text AGAIN!!! keyword:ax6 </p>
+<p> This is a paragraph that now has additional text AGAIN!!! keyword:ax7 </p>
 </body>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -78,16 +78,16 @@ async function init() {
       .call(d3.axisLeft(y));
   
   //Adding Y-Axis label
-   svg.append("text") 
-      .attr("transform","rotate(-90)")
+   svg.append("text")       
       .attr("y",height/2)
       .attr("x",-margin.left)
+      .attr("transform","rotate(-90)")
       .style("text-anchor", "middle")
       .text("CO2 Emissions");
     
   //Adding X-Axis
   svg.append("g")
-      .attr("transform","translate(0," + (height) + ")")
+      .attr("transform","translate(0," + (height-10) + ")")
       .call(d3.axisBottom(x));
   
   //Adding X-Axis label
