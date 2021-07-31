@@ -13,7 +13,7 @@
    
 <body>
 <h1> This is a heading </h1>
-<p> This is a paragraph that now has additional text AGAIN!!! keyword: 77 </p>
+<p> This is a paragraph that now has additional text AGAIN!!! keyword: 8 </p>
 </body>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -42,27 +42,7 @@ async function init() {
   var legend = d3.legendColor().scale(colors);
   var tooltip = d3.select("#tooltip");
   
-  d3.select("svg")
-    .append("g")
-      .attr("transform","translate("+ margin +"," + margin + ")")
-    .selectAll("circle")
-    .data(data)
-    .enter()
-    .append("circle")
-      .attr("cx",function(d) {return x(d.PopDenLog);})
-      .attr("cy",function(d) {return y(d.CO2emissions);})
-      .attr("r",5)
-      .style("fill", function(d) {return colors(d.Region);})
-      .on("mouseover",function(d) {
-      tooltip.style("opacity",1)
-         //.style("left", d3.select(this).attr("cx")+"px")     
-         //.style("top", (d3.select(this).attr("cy")+"px")
-         .style("left",(d3.event.pageX) + "px")
-         .style("top",(d3.event.pageY) + "px")
-         //.html(d.CountryName);
-         .html(d.CountryName + "<br/>" + "CO2 Emissions: " + d3.format(".4r")(d.CO2emissions) + "<br/>" + "Population Density (log10): " + d3.format(".4r")(d.PopDenLog,3));
-  })
-    .on("mouseout", function() { tooltip.transition().duration(500).style("opacity",0) })
+  
   
   //Adding Y-Axis
   d3.select("svg")
