@@ -13,7 +13,7 @@
    
 <body>
 <h1> This is a heading </h1>
-<p> This is a paragraph that now has additional text AGAIN!!! keyword: 19 </p>
+<p> This is a paragraph that now has additional text AGAIN!!! keyword: 1 </p>
 </body>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -24,13 +24,18 @@
 <div id="tooltip"></div>  
  
   
-<svg width=1000 height=1000></svg>
+
 <body onload='init()'>
 <script>
 
 async function init() {
   const data = await d3.csv("https://raw.githubusercontent.com/joanna-regan/joanna-regan.github.io/main/docs/CO2vsPOPbyCountry2.csv");
   console.log(data)
+  
+  var margin = {top: 10, right: 50, bottom: 50, left: 50},
+    width = 1000 - margin.left - margin.right,
+    height = 1000 - margin.top - margin.bottom;
+  
 
   var x = d3.scaleLinear().domain([0,5]).range([0,width]);
   var y = d3.scaleLinear().domain([0,35]).range([height,0]);
