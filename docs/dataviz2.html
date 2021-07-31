@@ -13,7 +13,7 @@
    
 <body>
 <h1> This is a heading </h1>
-<p> This is a paragraph that now has additional text AGAIN!!! keyword:buttons help me please4 </p>
+<p> This is a paragraph that now has additional text AGAIN!!! keyword:0 </p>
 </body>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -66,7 +66,7 @@ async function init() {
       tooltip.style("opacity",1)
          .style("left",(d3.event.pageX) + "px")
          .style("top",(d3.event.pageY) + "px")
-         .html(d.CountryName + "<br/>" + "CO2 Emissions: " + d3.format(".4r")(d.CO2emissions) + "<br/>" + "Population Density (log10): " + d3.format(".4r")(d.PopDenLog,3));
+         .html(d.CountryName + "<br/>" + "CO2 Emissions: " + d3.format(".4r")(d.CO2emissions) + "<br/>" + "Population Density (log10): " + d3.format(".4r")(d.PopDenLogNew,3));
   })
     .on("mouseout", function() { tooltip.transition().duration(500).style("opacity",0) });
   
