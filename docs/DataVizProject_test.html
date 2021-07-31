@@ -16,7 +16,7 @@
   
 <body>
 <h1> This is a heading </h1>
-<p> This is a paragraph that now has additional text AGAIN!!! keyword: 0 </p>
+<p> This is a paragraph that now has additional text AGAIN!!! keyword: data </p>
 </body>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -26,12 +26,19 @@
   
 <svg width=1000 height=1000></svg>
 <div id="tooltip"></div>  
- 
 <body onload="init()">
 <script>
+  
+var data;
+  
 async function init() {
   const data = await d3.csv("https://raw.githubusercontent.com/joanna-regan/joanna-regan.github.io/main/docs/CO2vsPOPbyCountry2.csv");
   console.log(data)
+  
+  call function(data)
+}
+
+  function(data)
   
   var margin = 50;
   var width = 600;
