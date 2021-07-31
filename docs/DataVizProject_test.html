@@ -13,7 +13,7 @@
    
 <body>
 <h1> This is a heading </h1>
-<p> This is a paragraph that now has additional text AGAIN!!! keyword:ax9 </p>
+<p> This is a paragraph that now has additional text AGAIN!!! keyword:ax0 </p>
 </body>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -54,8 +54,7 @@ async function init() {
   var legend = d3.legendColor().scale(colors);
   var tooltip = d3.select("#tooltip");
   
-  d3.select("svg")
-    //.append("g")
+  svg.append("g")
     //  .attr("transform","translate("+ margin +"," + margin + ")")
     .selectAll("circle")
     .data(data)
@@ -74,14 +73,12 @@ async function init() {
     .on("mouseout", function() { tooltip.transition().duration(500).style("opacity",0) });
   
   //Adding Y-Axis
-  d3.select("svg")
-    .append("g")
+  svg.append("g")
       .attr("transform","translate("+ margin +"," + margin + ")")
       .call(d3.axisLeft(y));
   
   //Adding Y-Axis label
-   d3.select("svg")
-     .append("text") 
+   svg.append("text") 
       .attr("transform","translate(40,"+ (height/2) +")rotate(-90)")
       .style("text-anchor", "middle")
       .text("CO2 Emissions");
