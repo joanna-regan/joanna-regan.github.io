@@ -16,7 +16,7 @@
   
 <body>
 <h1> This is a heading </h1>
-<p> This is a paragraph that now has additional text AGAIN!!! keyword: 7 </p>
+<p> This is a paragraph that now has additional text AGAIN!!! keyword: 8 </p>
 </body>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -47,6 +47,16 @@ async function init() {
                     .tickFormat("")
                     .tickSize(-height)
                     .scale(y);
+  
+  var yAxisGrid = yAxis.ticks(7)
+    .tickSize(width, 0)
+    .tickFormat("")
+    .orient("right");
+
+var xAxisGrid = xAxis.ticks(10)
+    .tickSize(-height, 0)
+    .tickFormat("")
+    .orient("top");
   
   var colors = d3.scaleOrdinal(["East Asia & Pacific", "Europe & Central Asia", "Latin America & Caribbean", "Middle East & North Africa", "North America", "South Asia", "Sub-Saharan Africa"],d3.schemeCategory10)
 //  	.domain(["East Asia & Pacific", "Europe & Central Asia", "Latin America & Caribbean", "Middle East & North Africa", "North America", "South Asia", "Sub-Saharan Africa"])
@@ -81,27 +91,22 @@ async function init() {
   d3.select("svg")
     .append("g")
       .attr("transform","translate("+ margin +"," + margin + ")")
-      .call(d3.axisLeft(y).ticks(7))
+      .call(d3.axisLeft(y))
+      .call(yAxisGrid)
   
   //Adding Y-Axis label
    d3.select("svg")
      .append("text") 
       .attr("transform","translate(25," + ((margin+height)/2) + ")rotate(-90)")
       .style("text-anchor", "middle")
-      .text("CO2 Emissions"); 
-  
-   d3.select("svg")
-     .attr("transform","translate("+ margin +"," + margin + ")")
-     .append("g")
-     .attr("class", "grid")
-     .call(ygridlines);
-  
-  
+      .text("CO2 Emissions");
+    
   //Adding X-Axis
   d3.select("svg")
     .append("g")
       .attr("transform","translate("+ margin +"," + (margin+height) + ")")
-      .call(d3.axisBottom(x).ticks(10))
+      .call(d3.axisBottom(x))
+      .call(xAxisGrid)
   
   //Adding X-Axis label
   d3.select("svg")
@@ -109,12 +114,6 @@ async function init() {
        .attr("transform","translate("+ ((margin+width)/2) +"," + (margin+height+50) + ")")
        .style("text-anchor", "middle")
        .text("Population Density (log10)");
-  
-   d3.select("svg")
-     .attr("transform","translate("+ margin +"," + (margin+height) + ")")
-     .append("g")
-     .attr("class", "grid")
-     .call(xgridlines);
   
   //Adding legend
   d3.select("svg")
