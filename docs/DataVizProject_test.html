@@ -16,7 +16,7 @@
   
 <body>
 <h1> This is a heading </h1>
-<p> This is a paragraph that now has additional text AGAIN!!! keyword: 9 </p>
+<p> This is a paragraph that now has additional text AGAIN!!! keyword: 0 </p>
 </body>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -38,25 +38,7 @@ async function init() {
   var height = 600;
   
   var x = d3.scaleLinear().domain([0,5]).range([0,width]);
-  var xgridlines = d3.axisBottom()
-                    .tickFormat("")
-                    .tickSize(-height)
-                    .scale(x);
   var y = d3.scaleLinear().domain([0,35]).range([height,0]);
-  var ygridlines = d3.axisLeft()
-                    .tickFormat("")
-                    .tickSize(-height)
-                    .scale(y);
-  
-  var yAxisGrid = yAxis.ticks(7)
-    .tickSize(width, 0)
-    .tickFormat("")
-    .orient("right");
-
-var xAxisGrid = xAxis.ticks(10)
-    .tickSize(-height, 0)
-    .tickFormat("")
-    .orient("top");
   
   var colors = d3.scaleOrdinal(["East Asia & Pacific", "Europe & Central Asia", "Latin America & Caribbean", "Middle East & North Africa", "North America", "South Asia", "Sub-Saharan Africa"],d3.schemeCategory10)
 //  	.domain(["East Asia & Pacific", "Europe & Central Asia", "Latin America & Caribbean", "Middle East & North Africa", "North America", "South Asia", "Sub-Saharan Africa"])
@@ -91,8 +73,7 @@ var xAxisGrid = xAxis.ticks(10)
   d3.select("svg")
     .append("g")
       .attr("transform","translate("+ margin +"," + margin + ")")
-      .call(d3.axisLeft(y))
-      .call(yAxisGrid);
+      .call(d3.axisLeft(y));
   
   //Adding Y-Axis label
    d3.select("svg")
@@ -105,8 +86,7 @@ var xAxisGrid = xAxis.ticks(10)
   d3.select("svg")
     .append("g")
       .attr("transform","translate("+ margin +"," + (margin+height) + ")")
-      .call(d3.axisBottom(x))
-      .call(xAxisGrid);
+      .call(d3.axisBottom(x));
   
   //Adding X-Axis label
   d3.select("svg")
