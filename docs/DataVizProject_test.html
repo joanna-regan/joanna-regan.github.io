@@ -13,7 +13,7 @@
    
 <body>
 <h1> This is a heading </h1>
-<p> This is a paragraph that now has additional text AGAIN!!! keyword:annotations </p>
+<p> This is a paragraph that now has additional text AGAIN!!! keyword:annotations2 </p>
 </body>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -51,25 +51,7 @@ async function init() {
   var colors = d3.scaleOrdinal(["East Asia & Pacific", "Europe & Central Asia", "Latin America & Caribbean", "Middle East & North Africa", "North America", "South Asia", "Sub-Saharan Africa"],d3.schemeCategory10); 
   var legend = d3.legendColor().scale(colors);
   var tooltip = d3.select("#tooltip");
-  
-  const annotations = [
-  {
-    note: {
-      label: "Here is the annotation label",
-      title: "Annotation title"
-    },
-    x: 100,
-    y: 100,
-    dy: 100,
-    dx: 100
-  }
-]
-  
-  const makeAnnotations = d3.annotation()
-  .annotations(annotations)
-  svg.append("g")
-  .call(makeAnnotations)
-  
+   
   svg.append("g")
     //  .attr("transform","translate("+ margin +"," + margin + ")")
     .selectAll("circle")
@@ -116,10 +98,46 @@ async function init() {
   svg.append("g")
       .attr("transform","translate("+ (width-175) + ",0)")
       .call(legend);
- };
-    
+
+  //Adding Annotations:
+  const annotations = [
+  {
+    note: {
+      label: "Here is the annotation label",
+      title: "Annotation title"
+    },
+    x: 100,
+    y: 100,
+    dy: 100,
+    dx: 100
+  }
+    {
+      type: d3.annotationCalloutCircle
+      note: {
+      label: "Here is another annotation",
+      title: "Annotation title 2"
+    },
+    wrap: 190
+          },
+          subject: {
+            radius: 50
+          },
+          x: 620,
+          y: 150,
+          dy: 137,
+          dx: 102
+  }
+]
   
-  
+  const makeAnnotations = d3.annotation()
+  .annotations(annotations)
+  svg.append("g")
+  .call(makeAnnotations)
+
+
+
+
+};
 </script>  
 </body>
 </html>
