@@ -11,7 +11,7 @@
   }
 </style>
   
-<h1> This is a heading 2 </h1>
+<h1> This is a heading 3 </h1>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
@@ -38,7 +38,7 @@ var margin = {top: 50, right: 30, bottom: 50, left: 80},
     .attr("transform","translate(" + margin.left + "," + margin.bottom + ")");
 
 async function init() {
-  const data = await d3.csv("https://raw.githubusercontent.com/joanna-regan/joanna-regan.github.io/main/docs/WorldGDP3.csv");
+  const data = await d3.csv("https://raw.githubusercontent.com/joanna-regan/joanna-regan.github.io/main/docs/WorldGDP2.csv");
   console.log(data)
 
   
@@ -78,39 +78,24 @@ async function init() {
         //.attr("r", 5)
         //.attr("fill", "#69b3a2")
   
-  
-    var allGroup = ["China", "USA", "World"]
+  var sumstat = d3.nest() // nest function allows to group the calculation per level of a factor
+    .key(function(d) { return d.Country;})
+    .entries(data);
 
-    // Reformat the data: we need an array of arrays of {x, y} tuples
-    var dataReady = allGroup.map( function(grpName) { // .map allows to do something for each element of the list
-      return {
-        name: grpName,
-        values: data.map(function(d) {
-          return {Year: d.Year, value: +d[grpName]};
-        })
-      };
-    });
-  
-     var myColor = d3.scaleOrdinal()
-      .domain(allGroup)
-      .range(d3.schemeSet2);
-  
-  console.log(dataReady)
-  
-    var line = d3.line()
-      .x(function(d) { return x(d3.timeParse("%Y")(d.Year)) })
-      .y(function(d) { return y(+d.value) })
-    svg.selectAll("myLines")
-      .datum(dataReady)
+    svg.selectAll(".line")
+      .data(sumstat)
       .enter()
       .append("path")
-        .attr("d", function(d){ return line(d.value) } )
+        .attr("fill", "none")
         .attr("stroke","red")
-        .style("stroke-width", 4)
-        .style("fill", "none")
-    
-    
-    
+        .attr("stroke-width", 1.5)
+        .attr("d", function(d){
+          return d3.line()
+            .x(function(d) { return x(d3.timeParse("%Y")(d.Year)); })
+            .y(function(d) { return y(d.GDP); })
+            (d.values)
+        })
+
     
     
   
