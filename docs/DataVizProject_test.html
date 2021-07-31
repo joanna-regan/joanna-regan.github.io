@@ -13,7 +13,7 @@
    
 <body>
 <h1> This is a heading </h1>
-<p> This is a paragraph that now has additional text AGAIN!!! keyword: 9 </p>
+<p> This is a paragraph that now has additional text AGAIN!!! keyword: 19 </p>
 </body>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -22,18 +22,16 @@
   
 <div id="my_dataviz1"></div>
 <div id="tooltip"></div>  
+ 
   
+<svg width=1000 height=1000></svg>
 <body onload='init()'>
 <script>
 
 async function init() {
   const data = await d3.csv("https://raw.githubusercontent.com/joanna-regan/joanna-regan.github.io/main/docs/CO2vsPOPbyCountry2.csv");
-  console.log(data);
+  console.log(data)
 
-  var margin = {top: 10, right: 50, bottom: 50, left: 50},
-    width = 1000 - margin.left - margin.right,
-    height = 1000 - margin.top - margin.bottom;
-  
   var x = d3.scaleLinear().domain([0,5]).range([0,width]);
   var y = d3.scaleLinear().domain([0,35]).range([height,0]);
   
@@ -62,7 +60,7 @@ async function init() {
          //.html(d.CountryName);
          .html(d.CountryName + "<br/>" + "CO2 Emissions: " + d3.format(".4r")(d.CO2emissions) + "<br/>" + "Population Density (log10): " + d3.format(".4r")(d.PopDenLog,3));
   })
-    .on("mouseout", function() { tooltip.transition().duration(500).style("opacity",0) })
+    .on("mouseout", function() { tooltip.transition().duration(500).style("opacity",0) });
   
   //Adding Y-Axis
   d3.select("svg")
