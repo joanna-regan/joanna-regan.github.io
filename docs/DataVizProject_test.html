@@ -13,7 +13,7 @@
    
 <body>
 <h1> This is a heading </h1>
-<p> This is a paragraph that now has additional text AGAIN!!! keyword:ax8 </p>
+<p> This is a paragraph that now has additional text AGAIN!!! keyword:buttons LOL </p>
 </body>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -21,7 +21,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
   
 <div id="my_dataviz1"></div>
-<div id="tooltip"></div>   
+<div id="tooltip"></div>  
+  
+<button onclick="updateData()">New Data</button>
+<button onclick="init()">Old Data</button>
   
 <!--<button onclick="update(data1)">Variable 1</button>
 //<button onclick="update(data2)">Variable 2</button>-->
@@ -48,9 +51,7 @@ async function init() {
 
   var x = d3.scaleLinear().domain([0,5]).range([0,width]);
   var y = d3.scaleLinear().domain([0,35]).range([height,0]);
-  
-  var colors = d3.scaleOrdinal(["East Asia & Pacific", "Europe & Central Asia", "Latin America & Caribbean", "Middle East & North Africa", "North America", "South Asia", "Sub-Saharan Africa"],d3.schemeCategory10);
-  
+  var colors = d3.scaleOrdinal(["East Asia & Pacific", "Europe & Central Asia", "Latin America & Caribbean", "Middle East & North Africa", "North America", "South Asia", "Sub-Saharan Africa"],d3.schemeCategory10); 
   var legend = d3.legendColor().scale(colors);
   var tooltip = d3.select("#tooltip");
   
@@ -100,9 +101,70 @@ async function init() {
   svg.append("g")
       .attr("transform","translate("+ (width-175) + ",0)")
       .call(legend);
- 
+ };
   
-} 
+ function updateData(){
+     const data = await d3.csv("https://raw.githubusercontent.com/joanna-regan/joanna-regan.github.io/main/docs/CO2vsPOPbyCountry2.csv");
+  console.log(data)
+
+  var x = d3.scaleLinear().domain([0,5]).range([0,width]);
+  var y = d3.scaleLinear().domain([0,35]).range([height,0]);
+  var colors = d3.scaleOrdinal(["East Asia & Pacific", "Europe & Central Asia", "Latin America & Caribbean", "Middle East & North Africa", "North America", "South Asia", "Sub-Saharan Africa"],d3.schemeCategory10); 
+  var legend = d3.legendColor().scale(colors);
+  var tooltip = d3.select("#tooltip");
+  
+  svg.append("g")
+    //  .attr("transform","translate("+ margin +"," + margin + ")")
+    .selectAll("circle")
+    .data(data)
+    .enter()
+    .append("circle")
+      .attr("cx",function(d) {return x(d.PopDenLogNew)
+      .attr("cy",function(d) {return y(d.CO2emissions);})
+      .attr("r",5)
+      .style("fill", function(d) {return colors(d.Region);})
+      .on("mouseover",function(d) {
+      tooltip.style("opacity",1)
+         .style("left",(d3.event.pageX) + "px")
+         .style("top",(d3.event.pageY) + "px")
+         .html(d.CountryName + "<br/>" + "CO2 Emissions: " + d3.format(".4r")(d.CO2emissions) + "<br/>" + "Population Density New (log10): " + d3.format(".4r")(d.PopDenLog,3));
+  })
+    .on("mouseout", function() { tooltip.transition().duration(500).style("opacity",0) });
+  
+  //Adding Y-Axis
+  svg.append("g")
+      //.attr("transform","translate("+ margin +"," + margin + ")")
+      .call(d3.axisLeft(y));
+  
+  //Adding Y-Axis label
+   svg.append("text")       
+      .attr("transform","rotate(-90)")
+      .attr("y", -margin.left + 30)
+      .attr("x", -margin.top - height/2 + 20)     
+      .style("text-anchor", "middle")
+      .text("CO2 Emissions");
+    
+  //Adding X-Axis
+  svg.append("g")
+      .attr("transform","translate(0," + (height) + ")")
+      .call(d3.axisBottom(x));
+  
+  //Adding X-Axis label
+  svg.append("text")             
+       .attr("transform","translate("+ (width/2) +"," + (height+40) + ")")
+       .style("text-anchor", "middle")
+       .text("Population Density (log10)");
+  
+  //Adding legend
+  svg.append("g")
+      .attr("transform","translate("+ (width-175) + ",0)")
+      .call(legend);
+   
+ };
+  
+  
+  
+  
 </script>  
 </body>
 </html>
