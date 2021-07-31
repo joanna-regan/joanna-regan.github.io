@@ -11,7 +11,7 @@
   }
 </style>
   
-<h1> This is a heading4 </h1>
+<h1> This is a heading5 </h1>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
@@ -59,7 +59,7 @@ async function init() {
   
     //Append the data
    svg.append("path")
-      .data(data)
+      .datum(data)
       .attr("fill", "none")
       .attr("stroke", "steelblue")
       .attr("stroke-width", 1.5)
