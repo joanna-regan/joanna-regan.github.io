@@ -11,7 +11,7 @@
   }
 </style>
   
-<h1> This is a heading1 </h1>
+<h1> This is a heading2 </h1>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
@@ -40,6 +40,8 @@ var margin = {top: 50, right: 30, bottom: 50, left: 80},
 async function init() {
   const data = await d3.csv("https://raw.githubusercontent.com/joanna-regan/joanna-regan.github.io/main/docs/WorldGDP.csv");
   console.log(data)
+ 
+  parseDate = d3.time.format("%Y").parse
     
   
   //Append the data
@@ -53,13 +55,13 @@ async function init() {
       .call(d3.axisLeft(y));
 
   //Adding X-Axis
-   // var x = d3.scaleTime()
-   //   .domain(d3.extent(data, function(d) { return d.Year; }))
-   //   .range([ 0, width ]);
+    var x = d3.scaleTime()
+      .domain(d3.extent(data, function(d) { return parseDate(d.Year); }))
+      .range([ 0, width ]);
   
-  var x = d3.scaleLinear()
-      .domain([1960,2018])
-      .range([0,width]);
+  //var x = d3.scaleLinear()
+   //   .domain([1960,2018])
+     // .range([0,width]);
     svg.append("g")
       .attr("transform", "translate(0," + height + ")")
       .call(d3.axisBottom(x));
