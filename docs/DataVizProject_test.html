@@ -101,7 +101,7 @@ async function init() {
   svg.append("g")
       .attr("transform","translate("+ (width-175) + ",0)")
       .call(legend);
- }
+ };
   
  function updateData(){
   var x = d3.scaleLinear().domain([0,5]).range([0,width]);
