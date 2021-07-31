@@ -11,7 +11,7 @@
   }
 </style>
   
-<h1> This is a heading7 </h1>
+<h1> This is a heading8 </h1>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
@@ -44,7 +44,7 @@ async function init() {
   
   //Adding Y-Axis
    var y = d3.scaleLinear()
-      .domain([0, d3.max(data, function(d) { return d.GDP; })])
+      .domain([0, d3.max(data, function(d) { return d.World; })])
       .range([ height, 0 ]);
     svg.append("g")
       .call(d3.axisLeft(y));
@@ -58,25 +58,40 @@ async function init() {
       .call(d3.axisBottom(x));
   
     //Add the line
-   svg.append("path")
-      .datum(data)
-      .attr("fill", "none")
-      .attr("stroke", "steelblue")
-      .attr("stroke-width", 1.5)
-      .attr("d", d3.line()
-        .x(function(d) { return x(d3.timeParse("%Y")(d.Year)) })
-        .y(function(d) { return y(d.GDP) })
-        )
+  // svg.append("path")
+    //  .datum(data)
+      //.attr("fill", "none")
+      //.attr("stroke", "steelblue")
+      //.attr("stroke-width", 1.5)
+      //.attr("d", d3.line()
+       // .x(function(d) { return x(d3.timeParse("%Y")(d.Year)) })
+        //.y(function(d) { return y(d.GDP) })
+       // )
     //Add the dots
-     svg.append("g")
-      .selectAll("dot")
-      .data(data)
-      .enter()
-      .append("circle")
-        .attr("cx", function(d) { return x(d3.timeParse("%Y")(d.Year)) } )
-        .attr("cy", function(d) { return y(d.GDP) } )
-        .attr("r", 5)
-        .attr("fill", "#69b3a2")
+//     svg.append("g")
+  //    .selectAll("dot")
+     // .data(data)
+    //  .enter()
+     // .append("circle")
+       // .attr("cx", function(d) { return x(d3.timeParse("%Y")(d.Year)) } )
+        //.attr("cy", function(d) { return y(d.GDP) } )
+        //.attr("r", 5)
+        //.attr("fill", "#69b3a2")
+  
+  
+    var allGroup = ["China", "USA", "World"]
+
+    // Reformat the data: we need an array of arrays of {x, y} tuples
+    var dataReady = allGroup.map( function(grpName) { // .map allows to do something for each element of the list
+      return {
+        name: grpName,
+        values: data.map(function(d) {
+          return {time: d.time, value: +d[grpName]};
+        })
+      };
+    });
+  
+  console.log(dataReady)
     
     
     
