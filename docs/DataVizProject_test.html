@@ -13,7 +13,7 @@
    
 <body>
 <h1> This is a heading </h1>
-<p> This is a paragraph that now has additional text AGAIN!!! keyword: 6 </p>
+<p> This is a paragraph that now has additional text AGAIN!!! keyword: 77 </p>
 </body>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -23,10 +23,10 @@
 <div id="my_dataviz1"></div>
 <div id="tooltip"></div>  
   
-<body onload="loadData()">
+<body onload='init()'>
 <script>
 
-async function loadData() {
+async function init() {
   const data = await d3.csv("https://raw.githubusercontent.com/joanna-regan/joanna-regan.github.io/main/docs/CO2vsPOPbyCountry2.csv");
   console.log(data)
 
