@@ -11,7 +11,7 @@
   }
 </style>
   
-<h1> This is a heading9 </h1>
+<h1> This is a heading 0 </h1>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
@@ -86,7 +86,7 @@ async function init() {
       return {
         name: grpName,
         values: data.map(function(d) {
-          return {time: d.time, value: +d[grpName]};
+          return {Year: d.Year, value: +d[grpName]};
         })
       };
     });
