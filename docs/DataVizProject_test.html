@@ -13,7 +13,7 @@
    
 <body>
 <h1> This is a heading </h1>
-<p> This is a paragraph that now has additional text AGAIN!!! keyword:ax1 </p>
+<p> This is a paragraph that now has additional text AGAIN!!! keyword:ax21 </p>
 </body>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -31,11 +31,7 @@
 <body onload='init()'>
 <script>
   
-//var margin = {top: 10, right: 30, bottom: 30, left: 60},
- //   width = 1000 - margin.left - margin.right,
-   // height = 1000 - margin.top - margin.bottom;
-  
-var margin = {top: 30, right: 30, bottom: 70, left: 60},
+var margin = {top: 50, right: 30, bottom: 50, left: 80},
     width = 1000 - margin.left - margin.right,
     height = 1000 - margin.top - margin.bottom;
   
@@ -89,7 +85,7 @@ async function init() {
   //Adding Y-Axis label
    d3.select("svg")
      .append("text") 
-      .attr("transform","translate(25," + ((margin+height)/2) + ")rotate(-90)")
+      .attr("transform","translate(-margin.left+20,margin.top/2)rotate(-90)")
       .style("text-anchor", "middle")
       .text("CO2 Emissions");
     
@@ -102,7 +98,7 @@ async function init() {
   //Adding X-Axis label
   d3.select("svg")
      .append("text")             
-       .attr("transform","translate("+ ((margin+width)/2) +"," + (margin+height+50) + ")")
+       .attr("transform","translate("+ (width/2) +"," + (height+50) + ")")
        .style("text-anchor", "middle")
        .text("Population Density (log10)");
   
