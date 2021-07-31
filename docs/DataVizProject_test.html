@@ -13,7 +13,7 @@
    
 <body>
 <h1> This is a heading </h1>
-<p> This is a paragraph that now has additional text AGAIN!!! keyword:annotations3 </p>
+<p> This is a paragraph that now has additional text AGAIN!!! keyword:annotations4 </p>
 </body>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -115,11 +115,10 @@ async function init() {
       type: d3.annotationCalloutCircle,
       note: {
       label: "Here is another annotation",
-      title: "Annotation title 2"
+      title: "Annotation title 2",
+      wrap: 190
     },
-    wrap: 190
-          },
-          subject: {
+      subject: {
             radius: 50
           },
           x: 620,
