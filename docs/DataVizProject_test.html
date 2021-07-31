@@ -13,7 +13,7 @@
    
 <body>
 <h1> This is a heading </h1>
-<p> This is a paragraph that now has additional text AGAIN!!! keyword:buttons help me please2 </p>
+<p> This is a paragraph that now has additional text AGAIN!!! keyword:buttons help me please3 </p>
 </body>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -104,12 +104,6 @@ async function init() {
  };
   
  function updateData(){
-  var x = d3.scaleLinear().domain([0,5]).range([0,width]);
-  var y = d3.scaleLinear().domain([0,35]).range([height,0]);
-  var colors = d3.scaleOrdinal(["East Asia & Pacific", "Europe & Central Asia", "Latin America & Caribbean", "Middle East & North Africa", "North America", "South Asia", "Sub-Saharan Africa"],d3.schemeCategory10); 
-  var legend = d3.legendColor().scale(colors);
-  var tooltip = d3.select("#tooltip");
-  
   svg.append("g")
     //  .attr("transform","translate("+ margin +"," + margin + ")")
     .selectAll("circle")
@@ -127,37 +121,7 @@ async function init() {
          .html(d.CountryName + "<br/>" + "CO2 Emissions: " + d3.format(".4r")(d.CO2emissions) + "<br/>" + "Population Density New (log10): " + d3.format(".4r")(d.PopDenLog,3));
   })
     .on("mouseout", function() { tooltip.transition().duration(500).style("opacity",0) });
-  
-  //Adding Y-Axis
-  svg.append("g")
-      //.attr("transform","translate("+ margin +"," + margin + ")")
-      .call(d3.axisLeft(y));
-  
-  //Adding Y-Axis label
-   svg.append("text")       
-      .attr("transform","rotate(-90)")
-      .attr("y", -margin.left + 30)
-      .attr("x", -margin.top - height/2 + 20)     
-      .style("text-anchor", "middle")
-      .text("CO2 Emissions");
-    
-  //Adding X-Axis
-  svg.append("g")
-      .attr("transform","translate(0," + (height) + ")")
-      .call(d3.axisBottom(x));
-  
-  //Adding X-Axis label
-  svg.append("text")             
-       .attr("transform","translate("+ (width/2) +"," + (height+40) + ")")
-       .style("text-anchor", "middle")
-       .text("Population Density (log10)");
-  
-  //Adding legend
-  svg.append("g")
-      .attr("transform","translate("+ (width-175) + ",0)")
-      .call(legend);
-   
- }
+}
   
   
   
