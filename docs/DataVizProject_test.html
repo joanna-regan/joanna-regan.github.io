@@ -8,7 +8,8 @@
     width: 100px;
     height: 100px;
     background: whitesmoke;
-    border: 5px;
+    border-width: "1px";
+    border-radius: "5px";
   }
 </style>
   
@@ -17,7 +18,7 @@
   
 <body>
 <h1> This is a heading </h1>
-<p> This is a paragraph that now has additional text AGAIN!!! keyword:4</p>
+<p> This is a paragraph that now has additional text AGAIN!!! keyword:54</p>
 </body>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -65,7 +66,8 @@ async function init() {
          //.style("top", (d3.select(this).attr("cy")+"px")
          .style("left",(d3.event.pageX) + "px")
          .style("top",(d3.event.pageY) + "px")
-         .html(d.CountryName<br>"CO2 Emissions: " + d.CO2emissions</br><br>"Population Density (log10): " + d.PopDenLog</br>);
+         .html(d.CountryName);
+         //.html(d.CountryName<br>"CO2 Emissions: " + d.CO2emissions</br><br>"Population Density (log10): " + d.PopDenLog</br>);
   })
     .on("mouseout", function() { tooltip.transition().duration(500).style("opacity",0) })
   
