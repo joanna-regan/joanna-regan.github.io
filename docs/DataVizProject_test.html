@@ -10,13 +10,10 @@
     border-radius: 8px;
   }
 </style>
-  
-  
-  
-  
+   
 <body>
 <h1> This is a heading </h1>
-<p> This is a paragraph that now has additional text AGAIN!!! keyword: data3 </p>
+<p> This is a paragraph that now has additional text AGAIN!!! keyword: data4 </p>
 </body>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -26,14 +23,14 @@
   
 <svg width=1000 height=1000></svg>
 <div id="tooltip"></div>  
-<body onload="init()">
+<body onload="loadData()">
 <script>
   
 
   
-async function init() {
-  const data = await d3.csv("https://raw.githubusercontent.com/joanna-regan/joanna-regan.github.io/main/docs/CO2vsPOPbyCountry2.csv");
-  console.log(data)
+async function loadData() {
+  var data = await d3.csv("https://raw.githubusercontent.com/joanna-regan/joanna-regan.github.io/main/docs/CO2vsPOPbyCountry2.csv");
+  console.log(data)}
   
   var margin = 50;
   var width = 600;
