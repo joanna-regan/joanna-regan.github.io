@@ -33,7 +33,7 @@
  
 </style>
   
-<h1> CO2 Emissions Across the Globe - Biggest Offenders annotations 0 </h1>
+<h1> CO2 Emissions Across the Globe - Hopeful trends? </h1>
   <p>No shit that climate change is totally gonna fuck us up. Our dependence on fossil fuels for decades has increased the global CO2 emissions to a dangerous level. If we don't take action soon, we may cross a irreversible threshold - if it's not already too late. Below, we call out a few countries who have displayed enormous increase in their CO2 emissions. Admittedly, a more fair analysis would consider related factors such as population, gdp, urbanization, blah blah blah but honestly, i don't really care. obviously china is going to have more emissions than vanuatu, but the planet doesn't give a shit where the carbon came from - fact is, it's still there. Hopefully the countries with extraordinary emission levels can use their expansive resources to find an effing solution before we all die. These guys are effing it up for everyone. anyway, please give me an A i tried really hard thanks love you byeeeeeeee   
  The data is sourced from The World Bank. The CO2 emissions you see below are measured in thousand mteric tons, excluding Land_Use change and Forestry. The WOrld Bank defines this as: Carbon dioxide emissions are those stemming from the burning of fossil fuels and the manufacture of cement. They include carbon dioxide produced during consumption of solid, liquid, and gas fuels and gas flaring."
   
@@ -174,7 +174,7 @@ async function init() {
   //console.log(res)
   var color = d3.scaleOrdinal()
     .domain(res)
-    .range(["slategrey","slatebgrey","slategrey","slategrey","slategrey","slategrey","slategrey","slateblue","slategrey","slategrey","slategrey","slategrey","slategrey","slategrey","slateblue","slategrey","slategrey","slategrey","slategrey","slategrey","slategrey","slategrey","slategrey","slategrey","slategrey"]) //update this based on countries of interest for static scenes
+    .range(["slategrey","slategrey","slategrey","slategrey","slategrey","slategrey","slategrey","slategrey","slateblue","slategrey","slategrey","slategrey","slategrey","slategrey","slateblue","slategrey","slategrey","slategrey","slategrey","slategrey","slategrey","slategrey","slategrey","slategrey","slategrey"]) //update this based on countries of interest for static scenes
   
   var size = d3.scaleOrdinal()
     .domain(res)
@@ -246,40 +246,31 @@ async function init() {
 //    x: 100
 //  },
   {
-      type: d3.annotationCalloutElbow,
+      type: d3.annotationCalloutCircle,
       note: {
-      title: "China is the largest contributor of CO2 emissions in the world, primarily due to its reliance on fossil fuels and coal burning. (investopedia1) ",
+      title: "The collapse of the Soviet Union led to a sharp decline in CO2 emissions. (nytimes2) ",
       wrap: 190
     },
-      color: ["slateblue"],
-      x: width-100,
-      y: 150,
-      dy: -10,
-      dx: -10
-  },
-  {
-      type: d3.annotationCalloutElbow,
-      note: {
-      title: "The typical American burns roughly twice as much as the average person in Europe or in Japan. (nytimes1) ",
-      wrap: 190
+    subject:{
+      radius: 50;
     },
       color: ["slateblue"],
       x: width/2,
-      y: (height/2)+15,
+      y: (height/2)+100,
       dy: -50,
       dx: -50
   },
       {
       type: d3.annotationCalloutElbow,
       note: {
-      title: "India's wealthy families produce significantly more emissions than poor families. (science1) ",
+      title: "Germany is a rare example of declining emissions over time. They have set future goals to reduce emissions by at least 65% by 2030, compared to 1990 levels. ",
       wrap: 150
     },
       color: ["slateblue"],
-      x: width-10,
-      y: height-155,
-      dy: -10,
-      dx: -20
+      x: width-1200,
+      y: height-25,
+      dy: -50,
+      dx: 20
   }
 ]
   
@@ -297,6 +288,8 @@ async function init() {
 // investopedia1: https://www.investopedia.com/articles/investing/092915/5-countries-produce-most-carbon-dioxide-co2.asp  
 //nytimes1: https://www.nytimes.com/interactive/2017/06/01/climate/us-biggest-carbon-polluter-in-history-will-it-walk-away-from-the-paris-climate-deal.html
 //https://science.thewire.in/environment/india-carbon-emissions-rich-poor-households/
+  // nytimes2 https://www.nytimes.com/1991/12/08/world/carbon-dioxide-emissions-dropped-in-1990-ecologists-say.html
+  // germany citation: https://www.cleanenergywire.org/factsheets/germanys-greenhouse-gas-emissions-and-climate-targets
   
 </script>  
 </body>
