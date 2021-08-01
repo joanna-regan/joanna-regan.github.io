@@ -23,7 +23,7 @@
   }
 </style>
   
-<h1> This is a heading 9 </h1>
+<h1> This is a heading 0 </h1>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
@@ -79,7 +79,7 @@ async function init() {
     tooltip.transition().duration(500).style("opacity",0); 
     
     d3.select(this)
-      .attr("r",2)
+      .attr("r",1)
       .style("fill","slategrey");
   }
   
@@ -135,6 +135,8 @@ async function init() {
   var sumstat = d3.nest() // nest function allows to group the calculation per level of a factor
     .key(d => d.Country)
     .entries(data);
+  
+  console.log(sumstat)
   
   //Create basic color map for our data 
   var res = sumstat.map(function(d){ return d.key }) // list of group names
