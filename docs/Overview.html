@@ -62,7 +62,7 @@ async function init() {
   // Reformat years as Time and valuess as numbers instead of strings
   data.forEach(function (d) {
             d["Year"] = d3.timeParse("%Y")(d.Year)
-            d["d["CO2_kt"] = +d["CO2_kt"]
+            d["CO2_kt"] = +d["CO2_kt"]
             d["CO2_percapita"] = +d["CO2_percapita"]
             d["CO2_ktdollar"] = +d["CO2_ktdollar"]});
   
