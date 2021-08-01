@@ -23,7 +23,7 @@
   }
 </style>
   
-<h1> CO2 Emissions Across the Globe - Overview Slide 2 </h1>
+<h1> CO2 Emissions Across the Globe - Overview Slide 3 </h1>
   <p>No shit that climate change is totally gonna fuck us up. Our dependence on fossil fuels for decades has increased the global CO2 emissions to a dangerous level. If we don't take action soon, we may cross a irreversible threshold - if it's not already too late. Below, we call out a few countries who have displayed enormous increase in their CO2 emissions. Admittedly, a more fair analysis would consider related factors such as population, gdp, urbanization, blah blah blah but honestly, i don't really care. obviously china is going to have more emissions than vanuatu, but the planet doesn't give a shit where the carbon came from - fact is, it's still there. Hopefully the countries with extraordinary emission levels can use their expansive resources to find an effing solution before we all die. These guys are effing it up for everyone. anyway, please give me an A i tried really hard thanks love you byeeeeeeee   </p>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -62,7 +62,7 @@ async function init() {
   // Reformat years as Time and valuess as numbers instead of strings
   data.forEach(function (d) {
             d["Year"] = d3.timeParse("%Y")(d.Year)
-            d["CO2_kt"] = +d["CO2_kt"]
+            d["d["CO2_kt"] = +d["CO2_kt"]"] = +d["CO2_kt"]
             d["CO2_percapita"] = +d["CO2_percapita"]
             d["CO2_ktdollar"] = +d["CO2_ktdollar"]});
   
@@ -71,7 +71,7 @@ async function init() {
    tooltip.style("opacity",1)
       .style("left",(d3.event.pageX) + "px")
       .style("top",(d3.event.pageY) + "px")
-      .html(d.CountryName + "<br/>" + "Year: " + d3.timeFormat("%Y")(d.Year) + "</br>" + "CO2 (kt): " + d3.format(".2f")(d.CO2_kt));
+      .html(d.CountryName + "<br/>" + "Year: " + d3.timeFormat("%Y")(d.Year) + "</br>" + "CO2 per capita: " + d3.format(".2f")(d.CO2_percapita));
     
     d3.select(this)
       .attr("r",10)
@@ -114,7 +114,7 @@ async function init() {
   
   //Adding Y-Axis
    var y = d3.scaleLinear()
-      .domain([0, d3.max(data, function(d) { return parseInt(d.CO2_kt); })])
+      .domain([0, d3.max(data, function(d) { return parseInt(d.CO2_percapita); })])
       .range([ height, 0 ]);
     svg.append("g")
       .call(d3.axisLeft(y).tickSize(10));
@@ -165,7 +165,7 @@ async function init() {
         .attr("d", function(d){
           return d3.line()
             .x(function(d) { return x(d.Year); })
-            .y(function(d) { return y(d.CO2_kt); })
+            .y(function(d) { return y(d.CO2_percapita); })
             (d.values)
         })
   
@@ -179,7 +179,7 @@ async function init() {
     .enter()
     .append("circle")
       .attr("cx", function(d) { return x(d.Year);})
-      .attr("cy", function(d) { return y(d.CO2_kt);})
+      .attr("cy", function(d) { return y(d.CO2_percapita);})
       .attr("r",1)
       //.attr("r", function(d) { return size(d.Country);})
       //.style("fill", function(d){ return color(d.Country);})
