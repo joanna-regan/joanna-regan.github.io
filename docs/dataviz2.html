@@ -11,7 +11,7 @@
   }
 </style>
   
-<h1> This is a heading 8 </h1>
+<h1> This is a heading 9 </h1>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
@@ -85,6 +85,8 @@ async function init() {
   console.log(sumstat)
 
     svg.selectAll(".line")
+      .append("g")
+      .attr("class","line")
       .data(sumstat)
       .enter()
       .append("path")
