@@ -23,7 +23,7 @@
   }
 </style>
   
-<h1> CO2 Emissions Across the Globe - Overview Slide top25 </h1>
+<h1> CO2 Emissions Across the Globe - Overview Slide top25 0 </h1>
   <p>No shit that climate change is totally gonna fuck us up. Our dependence on fossil fuels for decades has increased the global CO2 emissions to a dangerous level. If we don't take action soon, we may cross a irreversible threshold - if it's not already too late. Below, we call out a few countries who have displayed enormous increase in their CO2 emissions. Admittedly, a more fair analysis would consider related factors such as population, gdp, urbanization, blah blah blah but honestly, i don't really care. obviously china is going to have more emissions than vanuatu, but the planet doesn't give a shit where the carbon came from - fact is, it's still there. Hopefully the countries with extraordinary emission levels can use their expansive resources to find an effing solution before we all die. These guys are effing it up for everyone. anyway, please give me an A i tried really hard thanks love you byeeeeeeee   
  The data is sourced from The World Bank. The CO2 emissions you see below are measured in thousand mteric tons, excluding Land_Use change and Forestry. The WOrld Bank defines this as: Carbon dioxide emissions are those stemming from the burning of fossil fuels and the manufacture of cement. They include carbon dioxide produced during consumption of solid, liquid, and gas fuels and gas flaring."
   
@@ -35,6 +35,8 @@
   
 <div id="my_dataviz1"></div>
 <div id="tooltip"></div>  
+  
+
     
 <!--<button onclick="update(data1)">Variable 1</button>
 //<button onclick="update(data2)">Variable 2</button>-->
@@ -67,7 +69,8 @@ async function init() {
             d["Year"] = d3.timeParse("%Y")(d.Year)
             d["CO2_kt"] = +d["CO2_kt"]
             d["CO2_percapita"] = +d["CO2_percapita"]
-            d["CO2_ktdollar"] = +d["CO2_ktdollar"]});
+            d["CO2_ktdollar"] = +d["CO2_ktdollar"]
+            d["CO2_Mt"] = +d["CO2_Mt"]});
     
   //var myvalue = "CO2_percapita"
   
@@ -116,16 +119,27 @@ async function init() {
       .style("stroke-width","1");
   }
   
-  
+  //Title
+ // svg.append("text")
+   //   .attr("transform","translate(50,50)")
+     // .text("Hover a point to see additional information.")
+    
   //Adding Y-Axis
    var y = d3.scaleLinear()
-      .domain([0, d3.max(data, function(d) { return parseInt(d.CO2_kt); })])
+      .domain([0, d3.max(data, function(d) { return parseInt(d.CO2_Mt); })])
       .range([ height, 0 ]);
     svg.append("g")
       .call(d3.axisLeft(y).tickSize(10));
     svg.append("g")
       .attr("class","grid")
-      .call(d3.axisLeft(y).ticks(4).tickSize(-width).tickFormat(""));
+      .call(d3.axisLeft(y).ticks(5).tickSize(-width).tickFormat(""));
+  //Adding Y-Axis label
+   svg.append("text")       
+      .attr("transform","rotate(-90)")
+      .attr("y", -margin.left + 30)
+      .attr("x", -margin.top - height/2 + 20)     
+      .style("text-anchor", "middle")
+      .text("CO2 Emissions (Million metric tons)");
             
 
   //Adding X-Axis
@@ -138,6 +152,11 @@ async function init() {
      svg.append("g")
       .attr("class","grid")
       .call(d3.axisBottom(x).ticks(5).tickSize(height).tickFormat(""))
+  //Adding X-Axis label
+    svg.append("text")             
+       .attr("transform","translate("+ (width/2) +"," + (height+40) + ")")
+       .style("text-anchor", "middle")
+       .text("Year");
   
   //Group the data by Country
   var sumstat = d3.nest() // nest function allows to group the calculation per level of a factor
@@ -170,7 +189,7 @@ async function init() {
         .attr("d", function(d){
           return d3.line()
             .x(function(d) { return x(d.Year); })
-            .y(function(d) { return y(d.CO2_kt); })
+            .y(function(d) { return y(d.CO2_Mt); })
             (d.values)
         })
   
@@ -184,7 +203,7 @@ async function init() {
     .enter()
     .append("circle")
       .attr("cx", function(d) { return x(d.Year);})
-      .attr("cy", function(d) { return y(d.CO2_kt);})
+      .attr("cy", function(d) { return y(d.CO2_Mt);})
       .attr("r",1)
       //.attr("r", function(d) { return size(d.Country);})
       //.style("fill", function(d){ return color(d.Country);})
