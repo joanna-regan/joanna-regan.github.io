@@ -23,7 +23,7 @@
   }
 </style>
   
-<h1> This is a heading 4 </h1>
+<h1> This is a heading 5 </h1>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
@@ -179,11 +179,12 @@ async function init() {
   //Add legend on the right hand side
   
   svg.selectAll("labels")
-    .data(data)
+    .data(sumstat)
     .enter()
     .append("g")
     .append("text")
       .datum(function(d) {return {name: d.Country, value: d.values[d.values.length-1]};})
+      console.log(function(d) {return {name: d.Country, value: d.values[d.values.length-1]};}
       .attr("transform",function(d) { return "translate(" + x(d.value.Year) + "," + y(d.value.value) + ")";})
       //.attr("x",12)
       .text(function(d) { return d.name;})
