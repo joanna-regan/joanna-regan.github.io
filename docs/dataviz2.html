@@ -23,7 +23,7 @@
   }
 </style>
   
-<h1> This is a heading 2 </h1>
+<h1> This is a heading 3 </h1>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
@@ -151,8 +151,8 @@ async function init() {
       .enter()
       .append("path")
         .attr("fill", "none")
-        //.attr("stroke",function(d){ return color(d.key) })
-        .attr("stroke","slategrey")
+        .attr("stroke",function(d){ return color(d.key) })
+        //.attr("stroke","slategrey")
         .attr("stroke-width", 1)
         .attr("d", function(d){
           return d3.line()
