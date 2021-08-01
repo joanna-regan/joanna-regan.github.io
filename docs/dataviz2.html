@@ -23,7 +23,7 @@
   }
 </style>
   
-<h1> This is a heading 3 </h1>
+<h1> This is a heading 4 </h1>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
@@ -179,7 +179,7 @@ async function init() {
   //Add legend on the right hand side
   
   svg.selectAll("labels")
-    .data(sumstat)
+    .data(data)
     .enter()
     .append("g")
     .append("text")
