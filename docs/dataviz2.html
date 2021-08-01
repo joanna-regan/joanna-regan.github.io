@@ -23,7 +23,7 @@
   }
 </style>
   
-<h1> This is a heading 6 </h1>
+<h1> This is a heading 7 </h1>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
@@ -89,17 +89,19 @@ async function init() {
       //.style("top",(d3.event.pageY) + "px")
       //.html(d.Country);
     console.log(d3.select(this)._groups)
-    //d3.select(this).raise()
-      //.style("fill","slateblue")
-      //.style("stroke-width","3");
+    const selection = d3.select(this)._groups
+    
+    selection
+      .style("fill","slateblue")
+      .style("stroke-width","3");
   }
   
     var mouseOutLine = function(d) { 
     tooltip.transition().duration(500).style("opacity",0); 
     
-    d3.select(this)
-      .style("fill","slategrey")
-      .style("stroke-width","1.5");
+   // d3.select(this)
+   //   .style("fill","slategrey")
+   //   .style("stroke-width","1.5");
   }
   
   
