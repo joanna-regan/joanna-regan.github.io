@@ -23,7 +23,7 @@
   }
 </style>
   
-<h1> This is a heading 4 </h1>
+<h1> This is a heading 5 </h1>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
@@ -88,10 +88,10 @@ async function init() {
      // .style("left",(d3.event.pageX) + "px")
       //.style("top",(d3.event.pageY) + "px")
       //.html(d.Country);
-    console.log(d)
-    d3.select(this).raise()
-      .style("fill","slateblue")
-      .style("stroke-width","3");
+    console.log(d3.select(this))
+    //d3.select(this).raise()
+      //.style("fill","slateblue")
+      //.style("stroke-width","3");
   }
   
     var mouseOutLine = function(d) { 
