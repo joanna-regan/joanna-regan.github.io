@@ -73,7 +73,7 @@ async function init() {
       .call(d3.axisBottom(x).tickSize(10));
      svg.append("g")
       .attr("class","grid")
-      .call(d3.axisBottom(x).ticks(5).tickSize(-height).tickFormat(""))
+      .call(d3.axisBottom(x).ticks(5).tickSize(height).tickFormat(""))
   
   //Group the data by Country
   var sumstat = d3.nest() // nest function allows to group the calculation per level of a factor
