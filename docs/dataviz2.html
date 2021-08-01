@@ -18,7 +18,7 @@
   }
 </style>
   
-<h1> This is a heading 0 </h1>
+<h1> This is a heading 1 </h1>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
@@ -68,15 +68,13 @@ async function init() {
   
   var stopTooltip = function() { tooltip.transition().duration(500).style("opacity",0) }
   
-  var bigHighlight = function(d) {
-    
-    current_country = d.Country    
-    d3.selectAll("." + current_country)
-      .attr("r",7)      
+  var bigHighlight = function(d) {    
+    d3.select(this)
+      .attr("r",10)      
   }
   
-  var stopHighlight = function(){
-    d3.selectAll(".dot")
+  var stopHighlight = function(d){
+    d3.select(this)
       .attr("r",2)
   }
   
