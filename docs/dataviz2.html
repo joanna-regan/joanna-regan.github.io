@@ -18,7 +18,7 @@
   }
 </style>
   
-<h1> This is a heading 9 </h1>
+<h1> This is a heading 0 </h1>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
@@ -160,14 +160,14 @@ async function init() {
       //.style("fill", function(d){ return color(d.Country);})
       .style("fill","slategrey")
   //Add tooltips to dots
-    //  .on("mouseover",mouseOver)
-     // .on("mouseout",mouseOut)   
+      .on("mouseover",mouseOver)
+      .on("mouseout",mouseOut)   
   
   //Do some events:
   
-  svg.selectAll("circles")
-      .on("mouseover",mouseOver)
-      .on("mouseout",mouseOut)
+//  svg.selectAll("circles")
+  //    .on("mouseover",mouseOver)
+    //  .on("mouseout",mouseOut)
 
 
 
