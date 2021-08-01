@@ -11,7 +11,7 @@
   }
 </style>
   
-<h1> This is a heading 4 </h1>
+<h1> This is a heading 5 </h1>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
@@ -45,19 +45,21 @@ async function init() {
   
   data.forEach(function (d) {
             d["Year"] = d3.timeParse("%Y")(d.Year)
+            d["GDP"] = +d["GDP"]
+            
         });
-  
+  console.log(d3.max(data, function(d) { return d.GDP; }) )
   console.log(data)
   
   //Adding Y-Axis
    var y = d3.scaleLinear()
-      .domain([0, d3.max(data, function(d) { return d.GDP; })])
+      .domain([0, d3.max(data, function(d) { return parseInt(d.GDP); })])
       .range([ height, 0 ]);
     svg.append("g")
       .call(d3.axisLeft(y));
 
   //Adding X-Axis
-    var x = d3.scaleLinear()
+    var x = d3.scaleTime()
       .domain(d3.extent(data, function(d) { return d.Year; }))
       .range([ 0, width ]);
     svg.append("g")
