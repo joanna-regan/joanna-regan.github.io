@@ -30,6 +30,17 @@
   .annotation-note-label {
     font-size: 0.8em;
   }
+  
+  svg {
+     background-color: white;
+     font-family: 'Lato';
+     }
+  
+  text.title {
+      font-size: 1.2em;
+      font-weight: bold;
+    } 
+  
 </style>
   
 <h1> CO2 Emissions Across the Globe - Hopeful trends? </h1>
@@ -126,6 +137,11 @@ async function init() {
       .style("stroke-width","1");
   }
   
+  //Title
+  svg.append("text")
+      .attr("class","title")
+      .attr("transform","translate(10,0)")
+      .text("...though it's not an impossible task.")
   
   //Adding Y-Axis
    var y = d3.scaleLinear()
