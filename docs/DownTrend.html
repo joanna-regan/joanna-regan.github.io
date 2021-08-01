@@ -23,14 +23,13 @@
   }
   
   .annotation-note-title {
-      font-weight: none;
-      font-size: 0.8em;
-    }
-
-    text.title {
-      font-size: 0.5em;
       font-weight: bold;
- 
+      font-size: 1.2em;
+    }
+  
+  .annotation-note-label {
+    font-size: 0.8em;
+  }
 </style>
   
 <h1> CO2 Emissions Across the Globe - Hopeful trends? </h1>
@@ -248,7 +247,8 @@ async function init() {
   {
       type: d3.annotationCalloutCircle,
       note: {
-      title: "The collapse of the Soviet Union led to a sharp decline in CO2 emissions. (nytimes2) ",
+      title: "Russian Federation",
+      label: "The collapse of the Soviet Union led to a sharp decline in CO2 emissions. (nytimes2) ",
       wrap: 190
     },
     subject:{
@@ -263,7 +263,8 @@ async function init() {
       {
       type: d3.annotationCalloutElbow,
       note: {
-      title: "Germany is a rare example of declining emissions over time. They have set future goals to reduce emissions by at least 65% by 2030, compared to 1990 levels. ",
+      title: "Germany",
+      label: "Germany is a rare example of declining emissions over time. They have set future goals to reduce emissions by at least 65% by 2030, compared to 1990 levels. ",
       wrap: 150
     },
       color: ["slateblue"],
