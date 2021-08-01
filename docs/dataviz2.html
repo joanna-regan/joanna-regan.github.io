@@ -18,7 +18,7 @@
   }
 </style>
   
-<h1> This is a heading 4 </h1>
+<h1> This is a heading 5 </h1>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
@@ -69,17 +69,13 @@ async function init() {
       .attr("r",10) ;
   }
   
-  var stopTooltip = function() { tooltip.transition().duration(500).style("opacity",0); }
-  
- // var Highlight = function(d) {    
- //   d3.select(this)
- //     .attr("r",10) ;     
- // }
-  
-  var stopHighlight = function(d) {
+  var mouseOut = function(d) { 
+    tooltip.transition().duration(500).style("opacity",0); 
+    
     d3.select(this)
       .attr("r",2);
   }
+  
   
   //Adding Y-Axis
    var y = d3.scaleLinear()
@@ -140,9 +136,7 @@ async function init() {
       .style("fill", function(d){ return color(d.Country);})
   //Add tooltips to dots
       .on("mouseover",mouseOver)
-      //.on("mouseover",Highlight)
-      .on("mouseout",stopHighlight)   
-      .on("mouseout",stopTooltip);
+      .on("mouseout",mouseOut)   
   
  };
     
