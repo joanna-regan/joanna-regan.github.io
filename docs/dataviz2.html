@@ -23,7 +23,7 @@
   }
 </style>
   
-<h1> This is a heading 2 </h1>
+<h1> This is a heading 3 </h1>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
@@ -169,18 +169,26 @@ async function init() {
     .append("circle")
       .attr("cx", function(d) { return x(d.Year);})
       .attr("cy", function(d) { return y(d.GDP);})
-      .attr("r",2)
+      .attr("r",1)
       //.style("fill", function(d){ return color(d.Country);})
       .style("fill","slategrey")
   //Add tooltips to dots
       .on("mouseover",mouseOver)
       .on("mouseout",mouseOut)   
   
-  //Do some events:
+  //Add legend on the right hand side
   
-//  svg.selectAll("circles")
-  //    .on("mouseover",mouseOver)
-    //  .on("mouseout",mouseOut)
+  svg.selectAll("labels")
+    .data(sumstat)
+    .enter()
+    .append("g")
+    .append("text")
+      .datum(function(d) {return {name: d.Country, value: d.values[d.values.length-1]};})
+      .attr("transform",function(d) { return "translate(" + x(d.value.Year) + "," + y(d.value.value) + ")";})
+      //.attr("x",12)
+      .text(function(d) { return d.name;})
+      .style("font-size",15)                      
+                          
 
 
 
