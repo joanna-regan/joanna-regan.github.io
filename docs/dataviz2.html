@@ -18,7 +18,7 @@
   }
 </style>
   
-<h1> This is a heading 1 </h1>
+<h1> This is a heading 2 </h1>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
@@ -66,16 +66,16 @@ async function init() {
          .html(d.Country + "<br/>" + "Year: " + d3.timeFormat("%Y")(d.Year) + "</br>" + "GDP: " + d3.format(".2f")(d.GDP));
   }
   
-  var stopTooltip = function() { tooltip.transition().duration(500).style("opacity",0) }
+  var stopTooltip = function() { tooltip.transition().duration(500).style("opacity",0); }
   
-  var bigHighlight = function(d) {    
+  var Highlight = function(d) {    
     d3.select(this)
-      .attr("r",10)      
+      .attr("r",10) ;     
   }
   
-  var stopHighlight = function(d){
+  var stopHighlight = function(d) {
     d3.select(this)
-      .attr("r",2)
+      .attr("r",2);
   }
   
   //Adding Y-Axis
@@ -137,7 +137,7 @@ async function init() {
       .style("fill", function(d){ return color(d.Country);})
   //Add tooltips to dots
       .on("mouseover",showTooltip)
-      .on("mouseover",bigHighlight)
+      .on("mouseover",Highlight)
       .on("mouseout",stopHighlight)   
       .on("mouseout",stopTooltip);
   
