@@ -18,7 +18,7 @@
   }
 </style>
   
-<h1> This is a heading 6 </h1>
+<h1> This is a heading 7 </h1>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
@@ -32,20 +32,22 @@
     
 <body onload='init()'>
 <script>
-  
+ 
+//Initialize some stuff:  
 var margin = {top: 50, right: 30, bottom: 50, left: 80},
     width = 800 - margin.left - margin.right,
     height = 800 - margin.top - margin.bottom;
   
-  var svg = d3.select("#my_dataviz1")
+var svg = d3.select("#my_dataviz1")
   .append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
     .attr("transform","translate(" + margin.left + "," + margin.bottom + ")");
   
-  var tooltip = d3.select("#tooltip");
-
+var tooltip = d3.select("#tooltip");
+    
+//Load data, draw some stuff, implement some mousover functions, etc.:  
 async function init() {
   const data = await d3.csv("https://raw.githubusercontent.com/joanna-regan/joanna-regan.github.io/main/docs/WorldGDP2.csv");
   console.log(data)
@@ -55,6 +57,14 @@ async function init() {
   data.forEach(function (d) {
             d["Year"] = d3.timeParse("%Y")(d.Year)
             d["GDP"] = +d["GDP"] });
+  
+  //Write some functions:
+  var showTooltip = function(d) {
+      tooltip.style("opacity",1)
+        .style("left",(d3.event.pageX) + "px")
+         .style("top",(d3.event.pageY) + "px")
+         .html(d.Country + "<br/>" + "Year: " + d3.timeFormat("%Y")(d.Year) + "</br>" + "GDP: " + d3.format(".2f")(d.GDP));
+  }
   
   //Adding Y-Axis
    var y = d3.scaleLinear()
@@ -114,12 +124,12 @@ async function init() {
       .attr("r",2)
       .style("fill", function(d){ return color(d.Country);})
   //Add tooltips to dots
-      .on("mouseover",function(d) {
-      tooltip.style("opacity",1)
-         .style("left",(d3.event.pageX) + "px")
-         .style("top",(d3.event.pageY) + "px")
-         .html(d.Country + "<br/>" + "Year: " + d3.timeFormat("%Y")(d.Year) + "</br>" + "GDP: " + d3.format(".2f")(d.GDP));
-  })
+      .on("mouseover",showTooltip) //{
+  //    tooltip.style("opacity",1)
+  //      .style("left",(d3.event.pageX) + "px")
+  //       .style("top",(d3.event.pageY) + "px")
+  //       .html(d.Country + "<br/>" + "Year: " + d3.timeFormat("%Y")(d.Year) + "</br>" + "GDP: " + d3.format(".2f")(d.GDP));
+ // })
     .on("mouseout", function() { tooltip.transition().duration(500).style("opacity",0) });
   
  };
