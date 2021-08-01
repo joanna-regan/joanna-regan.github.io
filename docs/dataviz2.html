@@ -15,7 +15,7 @@
   }
 </style>
   
-<h1> This is a heading 8 </h1>
+<h1> This is a heading 9 </h1>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
@@ -59,7 +59,7 @@ async function init() {
       .range([ height, 0 ]);
     svg.append("g")
       .attr("class","grid")
-      .call(d3.axisLeft(y).tickSize(0));
+      .call(d3.axisLeft(y).tickSize(-width));
 
   //Adding X-Axis
     var x = d3.scaleTime()
