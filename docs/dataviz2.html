@@ -23,7 +23,7 @@
   }
 </style>
   
-<h1> This is a heading 1 </h1>
+<h1> This is a heading 2 </h1>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
@@ -143,7 +143,7 @@ async function init() {
   console.log(res)
   var color = d3.scaleOrdinal()
     .domain(res)
-    .range(['#e41a1c','#377eb8','#4daf4a','#984ea3','#ff7f00','#ffff33','#a65628','#f781bf','#999999'])
+    .range([slategrey,slategrey,slateblue])
 
    //Add the lines
     svg.selectAll(".line")
@@ -181,17 +181,17 @@ async function init() {
   
   //Add legend on the right hand side
   
-  svg.selectAll("labels")
-    .data(sumstat)
-    .enter()
-    .append("g")
-    .append("text")
-      .datum(function(d) {return {name: d.Country, value: d.values[d.values.length-1]};})
-      //console.log(datum(function(d) {return {name: d.Country, value: d.values[d.values.length-1]};}))
-      .attr("transform",function(d) { return "translate(" + width + "," + y(d.value.value) + ")";})
-      //.attr("x",12)
-      .text(function(d) { return d.name;})
-      .style("font-size",15)                      
+//  svg.selectAll("labels")
+//    .data(sumstat)
+//    .enter()
+//    .append("g")
+//    .append("text")
+//      .datum(function(d) {return {name: d.Country, value: d.values[d.values.length-1]};})
+//      //console.log(datum(function(d) {return {name: d.Country, value: d.values[d.values.length-1]};}))
+//      .attr("transform",function(d) { return "translate(" + width + "," + y(d.value.value) + ")";})
+//      //.attr("x",12)
+//      .text(function(d) { return d.name;})
+//      .style("font-size",15)                      
                           
 
 
