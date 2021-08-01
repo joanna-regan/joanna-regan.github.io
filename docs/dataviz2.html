@@ -23,7 +23,7 @@
   }
 </style>
   
-<h1> This is a heading 0 </h1>
+<h1> This is a heading 1 </h1>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
@@ -140,6 +140,7 @@ async function init() {
   
   //Create basic color map for our data 
   var res = sumstat.map(function(d){ return d.key }) // list of group names
+  console.log(res)
   var color = d3.scaleOrdinal()
     .domain(res)
     .range(['#e41a1c','#377eb8','#4daf4a','#984ea3','#ff7f00','#ffff33','#a65628','#f781bf','#999999'])
