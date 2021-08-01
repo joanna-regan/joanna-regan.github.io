@@ -11,7 +11,7 @@
   .line {
       fill: none;
       stroke: slategrey;
-      stroke-width: 1.5;
+      stroke-width: 1;
   }
   #tooltip {
     opacity: 0;
@@ -23,7 +23,7 @@
   }
 </style>
   
-<h1> This is a heading 0 </h1>
+<h1> This is a heading 1 </h1>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
@@ -88,7 +88,6 @@ async function init() {
      // .style("left",(d3.event.pageX) + "px")
       //.style("top",(d3.event.pageY) + "px")
       //.html(d.Country);
-    console.log(d3.select(this))
     const selection = d3.select(this)
     
     selection
@@ -97,11 +96,13 @@ async function init() {
   }
   
     var mouseOutLine = function(d) { 
-    tooltip.transition().duration(500).style("opacity",0); 
+    //tooltip.transition().duration(500).style("opacity",0); 
     
-   // d3.select(this)
-   //   .style("fill","slategrey")
-   //   .style("stroke-width","1.5");
+    const selection = d3.select(this)
+    
+    selection
+      .style("stroke","slategrey")
+      .style("stroke-width","1");
   }
   
   
@@ -146,7 +147,7 @@ async function init() {
         .attr("fill", "none")
         //.attr("stroke",function(d){ return color(d.key) })
         .attr("stroke","slategrey")
-        .attr("stroke-width", 1.5)
+        .attr("stroke-width", 1)
         .attr("d", function(d){
           return d3.line()
             .x(function(d) { return x(d.Year); })
