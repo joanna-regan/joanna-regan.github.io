@@ -11,7 +11,7 @@
   }
 </style>
   
-<h1> This is a heading 9 </h1>
+<h1> This is a heading 0 </h1>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
@@ -89,8 +89,8 @@ async function init() {
         })    
   
   //Add the points
-  svg.selectAll("circle")
-    .data(sumstat)
+  svg.selectAll("dot")
+    .data(data)
     .enter()
     .append("circle")
       .attr("cx", function(d) { return x(d.Year);})
