@@ -18,7 +18,7 @@
   }
 </style>
   
-<h1> This is a heading 3 </h1>
+<h1> This is a heading 4 </h1>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
@@ -59,7 +59,7 @@ async function init() {
             d["GDP"] = +d["GDP"] });
   
   //Write some functions:
-  var showTooltip = function(d) {
+  var mouseOver = function(d) {
    tooltip.style("opacity",1)
       .style("left",(d3.event.pageX) + "px")
       .style("top",(d3.event.pageY) + "px")
@@ -139,8 +139,8 @@ async function init() {
       .attr("r",2)
       .style("fill", function(d){ return color(d.Country);})
   //Add tooltips to dots
-      .on("mouseover",showTooltip)
-      .on("mouseover",Highlight)
+      .on("mouseover",mouseOver)
+      //.on("mouseover",Highlight)
       .on("mouseout",stopHighlight)   
       .on("mouseout",stopTooltip);
   
