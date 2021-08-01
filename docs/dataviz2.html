@@ -11,7 +11,7 @@
   }
 </style>
   
-<h1> This is a heading 3 </h1>
+<h1> This is a heading 4 </h1>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
@@ -104,7 +104,7 @@ async function init() {
       tooltip.style("opacity",1)
          .style("left",(d3.event.pageX) + "px")
          .style("top",(d3.event.pageY) + "px")
-         .html(d.CountryName + "<br/>" + "Year: " + d.Year + "</br>" + "GDP: " + d3.format(".2f")(d.GDP));
+         .html(d.Country + "<br/>" + "Year: " + d3.timeParse("%Y")(d.Year) + "</br>" + "GDP: " + d3.format(".2f")(d.GDP));
   })
     .on("mouseout", function() { tooltip.transition().duration(500).style("opacity",0) });
   
