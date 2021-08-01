@@ -1,0 +1,1476 @@
+﻿CountryName,CountryCode,IndicatorName,Region,Year,CO2_kt,CO2_percapita,CO2_ktdollar,CO2_kt_log
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,1960,88202.351,8.582936643,0.442914262,4.945480161
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,1961,90589.568,8.641569017,0.443868296,4.957078189
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,1962,94912.961,8.835688047,0.459101582,4.977325522
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,1963,101029.517,9.226439909,0.460094669,5.004448277
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,1964,108979.573,9.759073431,0.463924633,5.037345102
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,1965,120966.996,10.62232139,0.48588215,5.082666896
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,1966,120332.605,10.32809244,0.472086752,5.080383319
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,1967,129265.417,10.9556248,0.477064255,5.111482352
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,1968,134622.904,11.21016771,0.472746218,5.129118955
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,1969,142257.598,11.60055435,0.466681853,5.153075471
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,1970,147618.752,11.80289054,0.451861022,5.169141529
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,1971,152774.554,11.80911757,0.449640741,5.184051025
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,1972,157486.649,11.95163155,0.446057124,5.197243742
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,1973,170992.21,12.77968685,0.471973504,5.232976325
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,1974,172356.334,12.55966873,0.456986936,5.236427248
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,1975,175883.988,12.65989981,0.460128829,5.245226304
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,1976,174244.839,12.41679178,0.444342431,5.241159923
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,1977,187787.07,13.23189614,0.462247507,5.273665686
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,1978,202015.03,14.06985862,0.492850087,5.305383682
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,1979,205069.641,14.12909198,0.480858867,5.311901371
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,1980,220746.066,15.02491601,0.502374554,5.343892973
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,1981,230360.94,15.43250084,0.507322852,5.362408842
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,1982,234119.615,15.42493181,0.498991909,5.369437801
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,1983,225003.453,14.64008413,0.490452487,5.352189183
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,1984,236594.84,15.2209753,0.49312725,5.374005269
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,1985,241229.928,15.3084102,0.477711375,5.382431187
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,1986,239964.813,14.98057315,0.456764067,5.380147564
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,1987,256106.947,15.7469578,0.475362704,5.408421359
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,1988,261145.405,15.79616778,0.458387683,5.416882389
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,1989,277771.583,16.51986292,0.469445456,5.443687814
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,1990,263600,15.44673046,0.430134789,5.420945406
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,1991,264710,15.31532053,0.433671276,5.422770348
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,1992,268360,15.33923978,0.437846293,5.428717783
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,1993,272360,15.4163129,0.427158459,5.435143326
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,1994,278670,15.60739289,0.420310116,5.445090218
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,1995,289010,15.99214254,0.419794944,5.46091287
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,1996,299590,16.36120365,0.418914719,5.476527313
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,1997,306770,16.56693849,0.412588969,5.486812886
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,1998,327660,17.51162418,0.421398773,5.515423427
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,1999,333040,17.59695657,0.407636091,5.522496398
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,2000,338810,17.68965697,0.399005071,5.52995622
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,2001,344960,17.76953588,0.398552242,5.537768739
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,2002,352890,17.95749921,0.392027621,5.547639352
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,2003,351990,17.69202931,0.379690496,5.546530325
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,2004,365270,18.14789789,0.378659246,5.562614005
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,2005,369510,18.11785357,0.371161646,5.567626196
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,2006,375060,18.12067891,0.366494626,5.574100749
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,2007,385370,18.50285198,0.362628883,5.585877903
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,2008,388500,18.28304124,0.352673544,5.589391023
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,2009,394950,18.20742496,0.351716024,5.596542118
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,2010,387350,17.58144496,0.337960911,5.58810356
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,2011,385770,17.26811037,0.328492402,5.586328451
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,2012,385770,16.96925656,0.316106822,5.586328451
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,2013,379270,16.398646,0.302949667,5.578948492
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,2014,369880,15.7558761,0.288150041,5.568060849
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,2015,375970,15.7864494,0.286610026,5.575153192
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,2016,383960,15.87207954,0.284809884,5.584285983
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,2017,387200,15.7386474,0.280754158,5.587935349
+Australia,AUS,CO2 emissions (kt),East Asia & Pacific,2018,386620,15.47551649,0.272302624,5.587284316
+China,CHN,CO2 emissions (kt),East Asia & Pacific,1960,780726.302,1.170381372,6.097095325,5.892498811
+China,CHN,CO2 emissions (kt),East Asia & Pacific,1961,552066.85,0.836046901,5.927918945,5.74199167
+China,CHN,CO2 emissions (kt),East Asia & Pacific,1962,440359.029,0.661428164,5.007875186,5.643806905
+China,CHN,CO2 emissions (kt),East Asia & Pacific,1963,436695.696,0.640001899,4.502461314,5.640178912
+China,CHN,CO2 emissions (kt),East Asia & Pacific,1964,436923.05,0.625646054,3.811817059,5.640404957
+China,CHN,CO2 emissions (kt),East Asia & Pacific,1965,475972.933,0.665524211,3.55066029,5.677582257
+China,CHN,CO2 emissions (kt),East Asia & Pacific,1966,522789.522,0.710891382,3.524539019,5.718326875
+China,CHN,CO2 emissions (kt),East Asia & Pacific,1967,433234.048,0.574162147,3.099622736,5.636722581
+China,CHN,CO2 emissions (kt),East Asia & Pacific,1968,468928.626,0.605451997,3.49843972,5.671106745
+China,CHN,CO2 emissions (kt),East Asia & Pacific,1969,577237.138,0.725149509,3.682636262,5.761354265
+China,CHN,CO2 emissions (kt),East Asia & Pacific,1970,771617.474,0.942934535,4.126351031,5.887402054
+China,CHN,CO2 emissions (kt),East Asia & Pacific,1971,876633.02,1.042239697,4.378795901,5.942817825
+China,CHN,CO2 emissions (kt),East Asia & Pacific,1972,931575.681,1.080676637,4.482453876,5.969218143
+China,CHN,CO2 emissions (kt),East Asia & Pacific,1973,968542.708,1.098195691,4.324728813,5.986118776
+China,CHN,CO2 emissions (kt),East Asia & Pacific,1974,988014.478,1.097367111,4.31206529,5.994763309
+China,CHN,CO2 emissions (kt),East Asia & Pacific,1975,1145607.47,1.250124095,4.598841189,6.059035837
+China,CHN,CO2 emissions (kt),East Asia & Pacific,1976,1196193.735,1.285283136,4.878503422,6.077801523
+China,CHN,CO2 emissions (kt),East Asia & Pacific,1977,1310310.775,1.388842897,4.967847255,6.117374312
+China,CHN,CO2 emissions (kt),East Asia & Pacific,1978,1462168.579,1.52920111,4.979604489,6.164997447
+China,CHN,CO2 emissions (kt),East Asia & Pacific,1979,1494859.884,1.542675099,4.731737413,6.174600487
+China,CHN,CO2 emissions (kt),East Asia & Pacific,1980,1467192.369,1.495250749,4.306762356,6.16648706
+China,CHN,CO2 emissions (kt),East Asia & Pacific,1981,1451501.276,1.460431817,4.053459392,6.161817422
+China,CHN,CO2 emissions (kt),East Asia & Pacific,1982,1580260.647,1.566739684,4.048018133,6.198728725
+China,CHN,CO2 emissions (kt),East Asia & Pacific,1983,1667029.201,1.629055908,3.85508521,6.221943207
+China,CHN,CO2 emissions (kt),East Asia & Pacific,1984,1814908.31,1.75044806,3.643551221,6.258854689
+China,CHN,CO2 emissions (kt),East Asia & Pacific,1985,1966553.428,1.871054791,3.48053026,6.29370575
+China,CHN,CO2 emissions (kt),East Asia & Pacific,1986,2068969.071,1.939434257,3.360985046,6.315753998
+China,CHN,CO2 emissions (kt),East Asia & Pacific,1987,2209708.531,2.038410689,3.214844381,6.344334992
+China,CHN,CO2 emissions (kt),East Asia & Pacific,1988,2369501.723,2.150905225,3.099480926,6.374657029
+China,CHN,CO2 emissions (kt),East Asia & Pacific,1989,2408540.605,2.153077911,3.023373433,6.381753972
+China,CHN,CO2 emissions (kt),East Asia & Pacific,1990,2173360,1.914542564,2.625241744,6.33713167
+China,CHN,CO2 emissions (kt),East Asia & Pacific,1991,2302190,2.000547455,2.545109806,6.362141163
+China,CHN,CO2 emissions (kt),East Asia & Pacific,1992,2418180,2.07574444,2.34042435,6.383488625
+China,CHN,CO2 emissions (kt),East Asia & Pacific,1993,2643530,2.243245307,2.24661444,6.422184243
+China,CHN,CO2 emissions (kt),East Asia & Pacific,1994,2763900,2.31902906,2.078005767,6.441522326
+China,CHN,CO2 emissions (kt),East Asia & Pacific,1995,3084870,2.560366185,2.090347575,6.489236867
+China,CHN,CO2 emissions (kt),East Asia & Pacific,1996,3064880,2.517251858,1.889332049,6.486413475
+China,CHN,CO2 emissions (kt),East Asia & Pacific,1997,3128650,2.543462797,1.765561739,6.495356982
+China,CHN,CO2 emissions (kt),East Asia & Pacific,1998,3232120,2.602487248,1.691256801,6.509487477
+China,CHN,CO2 emissions (kt),East Asia & Pacific,1999,3149200,2.513859675,1.530598505,6.498200243
+China,CHN,CO2 emissions (kt),East Asia & Pacific,2000,3344090,2.648479977,1.498127983,6.524277957
+China,CHN,CO2 emissions (kt),East Asia & Pacific,2001,3526750,2.772929198,1.458390766,6.547374675
+China,CHN,CO2 emissions (kt),East Asia & Pacific,2002,3808330,2.974328335,1.443029471,6.580734574
+China,CHN,CO2 emissions (kt),East Asia & Pacific,2003,4413300,3.425411363,1.519711915,6.64476345
+China,CHN,CO2 emissions (kt),East Asia & Pacific,2004,5121830,3.951800629,1.60170279,6.70942516
+China,CHN,CO2 emissions (kt),East Asia & Pacific,2005,5819120,4.463473752,1.633616003,6.764857313
+China,CHN,CO2 emissions (kt),East Asia & Pacific,2006,6431910,4.906034996,1.601872562,6.808339959
+China,CHN,CO2 emissions (kt),East Asia & Pacific,2007,6988210,5.302594688,1.523598376,6.844365947
+China,CHN,CO2 emissions (kt),East Asia & Pacific,2008,7195010,5.431610495,1.430621115,6.857031402
+China,CHN,CO2 emissions (kt),East Asia & Pacific,2009,7715110,5.79534426,1.402242379,6.887342122
+China,CHN,CO2 emissions (kt),East Asia & Pacific,2010,8470570,6.332165911,1.39154624,6.927912636
+China,CHN,CO2 emissions (kt),East Asia & Pacific,2011,9278250,6.902792141,1.391346807,6.96746607
+China,CHN,CO2 emissions (kt),East Asia & Pacific,2012,9533210,7.058003472,1.325357454,6.97923916
+China,CHN,CO2 emissions (kt),East Asia & Pacific,2013,9936680,7.320485052,1.281896025,6.997241304
+China,CHN,CO2 emissions (kt),East Asia & Pacific,2014,9894940,7.252919144,1.188272954,6.995413165
+China,CHN,CO2 emissions (kt),East Asia & Pacific,2015,9830430,7.169112177,1.102869357,6.992572515
+China,CHN,CO2 emissions (kt),East Asia & Pacific,2016,9814310,7.118705414,1.030485373,6.991859772
+China,CHN,CO2 emissions (kt),East Asia & Pacific,2017,10017770,7.225768991,0.983521129,7.000771056
+China,CHN,CO2 emissions (kt),East Asia & Pacific,2018,10313460,7.405211347,0.948527797,7.013404389
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,1960,21404.279,0.243920444,0.353319049,4.330500603
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,1961,26024.699,0.288847528,0.406265745,4.415385715
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,1962,22995.757,0.248553409,0.352488844,4.361647711
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,1963,22783.071,0.239783195,0.357219816,4.357612264
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,1964,22394.369,0.229458195,0.33915417,4.35013883
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,1965,24689.911,0.246241473,0.36991828,4.392519524
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,1966,23395.46,0.227084338,0.341005435,4.369131589
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,1967,24561.566,0.232007107,0.353127674,4.390256053
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,1968,27586.841,0.253602314,0.35759109,4.440701972
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,1969,33391.702,0.298784274,0.405192461,4.523638556
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,1970,35822.923,0.312064909,0.404161267,4.55416102
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,1971,38987.544,0.330738851,0.410996745,4.590925878
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,1972,43340.273,0.358132823,0.426842455,4.636891643
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,1973,49134.133,0.395605913,0.447628364,4.691383297
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,1974,51260.993,0.402292488,0.433879489,4.709787015
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,1975,53963.572,0.412942076,0.435098306,4.732100689
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,1976,61810.952,0.461389594,0.466260919,4.791065433
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,1977,82434.16,0.600490434,0.571737012,4.916107217
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,1978,93933.872,0.667989729,0.610202512,4.972822225
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,1979,95096.311,0.660345907,0.575595425,4.97816367
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,1980,94784.616,0.642834916,0.522122683,4.976737855
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,1981,100160.438,0.663585649,0.511210994,5.000696215
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,1982,105407.915,0.682392176,0.526173503,5.022873223
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,1983,104956.874,0.664245133,0.502838164,5.021010887
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,1984,112184.531,0.694540628,0.502418802,5.049932977
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,1985,121245.688,0.734900509,0.529951068,5.083666302
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,1986,121740.733,0.723036368,0.502587605,5.085435912
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,1987,123372.548,0.718523982,0.485413197,5.091218534
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,1988,132162.347,0.755317201,0.491581101,5.121107742
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,1989,130966.905,0.734905627,0.453331563,5.117161564
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,1990,147990,0.815761138,0.477662696,5.17023237
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,1991,161840,0.876744877,0.488594351,5.20908587
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,1992,170910,0.910355784,0.484496458,5.232767474
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,1993,185480,0.97185669,0.493725159,5.268297087
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,1994,196930,1.015535177,0.48745007,5.294311881
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,1995,222840,1.131545133,0.50968734,5.34799315
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,1996,234480,1.17297927,0.497421413,5.370105805
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,1997,257670,1.270396477,0.522079151,5.411063857
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,1998,261140,1.269366929,0.609059471,5.4168734
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,1999,278990,1.337342815,0.645583825,5.445588637
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,2000,280170,1.324594286,0.617912629,5.44742163
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,2001,301830,1.407609164,0.642282243,5.479762404
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,2002,306060,1.40809308,0.623240942,5.485806574
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,2003,335370,1.522267724,0.651768981,5.525524211
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,2004,343160,1.536865336,0.634964079,5.535496659
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,2005,344400,1.52194445,0.602935947,5.537063143
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,2006,364100,1.587749693,0.604188334,5.561220679
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,2007,379980,1.635207076,0.592918811,5.579760738
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,2008,377180,1.601819308,0.5551638,5.576548656
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,2009,394490,1.653210477,0.554953944,5.596035999
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,2010,416940,1.724073581,0.552169546,5.620073562
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,2011,480460,1.960133257,0.599315059,5.681657237
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,2012,486750,1.959133194,0.572631118,5.68730596
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,2013,454320,1.804251041,0.506340559,5.657361856
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,2014,490050,1.920799967,0.520120983,5.690240394
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,2015,490840,1.899658692,0.496736965,5.690939947
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,2016,494980,1.89244089,0.476922846,5.694587651
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,2017,532920,2.01367107,0.488702598,5.726662019
+Indonesia,IDN,CO2 emissions (kt),East Asia & Pacific,2018,583110,2.178461553,0.508421049,5.765750489
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,1960,232781.16,2.497223223,0.292360336,5.366947828
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,1961,283118.069,3.010133103,0.317359428,5.451967588
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,1962,293220.654,3.088711554,0.301796857,5.467194558
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,1963,325222.563,3.391267602,0.30858627,5.512180668
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,1964,359318.329,3.708020691,0.305290084,5.555479371
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,1965,386919.838,3.950096353,0.310661737,5.587620997
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,1966,419743.155,4.246220625,0.304609799,5.622983623
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,1967,489881.864,4.904753392,0.320042285,5.690091362
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,1968,562565.471,5.569348596,0.325583642,5.750173073
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,1969,653958.112,6.397617977,0.336490074,5.815549931
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,1970,768823.22,7.435211938,0.394020857,5.885826491
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,1971,797543.164,7.545561028,0.390395152,5.901754197
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,1972,853373.239,7.961462468,0.385305922,5.93113902
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,1973,915748.909,8.424010496,0.382726247,5.96177641
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,1974,915873.587,8.313879441,0.387526483,5.961835535
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,1975,870072.757,7.79823754,0.357106902,5.939555571
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,1976,908902.62,8.059433562,0.35878243,5.958517355
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,1977,935213.345,8.212847276,0.353642297,5.970910695
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,1978,903886.164,7.865830359,0.32467931,5.956113739
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,1979,955620.2,8.245924584,0.325416398,5.980285321
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,1980,947571.135,8.112280386,0.313832929,5.976611823
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,1981,929606.502,7.900719032,0.295446745,5.968299153
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,1982,900200.829,7.597913817,0.276927941,5.954339409
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,1983,883838.675,7.408104093,0.262641489,5.946373001
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,1984,940130.792,7.829008203,0.267333896,5.973188277
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,1985,915396.877,7.575468416,0.247355546,5.961609426
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,1986,915334.538,7.534733854,0.239375804,5.96157985
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,1987,905734.332,7.419855426,0.226166025,5.95700083
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,1988,989081.575,8.068997495,0.23128545,5.995232112
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,1989,1025549.89,8.333129301,0.228702687,6.010956792
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,1990,1092560,8.848215877,0.23228141,6.038445296
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,1991,1105660,8.919202349,0.227298586,6.043621598
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,1992,1117470,8.981072936,0.227794597,6.048235873
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,1993,1109660,8.889440755,0.227380187,6.045189931
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,1994,1162940,9.290290626,0.235954594,6.065557309
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,1995,1172790,9.347025631,0.23160225,6.069220254
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,1996,1186230,9.432715475,0.227212783,6.074168903
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,1997,1173990,9.313167853,0.222474385,6.069664398
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,1998,1131250,8.949762658,0.216821673,6.053558592
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,1999,1165890,9.206987231,0.22402541,6.066657577
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,2000,1182950,9.32609604,0.221156154,6.072966389
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,2001,1170620,9.206678778,0.217965351,6.06841594
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,2002,1206970,9.470516693,0.224468737,6.081696476
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,2003,1215780,9.519253355,0.222703791,6.084854995
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,2004,1211090,9.479340331,0.217059209,6.083176418
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,2005,1213820,9.49981608,0.21399054,6.084154289
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,2006,1190260,9.309524927,0.206899047,6.075641839
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,2007,1226360,9.58086265,0.209705282,6.088617977
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,2008,1159620,9.055074456,0.200485254,6.064315697
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,2009,1101210,8.600045296,0.201289492,6.041870147
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,2010,1156080,9.026938393,0.202817562,6.062987888
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,2011,1212170,9.482449759,0.212903479,6.083563531
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,2012,1252220,9.811406499,0.216697964,6.097680636
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,2013,1260900,9.893679627,0.213921053,6.100680645
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,2014,1219820,9.584053553,0.206178933,6.08629575
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,2015,1181500,9.292832367,0.19728924,6.072433726
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,2016,1171390,9.22394197,0.194585424,6.068701512
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,2017,1151930,9.085639143,0.187291796,6.061426089
+Japan,JPN,CO2 emissions (kt),East Asia & Pacific,2018,1106150,8.74225771,0.179269035,6.043814024
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,1960,12552.141,0.501837251,0.538427877,4.098717809
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,1961,14462.648,0.561314583,0.580141107,4.160247816
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,1962,17278.904,0.651713667,0.667123482,4.237516192
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,1963,21103.585,0.774109781,0.747373737,4.324356238
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,1964,22218.353,0.793961905,0.718758785,4.346711862
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,1965,25005.273,0.871121999,0.753752175,4.3980316
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,1966,30014.395,1.0196641,0.807852334,4.477329594
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,1967,35151.862,1.166635088,0.867375522,4.545948335
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,1968,37242.052,1.207655726,0.81203987,4.571033602
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,1969,42522.532,1.348027309,0.809328216,4.628619117
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,1970,53783.889,1.668191979,0.930158433,4.730652202
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,1971,58616.995,1.782608723,0.917037625,4.768023551
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,1972,60336.818,1.800808443,0.88042638,4.780582403
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,1973,73094.311,2.143330254,0.928283288,4.863883577
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,1974,75686.88,2.181664351,0.877721022,4.879020603
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,1975,81829.105,2.319371413,0.879962344,4.912907801
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,1976,93306.815,2.602807792,0.886218777,4.969913365
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,1977,105712.276,2.903242644,0.893787176,5.024125423
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,1978,113405.642,3.067572142,0.864180304,5.054634662
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,1979,133211.109,3.549056094,0.934104742,5.124540444
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,1980,134868.593,3.537650534,0.961551508,5.129910827
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,1981,139742.036,3.60873747,0.928981309,5.145327067
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,1982,141905.566,3.608409089,0.870759483,5.15199943
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,1983,150904.384,3.781078933,0.816730624,5.178701857
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,1984,163911.233,4.056610689,0.802454671,5.214608717
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,1985,178333.544,4.370304926,0.80959819,5.25123304
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,1986,182451.585,4.426967249,0.744016563,5.261147641
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,1987,192660.513,4.628848877,0.696967409,5.284792712
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,1988,221959.843,5.280829355,0.717007637,5.346274409
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,1989,235846.772,5.555998042,0.711540737,5.372629936
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,1990,249250,5.814186349,0.684377973,5.396635167
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,1991,274040,6.32949634,0.679236593,5.437813959
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,1992,296210,6.77082969,0.691333919,5.471599716
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,1993,326630,7.390717261,0.713276702,5.514056071
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,1994,353230,7.912585453,0.705933687,5.548057581
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,1995,384310,8.522610532,0.700680037,5.584681685
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,1996,408880,8.981501705,0.690955221,5.611595868
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,1997,430480,9.367714115,0.685177254,5.633952979
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,1998,365670,7.900143158,0.613490529,5.563089332
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,1999,400940,8.600784651,0.603464641,5.603079386
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,2000,455690,9.693859002,0.628887741,5.658669498
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,2001,470520,9.932834516,0.61930323,5.672578088
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,2002,461940,9.695509699,0.564408764,5.66458557
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,2003,464610,9.70113586,0.550349916,5.667088553
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,2004,484900,10.08474618,0.546006189,5.685652184
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,2005,480080,9.96335735,0.518249769,5.681313614
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,2006,486940,10.05279047,0.499366884,5.687475451
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,2007,501500,10.30120222,0.48610648,5.700270937
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,2008,513190,10.46158505,0.482888304,5.710278185
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,2009,525390,10.65530458,0.490479917,5.720481802
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,2010,574260,11.58854385,0.501946142,5.759108567
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,2011,597290,11.9609574,0.503518079,5.776185244
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,2012,598960,11.93150904,0.493079509,5.77739782
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,2013,597640,11.85114256,0.476900344,5.776439657
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,2014,586000,11.54755823,0.453101574,5.767897616
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,2015,606510,11.88886857,0.456146503,5.782837966
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,2016,614780,12.00324817,0.449130882,5.788719731
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,2017,625350,12.17536474,0.442860088,5.796123154
+"Korea, Rep.",KOR,CO2 emissions (kt),East Asia & Pacific,2018,630870,12.22459136,0.434146838,5.799939876
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,1960,3567.991,0.437449901,0.323086265,3.55242375
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,1961,4000.697,0.475265155,0.33668691,3.602135661
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,1962,4074.037,0.468692942,0.322172216,3.610024969
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,1963,4968.785,0.553699657,0.36606362,3.696250205
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,1964,6424.584,0.694262385,0.449241522,3.807845012
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,1965,6486.923,0.680930405,0.421229675,3.812038743
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,1966,7693.366,0.785832561,0.463351454,3.886116394
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,1967,8478.104,0.843901364,0.491650506,3.92829874
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,1968,8511.107,0.826482914,0.457097182,3.92998605
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,1969,9526.866,0.903072261,0.487803077,3.978950057
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,1970,14601.994,1.351519525,0.705433266,4.164412166
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,1971,16677.516,1.507581062,0.732226813,4.222131366
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,1972,17913.295,1.58184889,0.718982453,4.253175478
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,1973,17513.592,1.51075122,0.629304248,4.243375228
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,1974,19050.065,1.604742761,0.631944022,4.279896462
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,1975,19446.101,1.59889811,0.639955169,4.288832537
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,1976,23894.172,1.9163341,0.704834103,4.378291986
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,1977,22610.722,1.767800522,0.618984463,4.35431443
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,1978,23237.779,1.770789813,0.596462612,4.366194617
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,1979,27278.813,2.026652457,0.640322651,4.435825469
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,1980,27997.545,2.029087858,0.61167392,4.447119951
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,1981,30824.802,2.180888011,0.629725939,4.488900296
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,1982,30571.779,2.112592412,0.589520765,4.485320711
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,1983,37971.785,2.562297268,0.68913031,4.579461013
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,1984,34697.154,2.283864458,0.584345084,4.540293854
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,1985,36237.294,2.323063693,0.616604782,4.55915576
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,1986,39984.968,2.49224794,0.672037013,4.601896753
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,1987,40762.372,2.467156648,0.65128857,4.610259448
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,1988,42724.217,2.509871775,0.620928217,4.630674112
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,1989,49882.201,2.845702093,0.664735676,4.697945608
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,1990,56190,3.116502968,0.686913323,4.749659032
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,1991,63330,3.41955733,0.706737252,4.801609488
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,1992,68870,3.62422945,0.705846153,4.838030083
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,1993,71190,3.65359824,0.66392841,4.852418993
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,1994,77000,3.854334585,0.657540426,4.886490725
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,1995,83880,4.094183,0.652187978,4.923658422
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,1996,95710,4.553798411,0.676500833,4.980957316
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,1997,102500,4.753559256,0.675061166,5.010723865
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,1998,103040,4.659355404,0.732527312,5.01300585
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,1999,111820,4.934405111,0.748976424,5.048519488
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,2000,121650,5.244833936,0.748508882,5.085112113
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,2001,126770,5.346888739,0.775994958,5.10301649
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,2002,136330,5.631518427,0.79182711,5.134591435
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,2003,143810,5.822545133,0.789568042,5.157789086
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,2004,157470,6.251129636,0.809644565,5.197197827
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,2005,166410,6.477462684,0.812297457,5.221179421
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,2006,172680,6.590348185,0.798318361,5.23724204
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,2007,188340,7.048555882,0.819121527,5.274942566
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,2008,201130,7.384710598,0.834429615,5.303476854
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,2009,181020,6.526762285,0.762540367,5.257726561
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,2010,199110,7.058628841,0.780772674,5.299093072
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,2011,201670,7.038856147,0.751051238,5.304641298
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,2012,203280,6.99321172,0.717760825,5.308094652
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,2013,219820,7.459383568,0.741364286,5.342067204
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,2014,231680,7.757158614,0.737088434,5.364888545
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,2015,232550,7.682279042,0.704011367,5.366516344
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,2016,228640,7.451282159,0.662686317,5.359152211
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,2017,222890,7.165808462,0.610532079,5.348090584
+Malaysia,MYS,CO2 emissions (kt),East Asia & Pacific,2018,239620,7.600220413,0.626475838,5.379523064
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,1960,3714.671,0.13558575,0.237512315,3.569920355
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,1961,4147.377,0.146944078,0.251683464,3.617773515
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,1962,5034.791,0.17313024,0.284076312,3.701981447
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,1963,5570.173,0.185877686,0.29100415,3.745868684
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,1964,7480.68,0.242241089,0.365825773,3.873941077
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,1965,7451.344,0.234152171,0.336832654,3.872234614
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,1966,9479.195,0.289095663,0.385610593,3.976771457
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,1967,12167.106,0.360199432,0.455691634,4.085187292
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,1968,17099.221,0.491478128,0.592304365,4.232976325
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,1969,14561.657,0.40644265,0.473394558,4.163210797
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,1970,15375.731,0.416861299,0.448675192,4.186835772
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,1971,19248.083,0.50701844,0.535460492,4.284387483
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,1972,21836.985,0.559082721,0.582556184,4.339192676
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,1973,24455.223,0.608951149,0.591822696,4.388371627
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,1974,24246.204,0.587753707,0.561678402,4.384643755
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,1975,24407.552,0.576652057,0.538643371,4.387524223
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,1976,28778.616,0.663449221,0.580925338,4.459069904
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,1977,32159.59,0.724218805,0.590998939,4.507310503
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,1978,35067.521,0.77218985,0.584281989,4.544905066
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,1979,36736.006,0.791694408,0.580878243,4.565091937
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,1980,40135.315,0.847193033,0.60341118,4.603526676
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,1981,38048.792,0.787331461,0.540136375,4.580340873
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,1982,37909.446,0.769642915,0.510817501,4.578747438
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,1983,42452.859,0.846114023,0.541784193,4.627906943
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,1984,45973.179,0.89976115,0.554796313,4.662504536
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,1985,48672.091,0.935517781,0.56128218,4.687280004
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,1986,49702.518,0.938135513,0.543110189,4.696378391
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,1987,56944.843,1.055592224,0.568165297,4.7554544
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,1988,67003.424,1.220651642,0.590109972,4.826096997
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,1989,78891.838,1.414537742,0.619315464,4.897032074
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,1990,88560,1.565820805,0.625375602,4.947237608
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,1991,97670,1.706548718,0.635333329,4.989761188
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,1992,107440,1.858469038,0.646617569,5.031166
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,1993,122060,2.092297901,0.678608469,5.086573366
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,1994,136220,2.313704692,0.701253424,5.134240876
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,1995,154760,2.602439877,0.73686094,5.189658721
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,1996,173590,2.886902569,0.782301249,5.239524703
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,1997,176750,2.90484653,0.819096554,5.247359422
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,1998,155690,2.528046434,0.781131991,5.192260719
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,1999,162500,2.608406623,0.779651249,5.210853365
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,2000,163140,2.591471979,0.749337058,5.212560458
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,2001,171830,2.704315242,0.762973391,5.23509899
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,2002,182810,2.853325862,0.764705645,5.261999949
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,2003,190850,2.956628865,0.744792521,5.280692164
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,2004,208810,3.212693693,0.766663375,5.319751293
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,2005,216110,3.303616479,0.761573971,5.334674863
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,2006,218090,3.313806153,0.73217828,5.338635752
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,2007,224150,3.386869288,0.713730745,5.350538743
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,2008,228310,3.431634406,0.714644267,5.358524934
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,2009,221300,3.309563004,0.697519118,5.344981414
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,2010,235520,3.505021026,0.690462245,5.372027793
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,2011,234620,3.474905699,0.682093276,5.37036503
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,2012,252070,3.715875276,0.683332017,5.401521161
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,2013,262460,3.851520326,0.692877041,5.419063124
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,2014,258660,3.779437929,0.676188428,5.412729273
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,2015,263080,3.82859407,0.666843977,5.420087833
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,2016,260720,3.780122324,0.638914238,5.416174347
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,2017,260660,3.766228713,0.613151682,5.416074391
+Thailand,THA,CO2 emissions (kt),East Asia & Pacific,2018,257860,3.714039204,0.58217453,5.411383978
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,1960,5944.207,0.181946687,0,3.774093925
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,1961,6164.227,0.183098874,0,3.789878623
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,1962,7550.353,0.217693502,0,3.877967257
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,1963,7036.973,0.196997034,0,3.847385885
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,1964,7719.035,0.20987044,0,3.88756301
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,1965,8250.75,0.217933954,0,3.916493428
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,1966,8782.465,0.225433919,0,3.943616428
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,1967,7832.712,0.195461323,0,3.893912158
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,1968,8393.763,0.203763824,0,3.923956703
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,1969,8511.107,0.201174203,0,3.92998605
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,1970,28199.23,0.649679959,0,4.45023725
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,1971,24528.563,0.551401523,0,4.389672106
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,1972,23058.096,0.506231998,0,4.362823443
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,1973,25096.948,0.538520415,0,4.399620911
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,1974,19083.068,0.400420634,0,4.280648198
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,1975,21800.315,0.447477934,0,4.338462769
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,1976,13923.599,0.279673019,0,4.143751507
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,1977,15276.722,0.300361223,0,4.184030176
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,1978,15419.735,0.296767235,0,4.18807691
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,1979,16281.48,0.306645739,0,4.21169388
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,1980,16820.529,0.30987396,0,4.22583965
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,1981,17726.278,0.319261217,0,4.248617556
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,1982,18382.671,0.323557064,0,4.264408615
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,1983,19317.756,0.332214839,0,4.285956676
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,1984,17550.262,0.294899843,0.781174501,4.244283604
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,1985,21165.924,0.347570769,0.907569378,4.325637232
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,1986,23091.099,0.370680182,0.963250697,4.363444603
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,1987,25969.694,0.40767487,1.045854109,4.414466832
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,1988,23182.774,0.355998468,0.888019104,4.365165401
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,1989,17509.925,0.263108403,0.624712844,4.243284286
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,1990,18410,0.270779674,0.624947346,4.265053789
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,1991,18310,0.263692435,0.586587191,4.262688344
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,1992,19310,0.272418874,0.569393589,4.285782274
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,1993,24250,0.335406593,0.661646345,4.384711743
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,1994,26750,0.363198329,0.670584474,4.427323786
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,1995,30320,0.404749873,0.693879831,4.481729197
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,1996,34170,0.44919898,0.715189133,4.533644979
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,1997,40140,0.520398399,0.776816432,4.603577368
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,1998,44870,0.574404289,0.821026863,4.65195607
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,1999,45170,0.571512649,0.788859348,4.654850091
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,2000,50310,0.629580043,0.822780765,4.701654317
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,2001,55920,0.692572066,0.861195044,4.747567163
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,2002,66280,0.812908357,0.960060358,4.8213825
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,2003,70460,0.856118923,0.954739248,4.847942639
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,2004,84460,1.016820775,1.064235344,4.926651077
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,2005,92040,1.097901436,1.078360348,4.96397661
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,2006,95760,1.131680197,1.048762492,4.981184137
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,2007,105380,1.23367488,1.077313513,5.022758194
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,2008,117620,1.363814127,1.138012944,5.070481175
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,2009,131720,1.512419303,1.209165649,5.119651722
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,2010,149440,1.698806226,1.289034284,5.174466859
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,2011,149020,1.676805213,1.20990945,5.173244559
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,2012,147270,1.639942555,1.136086388,5.168114287
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,2013,153630,1.692844192,1.124196764,5.186476031
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,2014,168560,1.837890351,1.163809591,5.226754523
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,2015,209200,2.257300246,1.3539698,5.32056168
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,2016,223870,2.390740709,1.364188767,5.349995899
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,2017,222130,2.348081292,1.267257121,5.346607217
+Vietnam,VNM,CO2 emissions (kt),East Asia & Pacific,2018,257860,2.698805922,1.373884489,5.411383978
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,1960,0,0,0,#NUM!
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,1961,0,0,0,#NUM!
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,1962,0,0,0,#NUM!
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,1963,0,0,0,#NUM!
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,1964,0,0,0,#NUM!
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,1965,0,0,0,#NUM!
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,1966,0,0,0,#NUM!
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,1967,0,0,0,#NUM!
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,1968,0,0,0,#NUM!
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,1969,0,0,0,#NUM!
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,1970,0,0,0,#NUM!
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,1971,0,0,0,#NUM!
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,1972,0,0,0,#NUM!
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,1973,0,0,0,#NUM!
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,1974,0,0,0,#NUM!
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,1975,0,0,0,#NUM!
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,1976,0,0,0,#NUM!
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,1977,0,0,0,#NUM!
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,1978,0,0,0,#NUM!
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,1979,0,0,0,#NUM!
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,1980,0,0,0,#NUM!
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,1981,0,0,0,#NUM!
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,1982,0,0,0,#NUM!
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,1983,0,0,0,#NUM!
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,1984,0,0,0,#NUM!
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,1985,0,0,0,#NUM!
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,1986,0,0,0,#NUM!
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,1987,0,0,0,#NUM!
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,1988,0,0,0,#NUM!
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,1989,0,0,0,#NUM!
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,1990,955310,12.02660923,0.370844589,5.980144324
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,1991,932370,11.65260094,0.344349187,5.969588291
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,1992,892750,11.07292343,0.323495396,5.950729859
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,1993,887010,10.92964208,0.324586179,5.947928516
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,1994,875810,10.75427021,0.313001082,5.9424099
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,1995,873090,10.68940786,0.307284079,5.941059014
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,1996,902750,11.02059284,0.315183101,5.955567497
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,1997,870900,10.61623004,0.29870974,5.939968291
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,1998,863140,10.52004276,0.290203633,5.936081243
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,1999,833350,10.15039627,0.274997759,5.92082744
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,2000,830080,10.09688327,0.266166579,5.91911995
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,2001,847500,10.29144835,0.267258466,5.928139707
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,2002,833180,10.10056008,0.263263858,5.920738836
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,2003,836550,10.1358012,0.26619235,5.922491904
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,2004,820830,9.947493985,0.258156638,5.914253221
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,2005,802170,9.726877921,0.250455341,5.904266416
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,2006,814160,9.883407092,0.244854169,5.910709762
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,2007,783600,9.525155674,0.228851746,5.894094427
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,2008,789550,9.615747988,0.228397118,5.897379638
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,2009,734660,8.9699549,0.225349863,5.866086394
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,2010,772920,9.451565374,0.227573446,5.888134545
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,2011,746380,9.29779082,0.21145901,5.872959994
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,2012,760020,9.449949925,0.214426029,5.880825021
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,2013,777630,9.642558947,0.218438507,5.890773007
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,2014,737490,9.10678233,0.20268466,5.867756136
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,2015,742310,9.087290939,0.201010405,5.870585311
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,2016,747150,9.073006389,0.197907689,5.873407801
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,2017,732200,8.858293699,0.189029187,5.864629725
+Germany,DEU,CO2 emissions (kt),Europe & Central Asia,2018,709540,8.558389812,0.180885524,5.850976884
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,1960,48928.781,1.606592711,0.217822319,4.689564396
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,1961,53677.546,1.74622172,0.213667576,4.729792653
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,1962,60054.459,1.935781533,0.217411452,4.778545259
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,1963,58822.347,1.879509312,0.194304485,4.769542349
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,1964,64410.855,2.037725257,0.202039401,4.808959064
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,1965,71117.798,2.225610193,0.209948877,4.851978301
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,1966,77729.399,2.407735709,0.213963266,4.89058531
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,1967,86519.198,2.647227559,0.228251769,4.937112485
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,1968,97157.165,2.93409754,0.240453685,4.987474834
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,1969,96882.14,2.897101868,0.220163068,4.986243723
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,1970,116929.629,3.457969859,0.254788597,5.067924572
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,1971,128682.364,3.75994979,0.267939905,5.109519031
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,1972,145026.183,4.190966866,0.279215345,5.161446417
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,1973,155367.123,4.440462955,0.277510679,5.191359124
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,1974,173152.073,4.89498864,0.292824292,5.238427695
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,1975,181644.845,5.079852145,0.305530159,5.259223077
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,1976,198443.372,5.491294603,0.323110703,5.297636598
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,1977,195663.786,5.358942976,0.309791253,5.291510453
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,1978,200493.225,5.438594324,0.312860465,5.302099702
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,1979,203745.854,5.478315887,0.317804008,5.30908878
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,1980,215003.544,5.734778954,0.328116616,5.332445619
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,1981,207288.176,5.48982234,0.316761813,5.31657453
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,1982,209906.414,5.525887108,0.316813839,5.322025709
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,1983,204867.956,5.367036187,0.303831083,5.311474034
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,1984,198953.085,5.190482538,0.289885436,5.298750678
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,1985,201233.959,5.230998485,0.286556567,5.303701271
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,1986,190467.647,4.93636136,0.262679559,5.279821217
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,1987,190878.351,4.934193197,0.249410847,5.280756674
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,1988,199033.759,5.134110769,0.247460648,5.298926745
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,1989,226671.938,5.837882861,0.268846184,5.355397758
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,1990,215020,5.53215372,0.245734129,5.332478858
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,1991,222210,5.702608834,0.2476461,5.346763599
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,1992,232480,5.937021047,0.256706339,5.366385597
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,1993,218110,5.541234933,0.243348991,5.338675578
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,1994,228460,5.776615746,0.248963377,5.358810172
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,1995,240580,6.056280767,0.255135745,5.381259521
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,1996,230100,5.7683844,0.237697672,5.361916619
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,1997,248610,6.206345601,0.247649435,5.395518594
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,1998,256220,6.369906713,0.244489516,5.408613027
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,1999,278310,6.891100141,0.254155349,5.444528811
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,2000,293310,7.230107062,0.254502314,5.46732687
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,2001,294790,7.216328687,0.246107225,5.469512747
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,2002,312750,7.548593756,0.254160072,5.495197318
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,2003,318660,7.553396261,0.251464498,5.503327552
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,2004,335560,7.817921366,0.256782036,5.525770186
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,2005,350500,8.029202013,0.258764474,5.544688022
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,2006,341780,7.698212588,0.242382448,5.533746645
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,2007,354680,7.842252303,0.242779389,5.5498367
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,2008,324160,7.053994261,0.219937207,5.510759424
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,2009,287490,6.200857038,0.202684713,5.458622743
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,2010,273250,5.866642426,0.192331782,5.436560171
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,2011,274400,5.87043576,0.194727034,5.438384107
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,2012,269270,5.756947029,0.196914105,5.43018797
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,2013,242800,5.208060181,0.18014265,5.385248682
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,2014,240960,5.18406686,0.17633714,5.381944955
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,2015,256280,5.517944386,0.180621342,5.408714715
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,2016,247030,5.314294607,0.168979827,5.392749698
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,2017,263440,5.654039569,0.175001113,5.420681718
+Spain,ESP,CO2 emissions (kt),Europe & Central Asia,2018,258340,5.5203504,0.167541877,5.412191655
+France,FRA,CO2 emissions (kt),Europe & Central Asia,1960,271218.654,5.81743531,0.456487121,5.433319556
+France,FRA,CO2 emissions (kt),Europe & Central Asia,1961,281211.229,5.952753977,0.450852623,5.449032658
+France,FRA,CO2 emissions (kt),Europe & Central Asia,1962,298706.486,6.235408423,0.448227616,5.475244653
+France,FRA,CO2 emissions (kt),Europe & Central Asia,1963,334019.696,6.87529138,0.471806379,5.523772076
+France,FRA,CO2 emissions (kt),Europe & Central Asia,1964,345303.055,7.013994552,0.457322684,5.538200421
+France,FRA,CO2 emissions (kt),Europe & Central Asia,1965,351852.317,7.062752074,0.444392418,5.546360415
+France,FRA,CO2 emissions (kt),Europe & Central Asia,1966,347235.564,6.899139977,0.416678162,5.540624199
+France,FRA,CO2 emissions (kt),Europe & Central Asia,1967,372009.816,7.326519797,0.42546898,5.5705544
+France,FRA,CO2 emissions (kt),Europe & Central Asia,1968,384631.63,7.515931987,0.420996348,5.585044995
+France,FRA,CO2 emissions (kt),Europe & Central Asia,1969,413259.899,8.014841113,0.422307415,5.616223265
+France,FRA,CO2 emissions (kt),Europe & Central Asia,1970,439013.24,8.449427955,0.422797245,5.642477618
+France,FRA,CO2 emissions (kt),Europe & Central Asia,1971,462434.369,8.82991624,0.422870439,5.665050104
+France,FRA,CO2 emissions (kt),Europe & Central Asia,1972,480729.032,9.105897695,0.420623967,5.681900351
+France,FRA,CO2 emissions (kt),Europe & Central Asia,1973,516599.626,9.70910599,0.425042531,5.713154087
+France,FRA,CO2 emissions (kt),Europe & Central Asia,1974,499071.366,9.312382027,0.393688582,5.698162653
+France,FRA,CO2 emissions (kt),Europe & Central Asia,1975,446919.292,8.28681204,0.355965682,5.650229102
+France,FRA,CO2 emissions (kt),Europe & Central Asia,1976,505602.293,9.32500895,0.385893516,5.703809035
+France,FRA,CO2 emissions (kt),Europe & Central Asia,1977,480857.377,8.828301866,0.354718758,5.682016283
+France,FRA,CO2 emissions (kt),Europe & Central Asia,1978,505858.983,9.249254414,0.358883596,5.704029467
+France,FRA,CO2 emissions (kt),Europe & Central Asia,1979,529155.434,9.63552951,0.36254118,5.72358326
+France,FRA,CO2 emissions (kt),Europe & Central Asia,1980,505363.938,9.161531981,0.340859567,5.703604248
+France,FRA,CO2 emissions (kt),Europe & Central Asia,1981,454700.666,8.203109968,0.303444155,5.65772559
+France,FRA,CO2 emissions (kt),Europe & Central Asia,1982,436893.714,7.841027019,0.284434487,5.640375796
+France,FRA,CO2 emissions (kt),Europe & Central Asia,1983,422603.415,7.543287024,0.271758797,5.625933002
+France,FRA,CO2 emissions (kt),Europe & Central Asia,1984,405342.846,7.194880619,0.256772419,5.607822512
+France,FRA,CO2 emissions (kt),Europe & Central Asia,1985,400880.107,7.075848708,0.249890236,5.603014506
+France,FRA,CO2 emissions (kt),Europe & Central Asia,1986,385614.386,6.76799939,0.23488439,5.586153228
+France,FRA,CO2 emissions (kt),Europe & Central Asia,1987,377491.981,6.587688941,0.224193284,5.57690773
+France,FRA,CO2 emissions (kt),Europe & Central Asia,1988,372207.834,6.458902066,0.21104486,5.57078551
+France,FRA,CO2 emissions (kt),Europe & Central Asia,1989,390649.177,6.74228228,0.212280099,5.591786914
+France,FRA,CO2 emissions (kt),Europe & Central Asia,1990,356540,6.122359687,0.188241011,5.55210826
+France,FRA,CO2 emissions (kt),Europe & Central Asia,1991,380690,6.500930535,0.1989065,5.580571469
+France,FRA,CO2 emissions (kt),Europe & Central Asia,1992,368660,6.264271583,0.189588778,5.566626019
+France,FRA,CO2 emissions (kt),Europe & Central Asia,1993,349530,5.913536994,0.18088808,5.543484457
+France,FRA,CO2 emissions (kt),Europe & Central Asia,1994,344480,5.806442913,0.174167156,5.537164012
+France,FRA,CO2 emissions (kt),Europe & Central Asia,1995,352280,5.916505458,0.174435958,5.546887988
+France,FRA,CO2 emissions (kt),Europe & Central Asia,1996,367960,6.15800738,0.179661505,5.56580061
+France,FRA,CO2 emissions (kt),Europe & Central Asia,1997,359140,5.989176224,0.171351735,5.555263778
+France,FRA,CO2 emissions (kt),Europe & Central Asia,1998,381180,6.333336679,0.175566892,5.581130106
+France,FRA,CO2 emissions (kt),Europe & Central Asia,1999,375000,6.198684398,0.167006541,5.574031268
+France,FRA,CO2 emissions (kt),Europe & Central Asia,2000,373240,6.12747794,0.159946935,5.571988181
+France,FRA,CO2 emissions (kt),Europe & Central Asia,2001,376860,6.142043233,0.158356877,5.576180044
+France,FRA,CO2 emissions (kt),Europe & Central Asia,2002,371170,6.005475326,0.154214777,5.569572867
+France,FRA,CO2 emissions (kt),Europe & Central Asia,2003,376840,6.054152566,0.15529226,5.576156995
+France,FRA,CO2 emissions (kt),Europe & Central Asia,2004,377950,6.027439546,0.151463634,5.57743435
+France,FRA,CO2 emissions (kt),Europe & Central Asia,2005,380820,6.027601801,0.150117012,5.580719749
+France,FRA,CO2 emissions (kt),Europe & Central Asia,2006,371600,5.840804198,0.142980487,5.570075705
+France,FRA,CO2 emissions (kt),Europe & Central Asia,2007,362910,5.669031385,0.136331166,5.559798935
+France,FRA,CO2 emissions (kt),Europe & Central Asia,2008,358210,5.564429,0.134223362,5.554137706
+France,FRA,CO2 emissions (kt),Europe & Central Asia,2009,343880,5.314414422,0.13266573,5.536406918
+France,FRA,CO2 emissions (kt),Europe & Central Asia,2010,347940,5.350658925,0.131665308,5.541504359
+France,FRA,CO2 emissions (kt),Europe & Central Asia,2011,333530,5.104312275,0.123504285,5.523134903
+France,FRA,CO2 emissions (kt),Europe & Central Asia,2012,336330,5.12231119,0.124152346,5.526765607
+France,FRA,CO2 emissions (kt),Europe & Central Asia,2013,336630,5.10055617,0.12355103,5.527152817
+France,FRA,CO2 emissions (kt),Europe & Central Asia,2014,304530,4.592376829,0.110710984,5.483630082
+France,FRA,CO2 emissions (kt),Europe & Central Asia,2015,310520,4.666086597,0.111646108,5.492089577
+France,FRA,CO2 emissions (kt),Europe & Central Asia,2016,312710,4.686612202,0.11121519,5.49514177
+France,FRA,CO2 emissions (kt),Europe & Central Asia,2017,316360,4.727575622,0.109992911,5.500181567
+France,FRA,CO2 emissions (kt),Europe & Central Asia,2018,309960,4.619241205,0.105869643,5.491305652
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,1960,584299.78,11.15075916,0.799410803,5.766635723
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,1961,588938.535,11.15413892,0.784748669,5.770069972
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,1962,593360.937,11.14292839,0.782016495,5.773318952
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,1963,603822.888,11.25485346,0.758817101,5.780909571
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,1964,608355.3,11.26583889,0.72442568,5.784157296
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,1965,622619.93,11.45615951,0.725862653,5.794223018
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,1966,618564.228,11.31896078,0.709965957,5.791384801
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,1967,592517.527,10.78410455,0.661634213,5.772701202
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,1968,606969.174,10.99348823,0.642796537,5.783166635
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,1969,628857.497,11.34267041,0.653404715,5.798552243
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,1970,653063.364,11.7323973,0.656364742,5.814955321
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,1971,660863.073,11.82303629,0.641713632,5.820111486
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,1972,648486.948,11.56235418,0.6036101,5.81190124
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,1973,660034.331,11.74552694,0.576733178,5.819566526
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,1974,617607.141,10.98359286,0.553409538,5.790712309
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,1975,603643.205,10.73605364,0.548987241,5.780780316
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,1976,598912.775,10.65454202,0.529281616,5.777363577
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,1977,604746.972,10.76186851,0.521617459,5.781573703
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,1978,605084.336,10.76729499,0.500851353,5.78181591
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,1979,644893.288,11.46539104,0.51451354,5.809487857
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,1980,579290.658,10.28675704,0.471757086,5.762896525
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,1981,560819.979,9.955296648,0.460341425,5.748823477
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,1982,548520.861,9.740461658,0.441439622,5.739193149
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,1983,545741.275,9.687798405,0.421411282,5.736986801
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,1984,529335.117,9.381702909,0.399673734,5.723730707
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,1985,559855.558,9.900139784,0.405884438,5.748075994
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,1986,568777.369,10.03463939,0.399758814,5.754942308
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,1987,571868.65,10.06774667,0.381365446,5.757296289
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,1988,570464.189,10.02074396,0.359803424,5.756228387
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,1989,581721.879,10.19193063,0.357684202,5.764715398
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,1990,556690,9.724252827,0.339799515,5.74561342
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,1991,570340,9.931929003,0.352014524,5.756133831
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,1992,552980,9.603614785,0.339936487,5.742709424
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,1993,540520,9.364743235,0.324204732,5.732811768
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,1994,535390,9.252278701,0.309234561,5.728670255
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,1995,524290,9.036517846,0.295346149,5.719571574
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,1996,544660,9.363736624,0.299362158,5.736125482
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,1997,522330,8.956743523,0.273482339,5.71794497
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,1998,525030,8.976845013,0.265067899,5.72018412
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,1999,522360,8.901466411,0.255307035,5.717969913
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,2000,530120,9.001483618,0.250322922,5.724374189
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,2001,544480,9.209793836,0.250270496,5.735981932
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,2002,530230,8.930869498,0.238523656,5.724464296
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,2003,542080,9.088047281,0.236014257,5.734063384
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,2004,542320,9.040489079,0.230841081,5.734255621
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,2005,540600,8.950152419,0.223502898,5.732876041
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,2006,541640,8.901697739,0.218058801,5.733710729
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,2007,529160,8.62913807,0.208121611,5.723587008
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,2008,514410,8.322844364,0.202885958,5.711309403
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,2009,465120,7.468655396,0.191316387,5.667565014
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,2010,481790,7.67592643,0.19414651,5.682857782
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,2011,444420,7.025424601,0.176831696,5.647793595
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,2012,467080,7.332471327,0.183227083,5.669391272
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,2013,453060,7.064902559,0.173925089,5.656155721
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,2014,414850,6.421598191,0.154824458,5.617891094
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,2015,400370,6.148544958,0.14597104,5.602461528
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,2016,378890,5.774741668,0.135800628,5.578513143
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,2017,366380,5.546265944,0.129070603,5.563931758
+United Kingdom,GBR,CO2 emissions (kt),Europe & Central Asia,2018,358800,5.398708138,0.124836583,5.554852434
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,1960,109357.274,2.178444772,0.20024342,5.038847676
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,1961,124549.655,2.46455581,0.210764161,5.095342529
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,1962,146456.313,2.878496387,0.233358104,5.165708097
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,1963,164780.312,3.215100133,0.248608623,5.216905321
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,1964,175957.328,3.405053435,0.258246722,5.245407358
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,1965,189767.25,3.641502446,0.269701187,5.278221264
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,1966,214248.142,4.079440621,0.28729965,5.330917064
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,1967,234427.643,4.431482557,0.293304498,5.370008821
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,1968,249495.346,4.686612774,0.292982103,5.397062449
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,1969,270008.544,5.043311221,0.298846867,5.431377507
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,1970,296740.974,5.513392312,0.311996332,5.472377518
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,1971,311588.657,5.762318227,0.321757432,5.493581639
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,1972,328970.237,6.049321454,0.327615655,5.517156608
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,1973,354320.208,6.471435784,0.329389408,5.549395922
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,1974,359406.337,6.521514722,0.316698785,5.55558573
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,1975,342310.783,6.174325442,0.308073909,5.53442058
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,1976,367312.389,6.592316217,0.308586924,5.565035577
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,1977,356175.71,6.365348831,0.291760241,5.551664299
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,1978,373234.594,6.646489957,0.296138666,5.57198189
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,1979,387466.221,6.880001916,0.290140643,5.588233847
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,1980,388969.691,6.892484981,0.281607288,5.589915762
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,1981,378020.029,6.690421638,0.271388784,5.577514811
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,1982,369681.271,6.537992115,0.264309064,5.567827449
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,1983,361364.515,6.388587127,0.255377,5.557945504
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,1984,367649.753,6.498251684,0.251699341,5.565434279
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,1985,372134.494,6.575619372,0.247835035,5.570699928
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,1986,366454.311,6.47489765,0.237266381,5.564019835
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,1987,383670.876,6.778406129,0.240729515,5.583958834
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,1988,389780.098,6.883012515,0.234717723,5.59081966
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,1989,408907.17,7.215357675,0.238165694,5.611624726
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,1990,405260,7.145018163,0.231445435,5.60773374
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,1991,404070,7.119107279,0.227269401,5.606456608
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,1992,402270,7.082581542,0.224385001,5.604517645
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,1993,396930,6.984291424,0.223310772,5.598713924
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,1994,392290,6.901240953,0.216052981,5.593607238
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,1995,416420,7.32562417,0.222907556,5.61953158
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,1996,412150,7.248469279,0.217862004,5.615055304
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,1997,415520,7.303872086,0.215695693,5.618591932
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,1998,426370,7.492433586,0.21739178,5.62978664
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,1999,433010,7.607835904,0.217245474,5.636497926
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,2000,436300,7.662168039,0.210909068,5.639785213
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,2001,436570,7.662604587,0.207000243,5.640053889
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,2002,443470,7.772129648,0.209739269,5.646864246
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,2003,462200,8.064459423,0.218295013,5.664829941
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,2004,472410,8.18943091,0.21998545,5.674319082
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,2005,473830,8.173783296,0.218856779,5.675622554
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,2006,466650,8.02576652,0.21174876,5.66899127
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,2007,459370,7.860768048,0.205391046,5.662162629
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,2008,444980,7.564248301,0.200889651,5.648340492
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,2009,397060,6.718970261,0.18924997,5.598856138
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,2010,405270,6.836836362,0.189909377,5.607744456
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,2011,396690,6.680594156,0.184583174,5.598451253
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,2012,376750,6.327708948,0.180691159,5.576053261
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,2013,346450,5.751739866,0.169275604,5.539640566
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,2014,327490,5.387310957,0.160019017,5.515198043
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,2015,337860,5.56325971,0.163811085,5.528736778
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,2016,333340,5.498165205,0.159555773,5.522887431
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,2017,329190,5.437857549,0.154984422,5.517446634
+Italy,ITA,CO2 emissions (kt),Europe & Central Asia,2018,324850,5.376374339,0.15151426,5.511682871
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,1960,199767.159,6.740362582,0,5.300524093
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,1961,207434.856,6.922802563,0,5.316881734
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,1962,216815.042,7.15360516,0,5.336089409
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,1963,231219.018,7.528621321,0,5.364023552
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,1964,243114.766,7.807291587,0,5.385811337
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,1965,247221.806,7.862051172,0,5.393086775
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,1966,252678.302,7.975704744,0,5.40256795
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,1967,259282.569,8.105834014,0,5.413773321
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,1968,276073.762,8.548589914,0,5.441025133
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,1969,293653.36,9.022079801,0,5.467834974
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,1970,304441.674,9.320318329,0,5.483504101
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,1971,313246.141,9.554993854,0,5.495885729
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,1972,329952.993,9.981742698,0,5.518452072
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,1973,336128.221,10.07663176,0,5.526504977
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,1974,346876.198,10.29951122,0,5.5401745
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,1975,375559.472,11.0409312,0,5.57467872
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,1976,399035.606,11.6146269,0,5.60101165
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,1977,419024.423,12.0794436,0,5.622239337
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,1978,432056.941,12.35662883,0,5.635540986
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,1979,442489.556,12.55388634,0,5.645903025
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,1980,464575.897,13.05936746,0,5.667056674
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,1981,410062.275,11.42279709,0,5.612849817
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,1982,422211.046,11.65347614,0,5.625529591
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,1983,422339.391,11.54822291,0,5.625661589
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,1984,433894.108,11.75733071,0,5.637383753
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,1985,445899.866,11.98594819,0,5.649237342
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,1986,453369.545,12.10401817,0,5.656452343
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,1987,465353.301,12.35406034,0,5.667782799
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,1988,445976.873,11.79069191,0,5.649312338
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,1989,423787.856,11.16361398,0,5.627148507
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,1990,350220,9.189525421,1.545121296,5.544340944
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,1991,351630,9.193856236,1.668389174,5.546085921
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,1992,343370,8.950395696,1.589228942,5.535762348
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,1993,344020,8.94455034,1.534859542,5.536583692
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,1994,339750,8.814909778,1.439612899,5.531159465
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,1995,340000,8.80943173,1.345129478,5.531478917
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,1996,355320,9.199373349,1.324727312,5.550619653
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,1997,344630,8.916766668,1.207030062,5.53735308
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,1998,318410,8.235419879,1.065740185,5.502986699
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,1999,308980,7.992184018,0.988179293,5.489930369
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,2000,295710,7.729236717,0.904485393,5.470866011
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,2001,293600,7.676203111,0.886870532,5.467756051
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,2002,287280,7.514445847,0.850465208,5.458305392
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,2003,297700,7.792261502,0.851522958,5.473778835
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,2004,301820,7.904725922,0.822332204,5.479748015
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,2005,301350,7.895885925,0.793234141,5.479071196
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,2006,314090,8.234912595,0.779007191,5.49705411
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,2007,313370,8.220498335,0.725957628,5.496057418
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,2008,308320,8.086920971,0.685469271,5.489001697
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,2009,297260,7.791546793,0.642678401,5.473136473
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,2010,313740,8.247028333,0.65385088,5.496569892
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,2011,310590,8.159838143,0.617889181,5.492187469
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,2012,303350,7.969647505,0.595594909,5.481943999
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,2013,298330,7.842493766,0.579218032,5.474696928
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,2014,285740,7.517152269,0.536643201,5.45597104
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,2015,289050,7.609299873,0.520796993,5.460972974
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,2016,299740,7.894108855,0.523607406,5.476744703
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,2017,312820,8.237562431,0.521275474,5.495294512
+Poland,POL,CO2 emissions (kt),Europe & Central Asia,2018,312740,8.235472255,0.494659552,5.495183432
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,1960,1448637.349,12.08234859,0,6.160959678
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,1961,1493932.133,12.32251256,0,6.174330869
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,1962,1567950.528,12.79009493,0,6.195332356
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,1963,1681524.852,13.56506012,0,6.22570329
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,1964,1788304.225,14.26705672,0,6.252441403
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,1965,1897052.777,14.96747625,0,6.278079413
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,1966,2003392.11,15.71682391,0,6.301765959
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,1967,2094843.423,16.34094217,0,6.321151568
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,1968,2153698.773,16.70466286,0,6.333184961
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,1969,2242938.885,17.29808493,0,6.35081744
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,1970,2359142.448,18.09102825,0,6.372754165
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,1971,2503944.944,19.09149437,0,6.398624776
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,1972,2634955.853,19.97555779,0,6.420773343
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,1973,2746751.682,20.70379427,0,6.438819399
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,1974,2851891.906,21.373373,0,6.455133061
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,1975,2998311.549,22.34211288,0,6.476876758
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,1976,3113979.73,23.04142696,0,6.493315781
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,1977,3220146.714,23.6601522,0,6.507875659
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,1978,3330904.782,24.30253015,0,6.522562218
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,1979,3358623.635,24.33309161,0,6.52616134
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,1980,3491017.003,25.11342352,0,6.542951964
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,1981,3425062.341,24.47504549,0,6.534668481
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,1982,3489821.561,24.78161636,0,6.542803221
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,1983,3539850.442,24.98694442,0,6.548984914
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,1984,3571709.338,25.02160733,0,6.552876109
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,1985,3851989.149,26.77632908,0,6.585685055
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,1986,3862509.772,26.65748597,0,6.586869591
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,1987,3847244.051,26.36760185,0,6.585149737
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,1988,3950345.423,26.89926543,0,6.596635073
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,1989,3862616.115,26.14805014,2.645652197,6.586881548
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,1990,2164870,14.63052427,1.528661299,6.335431822
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,1991,2141420,14.43061635,1.592473945,6.330701854
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,1992,2005430,13.50110639,1.744896778,6.302207507
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,1993,1821790,12.27135261,1.735562063,6.260498314
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,1994,1612870,10.8678168,1.757435958,6.207599364
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,1995,1564900,10.54686908,1.778874443,6.194486591
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,1996,1534380,10.35622748,1.812231899,6.185932929
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,1997,1427060,9.647814739,1.66220843,6.154442233
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,1998,1418510,9.605894691,1.744719014,6.151832402
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,1999,1456150,9.891330474,1.683286061,6.163206115
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,2000,1489500,10.16051714,1.565306437,6.173040508
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,2001,1490530,10.21075436,1.490378776,6.173340722
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,2002,1491720,10.2660241,1.424612007,6.173687313
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,2003,1522190,10.52336359,1.354810716,6.182468865
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,2004,1534120,10.64863317,1.273721608,6.185859332
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,2005,1530850,10.66654578,1.194555511,6.184932639
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,2006,1590090,11.11565211,1.146747677,6.201421706
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,2007,1591510,11.1446289,1.057854372,6.201809372
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,2008,1613140,11.3010597,1.01923179,6.20767206
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,2009,1495170,10.4714525,1.024614566,6.174690575
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,2010,1583160,11.08271541,1.038193891,6.199524808
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,2011,1661780,11.62401683,1.044823082,6.220573528
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,2012,1666860,11.63994391,1.00747539,6.221899125
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,2013,1624020,11.31666091,0.964648591,6.210591373
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,2014,1606860,11.17274176,0.947479772,6.20597804
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,2015,1557530,10.80890931,0.936874399,6.19243642
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,2016,1530900,10.60603144,0.919075952,6.184946823
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,2017,1557190,10.77664459,0.918096638,6.192341606
+Russian Federation,RUS,CO2 emissions (kt),Europe & Central Asia,2018,1607550,11.12661837,0.921907945,6.20616449
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,1960,16820.529,0.612271456,0.192844793,4.22583965
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,1961,17363.245,0.616879281,0.196791898,4.239630893
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,1962,21631.633,0.750243117,0.232230484,4.335089306
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,1963,22669.394,0.767637944,0.223140926,4.355439911
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,1964,26336.394,0.870789887,0.245816906,4.420556311
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,1965,27388.823,0.884280713,0.248620136,4.437573369
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,1966,31547.201,0.99463063,0.257495076,4.498960833
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,1967,33523.714,1.032197801,0.261263481,4.525352127
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,1968,36314.301,1.091947115,0.265046764,4.560077689
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,1969,38807.861,1.13955118,0.272140049,4.588919706
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,1970,42639.876,1.222603341,0.289646308,4.629815933
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,1971,47733.339,1.336297122,0.307147479,4.678821815
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,1972,53857.229,1.4720211,0.322597202,4.731244005
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,1973,59486.074,1.587466688,0.345056298,4.774415307
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,1974,61136.224,1.593322415,0.335839729,4.786298612
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,1975,65697.972,1.672672442,0.336740635,4.817551964
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,1976,73721.368,1.834341211,0.342079675,4.867593386
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,1977,81572.415,1.984330046,0.36604009,4.91154332
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,1978,77256.356,1.837687613,0.341539518,4.88793422
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,1979,75576.87,1.757845151,0.336213098,4.878388902
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,1980,75763.887,1.722847354,0.345500679,4.879462248
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,1981,79874.594,1.775448215,0.34737563,4.902408664
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,1982,86988.574,1.890011889,0.365298019,4.939462212
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,1983,90541.897,1.923416672,0.362213828,4.956849589
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,1984,95796.708,1.991029501,0.359130838,4.981350585
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,1985,106717.034,2.171962193,0.383791977,5.028233746
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,1986,116881.958,2.331644595,0.392805009,5.067747478
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,1987,129907.142,2.542167863,0.398754692,5.113633028
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,1988,126309.815,2.426526063,0.378918857,5.101437099
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,1989,139316.664,2.62898937,0.416728783,5.144003067
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,1990,139220,2.581889114,0.381124119,5.143701629
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,1991,143820,2.62250984,0.390901348,5.157819284
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,1992,149830,2.687584443,0.387712674,5.17559878
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,1993,155630,2.747035115,0.37409801,5.192093317
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,1994,153930,2.674057416,0.388130093,5.187323269
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,1995,168260,2.876905529,0.393279194,5.225980885
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,1996,185450,3.120830864,0.403668519,5.268226838
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,1997,193590,3.206588634,0.391704766,5.28688292
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,1998,193850,3.160786872,0.383022409,5.287465805
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,1999,192870,3.096453342,0.393941015,5.28526468
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,2000,216620,3.425353078,0.413763661,5.335698551
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,2001,197780,3.081057629,0.400825034,5.296182373
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,2002,208120,3.194701965,0.396232332,5.318313817
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,2003,219160,3.316114133,0.394514325,5.340761292
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,2004,224600,3.35169203,0.36823492,5.351409752
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,2005,235010,3.460942882,0.353513273,5.371086342
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,2006,261090,3.797296643,0.367229026,5.416790238
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,2007,288970,4.152950567,0.38692813,5.460852758
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,2008,287200,4.07846721,0.381449212,5.458184436
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,2009,287830,4.035674787,0.401658567,5.459136058
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,2010,297120,4.108009911,0.382397464,5.472931886
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,2011,317720,4.326061043,0.367724403,5.502044554
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,2012,328880,4.405564525,0.363246776,5.517037464
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,2013,318170,4.190557754,0.323929551,5.502659228
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,2014,340640,4.410763371,0.330481462,5.532295644
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,2015,351590,4.47717596,0.321540804,5.546036514
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,2016,374590,4.692471556,0.33155715,5.573556179
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,2017,415900,5.127196701,0.342432207,5.61898892
+Turkey,TUR,CO2 emissions (kt),Europe & Central Asia,2018,412970,5.01541837,0.33024786,5.615918504
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,1960,46908.264,0.649885857,0.190172348,4.671249361
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,1961,49203.806,0.662130535,0.180890621,4.691998698
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,1962,53695.881,0.701775494,0.187618773,4.729940972
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,1963,55617.389,0.706049512,0.192647678,4.745210597
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,1964,56735.824,0.699884334,0.189902508,4.753857367
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,1965,56398.46,0.676455201,0.183179928,4.751267245
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,1966,64304.512,0.750374992,0.20053552,4.808241447
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,1967,66193.017,0.751887365,0.196753902,4.820812176
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,1968,77421.371,0.856553524,0.20652874,4.888860858
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,1969,84315.331,0.909093429,0.204964075,4.925906549
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,1970,93761.523,0.985788081,0.209549646,4.972024653
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,1971,102635.663,1.052857819,0.206103126,5.011298292
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,1972,114362.729,1.145237632,0.204950072,5.05828451
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,1973,132463.041,1.29536175,0.208273789,5.122094721
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,1974,143456.707,1.370088081,0.206855211,5.156720858
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,1975,151164.741,1.40990567,0.207177652,5.179450504
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,1976,155154.437,1.413180657,0.193683309,5.1907642
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,1977,162961.48,1.449507777,0.194471086,5.21208496
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,1978,176925.416,1.53686272,0.204525369,5.247790225
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,1979,188322.452,1.59759916,0.203903617,5.2749021
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,1980,187090.34,1.550121144,0.185654643,5.272051364
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,1981,171806.284,1.390352265,0.178322206,5.235039045
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,1982,172176.651,1.3610983,0.177675664,5.235974256
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,1983,166632.147,1.28724351,0.178024341,5.22175879
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,1984,168806.678,1.275133155,0.171320421,5.227389623
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,1985,181248.809,1.33986352,0.170407487,5.258275161
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,1986,198883.412,1.440047603,0.17315514,5.298598562
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,1987,207530.198,1.47297773,0.174405399,5.3170813
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,1988,209363.698,1.457685267,0.17612708,5.320901381
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,1989,214024.455,1.462631956,0.174330831,5.3304634
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,1990,198260,1.330575227,0.166660502,5.297235102
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,1991,205180,1.353001626,0.169908652,5.312135025
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,1992,208660,1.352656787,0.17360099,5.319439203
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,1993,215180,1.37189196,0.17104592,5.332801903
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,1994,222720,1.396952923,0.168073476,5.347759218
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,1995,241500,1.490557743,0.174536799,5.382917135
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,1996,262900,1.597062891,0.185899208,5.419790586
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,1997,281510,1.683581162,0.192522676,5.449493827
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,1998,290760,1.712516222,0.198178647,5.46353466
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,1999,300620,1.744558457,0.203944775,5.47801787
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,2000,312670,1.788828844,0.203203208,5.495086214
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,2001,319560,1.803426195,0.204834016,5.504552412
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,2002,317280,1.767207182,0.197346659,5.501442697
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,2003,309350,1.701508643,0.190243879,5.49045012
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,2004,326760,1.775807036,0.190006371,5.514228887
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,2005,330510,1.775721997,0.186223812,5.519184604
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,2006,333980,1.774909381,0.181007467,5.52372046
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,2007,351520,1.84883594,0.179611455,5.54595004
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,2008,372160,1.938026863,0.180940153,5.570729693
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,2009,350830,1.809460643,0.170784606,5.545096723
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,2010,397730,2.032203816,0.180060259,5.59958835
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,2011,417120,2.111844515,0.181620139,5.620261014
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,2012,451760,2.266878111,0.192995174,5.654907775
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,2013,482860,2.401859521,0.200263704,5.68382123
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,2014,506780,2.499362016,0.209130477,5.704819467
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,2015,479970,2.347365731,0.205348079,5.681214093
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,2016,441910,2.143497524,0.195468041,5.645333829
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,2017,449840,2.164421504,0.19637786,5.653058071
+Brazil,BRA,CO2 emissions (kt),Latin America & Caribbean,2018,427710,2.041874199,0.183444951,5.631149404
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,1960,63116.404,1.670990053,0.427637311,4.800142247
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,1961,65305.603,1.67596163,0.421399957,4.814950444
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,1962,63809.467,1.587485065,0.393396155,4.804885117
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,1963,66361.699,1.600528243,0.37845054,4.821917496
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,1964,74278.752,1.736658443,0.378533982,4.870864598
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,1965,75246.84,1.705354765,0.358046202,4.876488266
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,1966,80930.69,1.777924903,0.362964764,4.908113243
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,1967,90101.857,1.918848664,0.381745475,4.954733742
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,1968,93988.877,1.940637043,0.363920811,4.973076461
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,1969,102287.298,2.047987359,0.382959987,5.009821707
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,1970,114073.036,2.215287211,0.401009772,5.057183
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,1971,126339.151,2.380327828,0.428025475,5.101537954
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,1972,132459.374,2.422006027,0.414640281,5.122082698
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,1973,144292.783,2.561820695,0.418763168,5.15924461
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,1974,155007.757,2.67407766,0.425291558,5.190353432
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,1975,164472.284,2.759234167,0.426744888,5.216092723
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,1976,184138.405,3.006724743,0.45755881,5.265144377
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,1977,192847.53,3.067405952,0.463484701,5.285214081
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,1978,222649.239,3.452200649,0.491120012,5.347621215
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,1979,240874.229,3.642770615,0.484347843,5.381790338
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,1980,268453.736,3.96175207,0.494175968,5.428869452
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,1981,284529.864,4.099403663,0.482622765,5.454127856
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,1982,304837.71,4.289945137,0.519776199,5.48406869
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,1983,278442.644,3.829532412,0.491920623,5.444735749
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,1984,277624.903,3.73389481,0.474298492,5.44345842
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,1985,288501.225,3.796893775,0.482327907,5.460147662
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,1986,294559.109,3.795908587,0.508099889,5.469172457
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,1987,307356.939,3.880765463,0.52119819,5.487643022
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,1988,307067.246,3.800867584,0.514109577,5.487233494
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,1989,361877.895,4.393378608,0.581983326,5.558562055
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,1990,267700,3.189063644,0.409337153,5.427648371
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,1991,286100,3.345704957,0.419779707,5.456517858
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,1992,289760,3.327700803,0.410609725,5.462038433
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,1993,300830,3.394397816,0.418179162,5.478321144
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,1994,325980,3.615716848,0.431804006,5.513190955
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,1995,306520,3.343977725,0.433285639,5.486458817
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,1996,326080,3.500701498,0.431695124,5.513324162
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,1997,349230,3.691219525,0.432715839,5.543111544
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,1998,373120,3.884388109,0.439615493,5.571848529
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,1999,360470,3.697703795,0.413329816,5.556869127
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,2000,384480,3.887569288,0.420097548,5.584873753
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,2001,382760,3.816221858,0.419916311,5.582926546
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,2002,388740,3.822991614,0.426646812,5.58965923
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,2003,407000,3.94835053,0.440318688,5.609594409
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,2004,414190,3.962974325,0.431192017,5.617199609
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,2005,432390,4.078950882,0.439985098,5.635875641
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,2006,449710,4.181009222,0.437924293,5.652932545
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,2007,462410,4.235667944,0.440204414,5.665027217
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,2008,477410,4.308160702,0.449345447,5.678891512
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,2009,461760,4.105851366,0.458870134,5.664416309
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,2010,468940,4.110157155,0.443315774,5.671117279
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,2011,480960,4.157120485,0.438612554,5.682108959
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,2012,480710,4.099027581,0.42297833,5.681883157
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,2013,469860,3.954146576,0.407907931,5.671968474
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,2014,458320,3.808063465,0.386864737,5.661168809
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,2015,472590,3.87819451,0.386192056,5.674484528
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,2016,479250,3.885809372,0.381596469,5.680562122
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,2017,471810,3.781215828,0.367898301,5.673767142
+Mexico,MEX,CO2 emissions (kt),Latin America & Caribbean,2018,472140,3.741477725,0.360248203,5.674070796
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,1960,16054.126,0.602793215,1.041814003,4.205586667
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,1961,17088.22,0.624427054,1.05449657,4.232696827
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,1962,18595.357,0.661467926,1.104687017,4.269404521
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,1963,21554.626,0.746574073,1.158622185,4.333540492
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,1964,25522.32,0.860935322,1.230317262,4.40692015
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,1965,27641.846,0.908284566,1.270077991,4.441567043
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,1966,26563.748,0.850377447,1.161907379,4.424289352
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,1967,19677.122,0.613826161,0.8538086,4.293961578
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,1968,22904.082,0.696556934,1.010058941,4.35991289
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,1969,19695.457,0.584380702,0.825003904,4.294366062
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,1970,21686.638,0.628345936,0.860249365,4.33619223
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,1971,23047.095,0.652672095,0.878568395,4.362616192
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,1972,25511.319,0.706632473,0.943670463,4.406732913
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,1973,23795.163,0.644915645,0.85036842,4.376488684
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,1974,26123.708,0.692786895,0.919253108,4.417034821
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,1975,31099.827,0.806758144,1.004556316,4.492757973
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,1976,34495.469,0.875014696,0.983617665,4.537762054
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,1977,37865.442,0.938899774,0.990532362,4.578243031
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,1978,39313.907,0.952470348,0.946731858,4.594546206
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,1979,42947.904,1.016099276,0.989255149,4.632941974
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,1980,45239.779,1.044579953,0.947216837,4.655520475
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,1981,50978.634,1.14816451,0.994307992,4.707388194
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,1982,56523.138,1.241194841,1.003073994,4.752226265
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,1983,57091.523,1.22177658,0.964048163,4.756571629
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,1984,63838.803,1.330844464,0.982254613,4.805084735
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,1985,63937.812,1.297999709,0.929921552,4.80575777
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,1986,74564.778,1.473543487,1.035358941,4.872533729
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,1987,74810.467,1.438892607,1.000426547,4.873962366
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,1988,74531.775,1.39574591,0.945085502,4.872341464
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,1989,72181.228,1.317447838,0.872352532,4.858424266
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,1990,86820,1.546643045,0.992997245,4.938619782
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,1991,89390,1.556651239,1.011013436,4.951288937
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,1992,92300,1.573291557,0.999231716,4.965201701
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,1993,91830,1.533550334,0.966118462,4.962984584
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,1994,86430,1.414663436,0.874558803,4.936664513
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,1995,91870,1.473833913,0.888362635,4.963173716
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,1996,96770,1.521501838,0.891280949,4.985740741
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,1997,103960,1.602039836,0.907651577,5.016866271
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,1998,109270,1.650597772,0.903630128,5.038500943
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,1999,114670,1.698422517,0.894159133,5.059449813
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,2000,112860,1.639654809,0.827343531,5.052540046
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,2001,125010,1.781970868,0.885120379,5.096944755
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,2002,127740,1.786947211,0.883336321,5.106326912
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,2003,131240,1.80210112,0.879454238,5.118066222
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,2004,142690,1.92376988,0.918592532,5.154393538
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,2005,160590,2.126355881,0.989575704,5.205718498
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,2006,169130,2.200103104,0.975442544,5.228220649
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,2007,182230,2.329350025,0.981433351,5.260619875
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,2008,189120,2.374802949,0.950518893,5.276737459
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,2009,195490,2.409447321,0.938665121,5.291124547
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,2010,196500,2.374299739,0.8973272,5.293362555
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,2011,201610,2.385091523,0.904698223,5.30451207
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,2012,212410,2.457816414,0.932404606,5.327174959
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,2013,210430,2.380304602,0.903957425,5.323107655
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,2014,216650,2.395917008,0.90430824,5.335758693
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,2015,225950,2.444220788,0.903620459,5.354012346
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,2016,233960,2.477154638,0.89667867,5.369141613
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,2017,238690,2.474943902,0.878091974,5.377834224
+"Egypt, Arab Rep.",EGY,CO2 emissions (kt),Middle East & North Africa,2018,246260,2.502042142,0.860226963,5.391393875
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,1960,37392.399,1.706876995,0.576331302,4.572783329
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,1961,36541.655,1.625491634,0.505378155,4.562788213
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,1962,37462.072,1.623751474,0.477128517,4.573591794
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,1963,41341.758,1.74583313,0.490904732,4.61638894
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,1964,47560.99,1.956609911,0.517108488,4.677250886
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,1965,53765.554,2.154511916,0.498691959,4.730504125
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,1966,64161.499,2.503923958,0.535028166,4.807274502
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,1967,67942.176,2.581607808,0.507539643,4.832139452
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,1968,82404.824,3.048352625,0.536213641,4.915952636
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,1969,83116.222,2.993568793,0.465049822,4.919685794
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,1970,91873.018,3.222046378,0.462575885,4.963187983
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,1971,101722.58,3.473944015,0.447655117,5.007417367
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,1972,106115.646,3.528332673,0.408128526,5.025779422
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,1973,129595.447,4.193251049,0.459155876,5.112589744
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,1974,143911.415,4.527440927,0.478565769,5.158095243
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,1975,139349.667,4.257581354,0.47444087,5.144105935
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,1976,156643.239,4.643485951,0.45479374,5.194911655
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,1977,163969.905,4.711367176,0.496060957,5.214764145
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,1978,162470.102,4.517976583,0.571214671,5.210773453
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,1979,164028.577,4.40497189,0.644111587,5.214919517
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,1980,120900.99,3.128078312,0.653301487,5.082429857
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,1981,112899.596,2.808453879,0.643310103,5.052692388
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,1982,138007.545,3.296156669,0.619303055,5.13990283
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,1983,149785.949,3.43255735,0.618952344,5.175471075
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,1984,150658.695,3.313161308,0.68202603,5.177994201
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,1985,160768.614,3.395525484,0.712561445,5.206201268
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,1986,148399.823,3.0125666,0.732616578,5.171433383
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,1987,159573.172,3.117042066,0.783023361,5.202959878
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,1988,176115.009,3.318084552,0.914044297,5.245796369
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,1989,191204.714,3.487736612,0.935947964,5.281498595
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,1990,179240,3.179919204,0.770726317,5.253434935
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,1991,217670,3.773815525,0.832740423,5.337798577
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,1992,233400,3.970712947,0.868071187,5.368100852
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,1993,231280,3.872495572,0.851430743,5.364138079
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,1994,261180,4.310569057,0.975889054,5.416939918
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,1995,272400,4.433401953,0.995083678,5.435207103
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,1996,280240,4.498601242,0.973147718,5.447530124
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,1997,291410,4.615569149,1.006918382,5.464504451
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,1998,292830,4.577483129,0.990293955,5.466615567
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,1999,326410,5.037123341,1.093634771,5.513763455
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,2000,340750,5.192507788,1.079002682,5.532435865
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,2001,351010,5.282388202,1.102083042,5.545319489
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,2002,368720,5.479989456,1.079055564,5.566696695
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,2003,390680,5.73492512,1.051697622,5.591821179
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,2004,419710,6.087051699,1.082393879,5.622949317
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,2005,451200,6.467672496,1.127634394,5.654369091
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,2006,490770,6.955874102,1.168123545,5.690878007
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,2007,523740,7.341826081,1.1525952,5.719115744
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,2008,534090,7.405511612,1.172431336,5.727614447
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,2009,551430,7.561621704,1.198423264,5.74149039
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,2010,550890,7.468427156,1.131638008,5.741064889
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,2011,561730,7.526365761,1.12416334,5.749527619
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,2012,571120,7.56050966,1.234886962,5.756727369
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,2013,592480,7.746663092,1.283563032,5.772673695
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,2014,610670,7.88309479,1.264748612,5.785806585
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,2015,602230,7.672481325,1.263961107,5.779762386
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,2016,605760,7.613494401,1.121174606,5.782300592
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,2017,620780,7.694930979,1.107389802,5.792937717
+"Iran, Islamic Rep.",IRN,CO2 emissions (kt),Middle East & North Africa,2018,629290,7.693012599,1.19455401,5.79885083
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,1960,2676.91,0.655056339,0,3.42763377
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,1961,3571.658,0.846594761,0,3.552869867
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,1962,6255.902,1.433922987,0,3.796289937
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,1963,6945.298,1.537747479,0,3.841690885
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,1964,7047.974,1.506845396,0,3.848064293
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,1965,4220.717,0.871395061,0,3.625386234
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,1966,6413.583,1.278789948,0,3.807100719
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,1967,25507.652,4.909921688,0,4.406670483
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,1968,29104.979,5.401993421,0.379017085,4.46396729
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,1969,35302.209,6.304068334,0.433543137,4.547801882
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,1970,45291.117,7.760127839,0.350599019,4.656013032
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,1971,59808.77,9.803702273,0.384177088,4.776764871
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,1972,70344.061,11.00334086,0.367564774,4.847227437
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,1973,95136.648,14.17427795,0.400346248,4.978347846
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,1974,98788.98,14.00361923,0.357672384,4.994708501
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,1975,83336.242,11.23207753,0.331305676,4.920833912
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,1976,101550.231,13.01437499,0.342651999,5.006680916
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,1977,118176.409,14.39824567,0.372340776,5.072530789
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,1978,115132.799,13.31500669,0.382728597,5.061199063
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,1979,138135.89,15.11676279,0.410291845,5.14030653
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,1980,169404.399,17.47974059,0.476246103,5.228924684
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,1981,175491.619,17.01857217,0.483955804,5.244256381
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,1982,158091.704,14.38655452,0.549982578,5.198909081
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,1983,161050.973,13.76370876,0.667405338,5.206963353
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,1984,155715.488,12.53865403,0.676845585,5.192331811
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,1985,172653.361,13.16056005,0.831954967,5.237175037
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,1986,204878.957,14.85257914,0.843701778,5.311497355
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,1987,190706.002,13.20160951,0.841124382,5.280364362
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,1988,202554.079,13.44080802,0.789838846,5.306540993
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,1989,203738.52,13.00489988,0.798473903,5.309073147
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,1990,166390,10.24961152,0.566092116,5.221127222
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,1991,186610,11.12582087,0.552035744,5.270934913
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,1992,199350,11.53466539,0.56710989,5.29961624
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,1993,206210,11.60876835,0.594735843,5.314309722
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,1994,218790,12.01187517,0.627512124,5.340027468
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,1995,222400,11.93210503,0.636515979,5.347134783
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,1996,234090,12.29861988,0.652757161,5.369382862
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,1997,214930,11.07479114,0.592786657,5.332297039
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,1998,230410,11.64669132,0.617611459,5.362501324
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,1999,234530,11.61354032,0.653238293,5.370198404
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,2000,244340,11.82452052,0.644316671,5.38799457
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,2001,248600,11.72495169,0.663584462,5.395501124
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,2002,266910,12.24058971,0.73312722,5.426364845
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,2003,278110,12.38430763,0.68669214,5.444216605
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,2004,294210,12.71836742,0.67289344,5.46865743
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,2005,308970,12.97311596,0.669343141,5.489916313
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,2006,328350,13.40296371,0.692030777,5.516337021
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,2007,347530,13.79931195,0.719170547,5.5409923
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,2008,382240,14.76483702,0.744470881,5.582336132
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,2009,399630,15.00658855,0.794705533,5.601658083
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,2010,439230,16.01774201,0.831548471,5.642691995
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,2011,456670,16.15525002,0.78599145,5.659602482
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,2012,488750,16.76390245,0.798021043,5.68908677
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,2013,499380,16.61716479,0.793946843,5.698431145
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,2014,536810,17.36316244,0.823381631,5.729820598
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,2015,561140,17.69171234,0.826750257,5.749071228
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,2016,556740,17.1603242,0.80678914,5.745652425
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,2017,540700,16.33476362,0.789398491,5.73295637
+Saudi Arabia,SAU,CO2 emissions (kt),Middle East & North Africa,2018,514600,15.26878053,0.733440862,5.711469782
+Canada,CAN,CO2 emissions (kt),North America,1960,192895.201,10.77084729,0,5.285321423
+Canada,CAN,CO2 emissions (kt),North America,1961,194182.318,10.62789765,0,5.288209681
+Canada,CAN,CO2 emissions (kt),North America,1962,207185.5,11.13062748,0,5.316359358
+Canada,CAN,CO2 emissions (kt),North America,1963,211109.19,11.1321024,0,5.324507139
+Canada,CAN,CO2 emissions (kt),North America,1964,237801.283,12.3053704,0,5.376214193
+Canada,CAN,CO2 emissions (kt),North America,1965,252153.921,12.81400147,0,5.401665726
+Canada,CAN,CO2 emissions (kt),North America,1966,259319.239,12.93491815,0,5.413834738
+Canada,CAN,CO2 emissions (kt),North America,1967,281896.958,13.8103546,0,5.450090389
+Canada,CAN,CO2 emissions (kt),North America,1968,303539.592,14.6326452,0,5.482215346
+Canada,CAN,CO2 emissions (kt),North America,1969,307400.943,14.61864861,0,5.487705195
+Canada,CAN,CO2 emissions (kt),North America,1970,341485.708,16.01414875,0,5.533372532
+Canada,CAN,CO2 emissions (kt),North America,1971,352607.719,16.05533218,0,5.547291815
+Canada,CAN,CO2 emissions (kt),North America,1972,381136.979,17.15406592,0,5.581081087
+Canada,CAN,CO2 emissions (kt),North America,1973,381621.023,16.96713528,0,5.581632291
+Canada,CAN,CO2 emissions (kt),North America,1974,389970.782,17.09800561,0,5.591032069
+Canada,CAN,CO2 emissions (kt),North America,1975,397143.434,17.16020892,0,5.598947387
+Canada,CAN,CO2 emissions (kt),North America,1976,399317.965,17.02862407,0,5.601318849
+Canada,CAN,CO2 emissions (kt),North America,1977,408151.768,17.20283524,0,5.610821682
+Canada,CAN,CO2 emissions (kt),North America,1978,415896.472,17.35562946,0,5.618985236
+Canada,CAN,CO2 emissions (kt),North America,1979,442067.851,18.26610116,0,5.645488932
+Canada,CAN,CO2 emissions (kt),North America,1980,443233.957,18.07962055,0,5.646633025
+Canada,CAN,CO2 emissions (kt),North America,1981,430003.421,17.32493528,0,5.633471911
+Canada,CAN,CO2 emissions (kt),North America,1982,414811.04,16.51518883,0,5.617850306
+Canada,CAN,CO2 emissions (kt),North America,1983,408687.15,16.11132555,0,5.611390983
+Canada,CAN,CO2 emissions (kt),North America,1984,425595.687,16.62025251,0,5.628997218
+Canada,CAN,CO2 emissions (kt),North America,1985,422079.034,16.33299046,0,5.62539378
+Canada,CAN,CO2 emissions (kt),North America,1986,405053.153,15.51911259,0,5.607512017
+Canada,CAN,CO2 emissions (kt),North America,1987,431349.21,16.31019464,0,5.634829007
+Canada,CAN,CO2 emissions (kt),North America,1988,456053.789,17.02217437,0,5.659016068
+Canada,CAN,CO2 emissions (kt),North America,1989,463274.112,16.98419297,0,5.665838032
+Canada,CAN,CO2 emissions (kt),North America,1990,419120,15.1355282,0,5.622338385
+Canada,CAN,CO2 emissions (kt),North America,1991,412930,14.72781732,0,5.615876436
+Canada,CAN,CO2 emissions (kt),North America,1992,426000,15.01519284,0,5.629409599
+Canada,CAN,CO2 emissions (kt),North America,1993,422680,14.7353487,0,5.626011699
+Canada,CAN,CO2 emissions (kt),North America,1994,438820,15.1313782,0,5.642286413
+Canada,CAN,CO2 emissions (kt),North America,1995,449500,15.340087,0,5.652729696
+Canada,CAN,CO2 emissions (kt),North America,1996,463160,15.64189767,0,5.665731045
+Canada,CAN,CO2 emissions (kt),North America,1997,478530,16.00116472,0.443451313,5.67990917
+Canada,CAN,CO2 emissions (kt),North America,1998,486760,16.14184074,0.438806599,5.687314882
+Canada,CAN,CO2 emissions (kt),North America,1999,495140,16.28681103,0.429315156,5.694728012
+Canada,CAN,CO2 emissions (kt),North America,2000,515000,16.78304541,0.425604701,5.711807229
+Canada,CAN,CO2 emissions (kt),North America,2001,506940,16.34188458,0.413137026,5.70495656
+Canada,CAN,CO2 emissions (kt),North America,2002,525470,16.75601646,0.414068257,5.720547926
+Canada,CAN,CO2 emissions (kt),North America,2003,545360,17.23421557,0.413964921,5.736683281
+Canada,CAN,CO2 emissions (kt),North America,2004,537250,16.82025619,0.392448345,5.730176424
+Canada,CAN,CO2 emissions (kt),North America,2005,549970,17.0566373,0.382624609,5.740339
+Canada,CAN,CO2 emissions (kt),North America,2006,541070,16.61192808,0.361378347,5.733253455
+Canada,CAN,CO2 emissions (kt),North America,2007,571310,17.37084027,0.357051072,5.756871826
+Canada,CAN,CO2 emissions (kt),North America,2008,550200,16.54880282,0.340427748,5.740520586
+Canada,CAN,CO2 emissions (kt),North America,2009,520800,15.48668191,0.331958011,5.716670976
+Canada,CAN,CO2 emissions (kt),North America,2010,535030,15.73391403,0.330807923,5.728378134
+Canada,CAN,CO2 emissions (kt),North America,2011,547720,15.95022477,0.328322213,5.738558599
+Canada,CAN,CO2 emissions (kt),North America,2012,547140,15.7612635,0.322294986,5.738098466
+Canada,CAN,CO2 emissions (kt),North America,2013,556350,15.85812871,0.320260904,5.745348092
+Canada,CAN,CO2 emissions (kt),North America,2014,561830,15.85413843,0.314392275,5.749604925
+Canada,CAN,CO2 emissions (kt),North America,2015,558800,15.65138616,0.310649003,5.747256397
+Canada,CAN,CO2 emissions (kt),North America,2016,550480,15.24474718,0.302989614,5.740741545
+Canada,CAN,CO2 emissions (kt),North America,2017,562260,15.38529105,0.300343363,5.749937188
+Canada,CAN,CO2 emissions (kt),North America,2018,574400,15.49702527,0.299550486,5.759214431
+United States,USA,CO2 emissions (kt),North America,1960,2890696.1,15.99977916,0.910209021,6.461002437
+United States,USA,CO2 emissions (kt),North America,1961,2880505.507,15.68125552,0.886608264,6.45946871
+United States,USA,CO2 emissions (kt),North America,1962,2987207.873,16.0139375,0.866588909,6.475265445
+United States,USA,CO2 emissions (kt),North America,1963,3119230.874,16.48276215,0.866751703,6.494047521
+United States,USA,CO2 emissions (kt),North America,1964,3255995.306,16.96811858,0.855155878,6.51268377
+United States,USA,CO2 emissions (kt),North America,1965,3390922.571,17.45172525,0.83702371,6.530317873
+United States,USA,CO2 emissions (kt),North America,1966,3561878.111,18.12107301,0.825561312,6.551679054
+United States,USA,CO2 emissions (kt),North America,1967,3695708.943,18.59831788,0.835688017,6.567697761
+United States,USA,CO2 emissions (kt),North America,1968,3831354.94,19.08938916,0.826680167,6.583352387
+United States,USA,CO2 emissions (kt),North America,1969,4024748.853,19.85794566,0.842296995,6.604738785
+United States,USA,CO2 emissions (kt),North America,1970,4328904.501,21.11125227,0.909684673,6.636378005
+United States,USA,CO2 emissions (kt),North America,1971,4356770.034,20.98020348,0.886349685,6.639164637
+United States,USA,CO2 emissions (kt),North America,1972,4564952.958,21.74864198,0.882303407,6.659436306
+United States,USA,CO2 emissions (kt),North America,1973,4770194.948,22.51058213,0.872701802,6.678536128
+United States,USA,CO2 emissions (kt),North America,1974,4598487.673,21.50293038,0.845860418,6.662615027
+United States,USA,CO2 emissions (kt),North America,1975,4406329.539,20.40222407,0.812182985,6.644076974
+United States,USA,CO2 emissions (kt),North America,1976,4613100.668,21.15761537,0.806822699,6.663992932
+United States,USA,CO2 emissions (kt),North America,1977,4742292.745,21.53248401,0.792759683,6.67598836
+United States,USA,CO2 emissions (kt),North America,1978,4890861.25,21.97300469,0.774712883,6.689385342
+United States,USA,CO2 emissions (kt),North America,1979,4901796.244,21.78043698,0.752616032,6.690355255
+United States,USA,CO2 emissions (kt),North America,1980,4723209.677,20.78648774,0.727062808,6.674237226
+United States,USA,CO2 emissions (kt),North America,1981,4535800.308,19.76676417,0.680933937,6.656653926
+United States,USA,CO2 emissions (kt),North America,1982,4306748.487,18.59049523,0.65841814,6.63414951
+United States,USA,CO2 emissions (kt),North America,1983,4341878.347,18.57154371,0.634694862,6.637677651
+United States,USA,CO2 emissions (kt),North America,1984,4475192.132,18.97675027,0.610036612,6.650811685
+United States,USA,CO2 emissions (kt),North America,1985,4492555.377,18.88231274,0.587890475,6.652493439
+United States,USA,CO2 emissions (kt),North America,1986,4495463.308,18.72072272,0.568582956,6.652774457
+United States,USA,CO2 emissions (kt),North America,1987,4688373.177,19.35033442,0.5731534,6.671022173
+United States,USA,CO2 emissions (kt),North America,1988,4892526.068,20.01041341,0.574129428,6.689533148
+United States,USA,CO2 emissions (kt),North America,1989,4955081.421,20.07576978,0.560871314,6.695050795
+United States,USA,CO2 emissions (kt),North America,1990,4844990,19.40922912,0.538258597,6.685292885
+United States,USA,CO2 emissions (kt),North America,1991,4808090,19.00573561,0.534738061,6.681972588
+United States,USA,CO2 emissions (kt),North America,1992,4880200,19.02508245,0.524290054,6.688437621
+United States,USA,CO2 emissions (kt),North America,1993,5000350,19.2381088,0.522805984,6.699000404
+United States,USA,CO2 emissions (kt),North America,1994,5073230,19.28061081,0.509883485,6.705284552
+United States,USA,CO2 emissions (kt),North America,1995,5126900,19.25393761,0.501807616,6.709854847
+United States,USA,CO2 emissions (kt),North America,1996,5283110,19.61109008,0.498298718,6.722889653
+United States,USA,CO2 emissions (kt),North America,1997,5547990,20.34787297,0.501001373,6.74413567
+United States,USA,CO2 emissions (kt),North America,1998,5590700,20.26688031,0.483203888,6.747466188
+United States,USA,CO2 emissions (kt),North America,1999,5610300,20.10571961,0.462895404,6.748986085
+United States,USA,CO2 emissions (kt),North America,2000,5776410,20.4719331,0.457708966,6.761658011
+United States,USA,CO2 emissions (kt),North America,2001,5749250,20.17500468,0.451053818,6.759611194
+United States,USA,CO2 emissions (kt),North America,2002,5594160,19.44947847,0.431373124,6.747734884
+United States,USA,CO2 emissions (kt),North America,2003,5659630,19.50870471,0.424282001,6.75278804
+United States,USA,CO2 emissions (kt),North America,2004,5740030,19.60357288,0.414560592,6.758914162
+United States,USA,CO2 emissions (kt),North America,2005,5756080,19.478026,0.401610337,6.760126821
+United States,USA,CO2 emissions (kt),North America,2006,5656580,18.9576435,0.383713168,6.752553934
+United States,USA,CO2 emissions (kt),North America,2007,5740270,19.05602695,0.382219178,6.75893232
+United States,USA,CO2 emissions (kt),North America,2008,5563340,18.29480563,0.370944828,6.745335602
+United States,USA,CO2 emissions (kt),North America,2009,5159550,16.81886848,0.352975601,6.712611825
+United States,USA,CO2 emissions (kt),North America,2010,5392870,17.43419587,0.35971525,6.731819951
+United States,USA,CO2 emissions (kt),North America,2011,5172100,16.59940374,0.339720935,6.713666913
+United States,USA,CO2 emissions (kt),North America,2012,4950210,15.77114462,0.317993054,6.694623623
+United States,USA,CO2 emissions (kt),North America,2013,5089500,16.10295784,0.321027224,6.706675119
+United States,USA,CO2 emissions (kt),North America,2014,5102580,16.02637907,0.31392266,6.707789822
+United States,USA,CO2 emissions (kt),North America,2015,4982790,15.53534211,0.29740613,6.697472584
+United States,USA,CO2 emissions (kt),North America,2016,4888640,15.13174682,0.286876942,6.689188057
+United States,USA,CO2 emissions (kt),North America,2017,4813720,14.80588242,0.276041301,6.682480825
+United States,USA,CO2 emissions (kt),North America,2018,4981300,15.24087458,0.277340709,6.697342698
+India,IND,CO2 emissions (kt),South Asia,1960,120581.961,0.267634188,0.810508399,5.081282342
+India,IND,CO2 emissions (kt),South Asia,1961,130402.187,0.283703708,0.845057111,5.115284875
+India,IND,CO2 emissions (kt),South Asia,1962,143467.708,0.305850957,0.903251341,5.15675416
+India,IND,CO2 emissions (kt),South Asia,1963,154083.673,0.321794976,0.915225997,5.187756622
+India,IND,CO2 emissions (kt),South Asia,1964,150647.694,0.308168697,0.832752356,5.177962488
+India,IND,CO2 emissions (kt),South Asia,1965,165972.087,0.332527209,0.942299593,5.220035055
+India,IND,CO2 emissions (kt),South Asia,1966,171765.947,0.337039496,0.975733853,5.234937068
+India,IND,CO2 emissions (kt),South Asia,1967,172238.99,0.330973864,0.907407636,5.23613147
+India,IND,CO2 emissions (kt),South Asia,1968,187336.029,0.352457485,0.954602204,5.27262131
+India,IND,CO2 emissions (kt),South Asia,1969,190724.337,0.35118733,0.912211968,5.280406114
+India,IND,CO2 emissions (kt),South Asia,1970,195143.072,0.351488938,0.887572122,5.290353138
+India,IND,CO2 emissions (kt),South Asia,1971,205869.047,0.362529742,0.921222194,5.313591054
+India,IND,CO2 emissions (kt),South Asia,1972,217849.136,0.374899181,0.98025442,5.338155842
+India,IND,CO2 emissions (kt),South Asia,1973,224343.393,0.377193439,0.977270435,5.350913284
+India,IND,CO2 emissions (kt),South Asia,1974,231992.755,0.381064005,0.998753512,5.365474422
+India,IND,CO2 emissions (kt),South Asia,1975,252201.592,0.404751113,0.994737135,5.401747824
+India,IND,CO2 emissions (kt),South Asia,1976,263785.645,0.413696987,1.023406807,5.421251158
+India,IND,CO2 emissions (kt),South Asia,1977,279051.366,0.427724734,1.009403258,5.445684153
+India,IND,CO2 emissions (kt),South Asia,1978,283096.067,0.424114076,0.9686969,5.451933836
+India,IND,CO2 emissions (kt),South Asia,1979,296891.321,0.434690107,1.072057786,5.472597502
+India,IND,CO2 emissions (kt),South Asia,1980,314016.211,0.449266666,1.062337629,5.496952069
+India,IND,CO2 emissions (kt),South Asia,1981,338838.134,0.473644451,1.081362976,5.529992281
+India,IND,CO2 emissions (kt),South Asia,1982,349637.449,0.477490561,1.078347274,5.543617943
+India,IND,CO2 emissions (kt),South Asia,1983,378669.088,0.50527683,1.088543507,5.578259854
+India,IND,CO2 emissions (kt),South Asia,1984,388118.947,0.506132025,1.07464908,5.588964844
+India,IND,CO2 emissions (kt),South Asia,1985,426673.785,0.543976973,1.122426582,5.63009596
+India,IND,CO2 emissions (kt),South Asia,1986,457571.927,0.57055617,1.148833792,5.660459372
+India,IND,CO2 emissions (kt),South Asia,1987,488481.07,0.595939661,1.179660193,5.688847738
+India,IND,CO2 emissions (kt),South Asia,1988,527563.956,0.629950476,1.162153973,5.722275116
+India,IND,CO2 emissions (kt),South Asia,1989,579008.299,0.676937713,1.203880203,5.762684789
+India,IND,CO2 emissions (kt),South Asia,1990,562480,0.644102026,1.10819303,5.750107085
+India,IND,CO2 emissions (kt),South Asia,1991,607340,0.681429666,1.184062256,5.783431885
+India,IND,CO2 emissions (kt),South Asia,1992,630260,0.693121231,1.164883279,5.799519745
+India,IND,CO2 emissions (kt),South Asia,1993,652470,0.703544619,1.151240248,5.814560548
+India,IND,CO2 emissions (kt),South Asia,1994,687950,0.727526089,1.138059826,5.837556875
+India,IND,CO2 emissions (kt),South Asia,1995,741100,0.768837675,1.139661108,5.869876813
+India,IND,CO2 emissions (kt),South Asia,1996,776720,0.790663149,1.110592963,5.890264488
+India,IND,CO2 emissions (kt),South Asia,1997,821480,0.82074131,1.128875602,5.914596994
+India,IND,CO2 emissions (kt),South Asia,1998,839830,0.823779815,1.086875238,5.924191384
+India,IND,CO2 emissions (kt),South Asia,1999,904090,0.870943498,1.074950528,5.956211666
+India,IND,CO2 emissions (kt),South Asia,2000,940170,0.88982752,1.076500848,5.973206389
+India,IND,CO2 emissions (kt),South Asia,2001,953880,0.887330155,1.041936236,5.979493743
+India,IND,CO2 emissions (kt),South Asia,2002,987530,0.903241998,1.039163086,5.994550298
+India,IND,CO2 emissions (kt),South Asia,2003,1015890,0.913962074,0.99110153,6.006846685
+India,IND,CO2 emissions (kt),South Asia,2004,1087190,0.962435743,0.982795493,6.036305449
+India,IND,CO2 emissions (kt),South Asia,2005,1137740,0.991399583,0.952982646,6.056043027
+India,IND,CO2 emissions (kt),South Asia,2006,1214250,1.041839796,0.941200544,6.084308112
+India,IND,CO2 emissions (kt),South Asia,2007,1336100,1.129216789,0.961956333,6.125838964
+India,IND,CO2 emissions (kt),South Asia,2008,1423880,1.185904772,0.994459624,6.15347339
+India,IND,CO2 emissions (kt),South Asia,2009,1568530,1.288080997,1.015637139,6.19549283
+India,IND,CO2 emissions (kt),South Asia,2010,1665310,1.349214466,0.99384982,6.22149509
+India,IND,CO2 emissions (kt),South Asia,2011,1760800,1.408315593,0.998503145,6.24571003
+India,IND,CO2 emissions (kt),South Asia,2012,1908570,1.507820975,1.026300653,6.280708093
+India,IND,CO2 emissions (kt),South Asia,2013,1966810,1.535560059,0.99413189,6.293762408
+India,IND,CO2 emissions (kt),South Asia,2014,2136870,1.649327519,1.005574063,6.329778102
+India,IND,CO2 emissions (kt),South Asia,2015,2150220,1.641198393,0.93693652,6.332482897
+India,IND,CO2 emissions (kt),South Asia,2016,2183280,1.648359053,0.878786759,6.339109436
+India,IND,CO2 emissions (kt),South Asia,2017,2301440,1.7191902,0.867403652,6.361999657
+India,IND,CO2 emissions (kt),South Asia,2018,2434520,1.799825446,0.861292813,6.386413347
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,1960,97934.569,5.727222706,1.238565592,4.990936016
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,1961,102213.958,5.832620932,1.244825995,5.009510206
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,1962,105767.281,5.887167587,1.213153403,5.02435134
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,1963,109826.65,5.961337137,1.173206746,5.040707737
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,1964,119657.877,6.332343263,1.184204133,5.077941293
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,1965,128260.659,6.616545312,1.196107481,5.108093467
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,1966,128356.001,6.453858078,1.146127912,5.108416178
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,1967,133885.837,6.560824023,1.115245901,5.126734638
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,1968,138084.552,6.593619651,1.104351829,5.140145095
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,1969,143280.691,6.665435015,1.094303239,5.156187667
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,1970,149763.947,6.785927483,1.086777557,5.175407277
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,1971,168568.323,7.437297689,1.173039443,5.226775966
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,1972,171725.61,7.376048992,1.175557804,5.234835068
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,1973,173533.441,7.256838869,1.135995718,5.239383179
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,1974,176734.732,7.198226008,1.090322041,5.247321906
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,1975,185201.835,7.350683964,1.123509261,5.267645285
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,1976,193115.221,7.474398854,1.145737077,5.285816505
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,1977,199950.509,7.550740184,1.187406899,5.300922514
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,1978,202099.371,7.446833862,1.165047012,5.305564962
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,1979,218908.899,7.866688552,1.215861999,5.340263417
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,1980,228454.1,7.999997619,1.190087144,5.358798957
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,1981,257368.395,8.773993846,1.272495396,5.410555214
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,1982,280749.187,9.311609134,1.393438346,5.448318507
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,1983,292230.564,9.428689683,1.477710275,5.465725636
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,1984,315948.72,9.922517683,1.52013164,5.4996166
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,1985,324214.138,9.921214487,1.579028921,5.510831949
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,1986,330855.075,9.877463268,1.611085124,5.519637801
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,1987,329025.242,9.593208378,1.569209883,5.517229217
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,1988,343055.184,9.773399974,1.570173099,5.535363986
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,1989,341108.007,9.493667558,1.52474643,5.532891914
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,1990,247660,6.729798587,1.110564797,5.393855869
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,1991,242330,6.424621766,1.097842291,5.384407182
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,1992,238820,6.175429944,1.105567328,5.378070694
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,1993,246430,6.217680011,1.126895751,5.391693577
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,1994,252010,6.21264227,1.116678712,5.401417774
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,1995,264190,6.375893519,1.135450462,5.421916375
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,1996,273980,6.486114311,1.128980326,5.437718861
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,1997,288920,6.721030433,1.160373358,5.460777606
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,1998,296510,6.787881552,1.184931983,5.472039345
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,1999,278470,6.280539028,1.086757262,5.444778415
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,2000,284730,6.331876384,1.066398759,5.454433228
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,2001,320600,7.035133889,1.169174945,5.505963518
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,2002,331420,7.181223045,1.165505527,5.520378713
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,2003,353110,7.558134072,1.206210696,5.547910017
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,2004,379970,8.034617557,1.241422232,5.579749309
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,2005,377640,7.887120033,1.171964524,5.577077989
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,2006,379560,7.827679844,1.115417306,5.579280438
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,2007,396900,8.080250219,1.107032359,5.598681099
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,2008,426560,8.568994062,1.152968193,5.629980128
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,2009,404020,8.004039383,1.109102806,5.606402864
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,2010,425110,8.300179118,1.132571283,5.628501321
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,2011,409120,7.867123605,1.055312735,5.611850711
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,2012,426710,8.076633054,1.076851076,5.630132821
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,2013,436870,8.13733274,1.075756288,5.640352223
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,2014,447980,8.213157978,1.083108816,5.651258625
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,2015,424880,7.671201555,1.01514046,5.628266288
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,2016,425180,7.564450881,1.011819184,5.628572828
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,2017,435140,7.632729355,1.021078146,5.638629007
+South Africa,ZAF,CO2 emissions (kt),Sub-Saharan Africa,2018,433250,7.496644895,1.008704103,5.636738571
