@@ -23,7 +23,7 @@
   }
 </style>
   
-<h1> This is a heading 5 </h1>
+<h1> This is a heading 6 </h1>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
@@ -138,9 +138,9 @@ async function init() {
   
   console.log(sumstat)
   
-  //Create basic color map for our data 
+  //Helpers for static sheets: Create basic color map and sizers for our data 
   var res = sumstat.map(function(d){ return d.key }) // list of group names
-  console.log(res)
+  //console.log(res)
   var color = d3.scaleOrdinal()
     .domain(res)
     .range(["slategrey","slategrey","slateblue"])
@@ -177,9 +177,10 @@ async function init() {
     .append("circle")
       .attr("cx", function(d) { return x(d.Year);})
       .attr("cy", function(d) { return y(d.GDP);})
-      .attr("r",1)
-      //.style("fill", function(d){ return color(d.Country);})
-      .style("fill","slategrey")
+      //.attr("r",1)
+      .attr("r", function(d) { return size(d.key);})
+      .style("fill", function(d){ return color(d.key);})
+      //.style("fill","slategrey")
   //Add tooltips to dots
       .on("mouseover",mouseOver)
       .on("mouseout",mouseOut)   
