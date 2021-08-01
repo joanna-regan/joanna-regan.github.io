@@ -32,7 +32,7 @@
  
 </style>
   
-<h1> CO2 Emissions Across the Globe - Biggest Offenders annotations8 </h1>
+<h1> CO2 Emissions Across the Globe - Biggest Offenders annotations9 </h1>
   <p>No shit that climate change is totally gonna fuck us up. Our dependence on fossil fuels for decades has increased the global CO2 emissions to a dangerous level. If we don't take action soon, we may cross a irreversible threshold - if it's not already too late. Below, we call out a few countries who have displayed enormous increase in their CO2 emissions. Admittedly, a more fair analysis would consider related factors such as population, gdp, urbanization, blah blah blah but honestly, i don't really care. obviously china is going to have more emissions than vanuatu, but the planet doesn't give a shit where the carbon came from - fact is, it's still there. Hopefully the countries with extraordinary emission levels can use their expansive resources to find an effing solution before we all die. These guys are effing it up for everyone. anyway, please give me an A i tried really hard thanks love you byeeeeeeee   
  The data is sourced from The World Bank. The CO2 emissions you see below are measured in thousand mteric tons, excluding Land_Use change and Forestry. The WOrld Bank defines this as: Carbon dioxide emissions are those stemming from the burning of fossil fuels and the manufacture of cement. They include carbon dioxide produced during consumption of solid, liquid, and gas fuels and gas flaring."
   
@@ -219,19 +219,19 @@ async function init() {
   
     //Adding Annotations:
   const annotations = [
+//  {
+//    note: {
+//      label: "Clearly some countries contribute significantly more to the world's level of CO2 emissions...",
+//    },
+//    subject:{
+//      y1: margin.top,
+//      y2: height - margin.bottom
+//    },
+//    //dx: 10,
+//    y: 100,
+//    x: 100
+//  },
   {
-    note: {
-      label: "Clearly some countries contribute significantly more to the world's level of CO2 emissions...",
-    },
-    subject:{
-      y1: margin.top,
-      y2: height - margin.bottom
-    },
-    //dx: 10,
-    y: 100,
-    x: 100
-  },
-    {
       type: d3.annotationCalloutElbow,
       note: {
       label: "China is the largest contributor of CO2 emissions in the world, primarily due to its reliance on fossil fuels and coal burning. (investopedia1) ",
@@ -240,6 +240,28 @@ async function init() {
       x: width-100,
       y: 150,
       dy: -10,
+      dx: -10
+  },
+  {
+      type: d3.annotationCalloutElbow,
+      note: {
+      label: "The United States has been burning natural resources far longer than any other country. According to the NYTimes, The typical American also burns roughly twice as much as the average person in Europe or in Japan, and 10 times as much as the average person in India. (nytimes1) ",
+      wrap: 190
+    },
+      x: 100,
+      y: height/2,
+      dy: -50,
+      dx: -10
+  },
+      {
+      type: d3.annotationCalloutElbow,
+      note: {
+      label: "According to a recent study by Research Institute for Humanity and Nature, India's wealthy families produce significantly more emissions than poor families. (science1) ",
+      wrap: 190
+    },
+      x: width-50,
+      y: height-100,
+      dy: -150,
       dx: -10
   }
 ]
@@ -256,6 +278,8 @@ async function init() {
 };
     
 // investopedia1: https://www.investopedia.com/articles/investing/092915/5-countries-produce-most-carbon-dioxide-co2.asp  
+//nytimes1: https://www.nytimes.com/interactive/2017/06/01/climate/us-biggest-carbon-polluter-in-history-will-it-walk-away-from-the-paris-climate-deal.html
+//https://science.thewire.in/environment/india-carbon-emissions-rich-poor-households/
   
 </script>  
 </body>
