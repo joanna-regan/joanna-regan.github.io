@@ -245,10 +245,10 @@ async function init() {
   {
       type: d3.annotationCalloutElbow,
       note: {
-      label: "The United States has been burning natural resources far longer than any other country. According to the NYTimes, The typical American also burns roughly twice as much as the average person in Europe or in Japan, and 10 times as much as the average person in India. (nytimes1) ",
+      label: "The typical American burns roughly twice as much as the average person in Europe or in Japan. (nytimes1) ",
       wrap: 190
     },
-      x: 100,
+      x: width/2,
       y: height/2,
       dy: -50,
       dx: -10
@@ -256,12 +256,12 @@ async function init() {
       {
       type: d3.annotationCalloutElbow,
       note: {
-      label: "According to a recent study by Research Institute for Humanity and Nature, India's wealthy families produce significantly more emissions than poor families. (science1) ",
+      label: "India's wealthy families produce significantly more emissions than poor families. (science1) ",
       wrap: 190
     },
       x: width-50,
-      y: height-100,
-      dy: -150,
+      y: height-150,
+      dy: -10,
       dx: -10
   }
 ]
