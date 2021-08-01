@@ -11,7 +11,7 @@
   }
 </style>
   
-<h1> This is a heading 5 </h1>
+<h1> This is a heading 6 </h1>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
@@ -40,16 +40,12 @@ var margin = {top: 50, right: 30, bottom: 50, left: 80},
 async function init() {
   const data = await d3.csv("https://raw.githubusercontent.com/joanna-regan/joanna-regan.github.io/main/docs/WorldGDP2.csv");
   console.log(data)
-
-  console.log(d3.max(data, function(d) { return parseInt(d.GDP); }) )
   
+  
+  // Reformat years as Time and GDo vals as numbers instead of strings
   data.forEach(function (d) {
             d["Year"] = d3.timeParse("%Y")(d.Year)
-            d["GDP"] = +d["GDP"]
-            
-        });
-  console.log(d3.max(data, function(d) { return d.GDP; }) )
-  console.log(data)
+            d["GDP"] = +d["GDP"] });
   
   //Adding Y-Axis
    var y = d3.scaleLinear()
@@ -66,38 +62,18 @@ async function init() {
       .attr("transform", "translate(0," + height + ")")
       .call(d3.axisBottom(x));
   
-    //Add the line
-  // svg.append("path")
-    //  .datum(data)
-      //.attr("fill", "none")
-      //.attr("stroke", "steelblue")
-      //.attr("stroke-width", 1.5)
-      //.attr("d", d3.line()
-       // .x(function(d) { return x(d3.timeParse("%Y")(d.Year)) })
-        //.y(function(d) { return y(d.GDP) })
-       // )
-    //Add the dots
-//     svg.append("g")
-  //    .selectAll("dot")
-     // .data(data)
-    //  .enter()
-     // .append("circle")
-       // .attr("cx", function(d) { return x(d3.timeParse("%Y")(d.Year)) } )
-        //.attr("cy", function(d) { return y(d.GDP) } )
-        //.attr("r", 5)
-        //.attr("fill", "#69b3a2")
-  
+  //Group the data by Country
   var sumstat = d3.nest() // nest function allows to group the calculation per level of a factor
     .key(d => d.Country)
     .entries(data);
   
-  console.log(sumstat)
-  
+  //Create basic color map for our data 
   var res = sumstat.map(function(d){ return d.key }) // list of group names
   var color = d3.scaleOrdinal()
     .domain(res)
     .range(['#e41a1c','#377eb8','#4daf4a','#984ea3','#ff7f00','#ffff33','#a65628','#f781bf','#999999'])
 
+   //Add the lines
     svg.selectAll(".line")
       .data(sumstat)
       .enter()
@@ -111,6 +87,16 @@ async function init() {
             .y(function(d) { return y(d.GDP); })
             (d.values)
         })    
+  
+  //Add the points
+  svg.selectAll("dot")
+    .data(sumstat)
+    .enter()
+    .append("circle")
+      .attr("cx", function(d) { return x(d.Year);})
+      .attr("cy", function(d) { return y(d.GDP);})
+      .attr("r",5)
+      .attr("fill", function(d){ return color(d.key);})
   
  };
     
