@@ -15,7 +15,7 @@
   }
 </style>
   
-<h1> This is a heading 10 </h1>
+<h1> This is a heading 1 </h1>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
@@ -59,7 +59,7 @@ async function init() {
       .range([ height, 0 ]);
     svg.append("g")
       .attr("class","grid")
-      .call(d3.axisLeft(y).tickSize(15));
+      .call(d3.axisLeft(y).ticks(4).tickSize(15));
 
   //Adding X-Axis
     var x = d3.scaleTime()
@@ -68,7 +68,7 @@ async function init() {
     svg.append("g")
       .attr("class","grid")
       .attr("transform", "translate(0," + height + ")")
-      .call(d3.axisBottom(x).tickSize(15));
+      .call(d3.axisBottom(x).ticks(5).tickSize(15));
   
   //Group the data by Country
   var sumstat = d3.nest() // nest function allows to group the calculation per level of a factor
