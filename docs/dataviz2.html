@@ -5,13 +5,13 @@
     opacity: 0;
     position: absolute;
     text-align: center;
-    background: whitesmoke;
+    background: darkgrey;
     border-width: 1px;
     border-radius: 8px;
   }
 </style>
   
-<h1> This is a heading 2 </h1>
+<h1> This is a heading 3 </h1>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
@@ -36,6 +36,8 @@ var margin = {top: 50, right: 30, bottom: 50, left: 80},
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
     .attr("transform","translate(" + margin.left + "," + margin.bottom + ")");
+  
+  var tooltip = d3.select("#tooltip");
 
 async function init() {
   const data = await d3.csv("https://raw.githubusercontent.com/joanna-regan/joanna-regan.github.io/main/docs/WorldGDP2.csv");
