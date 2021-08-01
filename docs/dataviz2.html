@@ -18,7 +18,7 @@
   }
 </style>
   
-<h1> This is a heading 0 </h1>
+<h1> This is a heading 1 </h1>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
@@ -84,7 +84,7 @@ async function init() {
       //.style("top",(d3.event.pageY) + "px")
       //.html(d.Country);
     
-    d3.select(this)
+    d3.select(this).raise()
       .style("fill","slateblue")
       .style("stroke-width","3");
   }
@@ -146,8 +146,8 @@ async function init() {
             .y(function(d) { return y(d.GDP); })
             (d.values)
         })
-    //  .on("mouseover",mouseOverLine)
-    //  .on("mouseout",mouseOutLine)
+      .on("mouseover",mouseOverLine)
+      .on("mouseout",mouseOutLine)
   
   //Add the points
   svg.selectAll("dot")
