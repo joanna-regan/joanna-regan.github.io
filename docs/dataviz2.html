@@ -15,7 +15,7 @@
   }
 </style>
   
-<h1> This is a heading 2 </h1>
+<h1> This is a heading 3 </h1>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
@@ -61,7 +61,7 @@ async function init() {
       .call(d3.axisLeft(y).tickSize(10));
     svg.append("g")
       .attr("class","grid")
-      .call(d3.axisLeft(y).ticks(5).tickSize(-width))
+      .call(d3.axisLeft(y).ticks(5).tickSize(-width).tickFormat(""));
             
 
   //Adding X-Axis
@@ -69,9 +69,11 @@ async function init() {
       .domain(d3.extent(data, function(d) { return d.Year; }))
       .range([ 0, width ]);
     svg.append("g")
-      .attr("class","grid")
       .attr("transform", "translate(0," + height + ")")
-      .call(d3.axisBottom(x).ticks(5).tickSize(15));
+      .call(d3.axisBottom(x).tickSize(10));
+     svg.append("g")
+      .attr("class","grid")
+      .call(d3.axisLeft(x).ticks(5).tickSize(-height).tickFormat(""))
   
   //Group the data by Country
   var sumstat = d3.nest() // nest function allows to group the calculation per level of a factor
