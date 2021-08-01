@@ -184,7 +184,7 @@ async function init() {
     .append("g")
     .append("text")
       .datum(function(d) {return {name: d.Country, value: d.values[d.values.length-1]};})
-      console.log(.datum(function(d) {return {name: d.Country, value: d.values[d.values.length-1]};}))
+      console.log(datum(function(d) {return {name: d.Country, value: d.values[d.values.length-1]};}))
       .attr("transform",function(d) { return "translate(" + x(d.value.Year) + "," + y(d.value.value) + ")";})
       //.attr("x",12)
       .text(function(d) { return d.name;})
