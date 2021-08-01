@@ -11,7 +11,7 @@
   }
 </style>
   
-<h1> This is a heading 7 </h1>
+<h1> This is a heading 8 </h1>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
@@ -79,7 +79,7 @@ async function init() {
         //.attr("fill", "#69b3a2")
   
   var sumstat = d3.nest() // nest function allows to group the calculation per level of a factor
-    .key(function(d) { return d.Country;})
+    .key(d => d.Country)
     .entries(data);
   
   console.log(sumstat)
