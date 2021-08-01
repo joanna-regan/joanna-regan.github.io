@@ -18,7 +18,7 @@
   }
 </style>
   
-<h1> This is a heading 8 </h1>
+<h1> This is a heading 9 </h1>
   
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
@@ -79,10 +79,10 @@ async function init() {
   }
   
   var mouseOverLine = function(d) {
-   tooltip.style("opacity",1)
-      .style("left",(d3.event.pageX) + "px")
-      .style("top",(d3.event.pageY) + "px")
-      .html(d.Country);
+   //tooltip.style("opacity",1)
+     // .style("left",(d3.event.pageX) + "px")
+      //.style("top",(d3.event.pageY) + "px")
+      //.html(d.Country);
     
     d3.select(this)
       .style("fill","slateblue")
@@ -146,8 +146,8 @@ async function init() {
             .y(function(d) { return y(d.GDP); })
             (d.values)
         })
-      .on("mouseover",mouseOverLine)
-      .on("mouseout",mouseOutLine)
+    //  .on("mouseover",mouseOverLine)
+    //  .on("mouseout",mouseOutLine)
   
   //Add the points
   svg.selectAll("dot")
@@ -160,10 +160,20 @@ async function init() {
       //.style("fill", function(d){ return color(d.Country);})
       .style("fill","slategrey")
   //Add tooltips to dots
-      .on("mouseover",mouseOver)
-      .on("mouseout",mouseOut)   
+    //  .on("mouseover",mouseOver)
+     // .on("mouseout",mouseOut)   
   
- };
+  //Do some events:
+  
+  svg.selectAll("circles")
+      .on("mouseover",mouseOver)
+      .on("mouseout",mouseOut)
+
+
+
+
+
+};
     
   
   
