@@ -99,17 +99,19 @@ async function init() {
       .style("top",(d3.event.pageY) + "px")
       .html(d.CountryName + "<br/>" + "Year: " + d3.timeFormat("%Y")(d.Year) + "</br>" + "CO2 Emissions (Mt): " + d3.format(".2f")(d.CO2_Mt) + "</br>" + "CO2 Emissions (per capita)" + d3.format(".2f")(d.CO2_percapita));
     
-    d3.select(this)
+    const selection = d3.select(this)
+    selection
       .attr("r",10)
-      .style("fill",slateblue);
+      .style("fill","slateblue");
   }
   
   var mouseOut = function(d) { 
     tooltip.transition().duration(1000).style("opacity",0); 
     
-    d3.select(this)
+    const selection = d3.select(this)
+    selection
       .attr("r",1)
-      .style("fill",slategrey);
+      .style("fill","slategrey");
   }
   
   var mouseOverLine = function(d) {
