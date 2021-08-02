@@ -110,7 +110,7 @@ async function init() {
     
     const selection = d3.select(this)
     selection
-      .attr("r",3)
+      .attr("r",2)
       .style("fill","slategrey");
   }
   
@@ -226,7 +226,7 @@ async function init() {
     .append("circle")
       .attr("cx", function(d) { return x(d.Year);})
       .attr("cy", function(d) { return y(d.CO2_Mt);})
-      .attr("r",3)
+      .attr("r",2)
       //.attr("r", function(d) { return size(d.Country);})
       //.style("fill", function(d){ return color(d.Country);})
       .style("fill","slategrey")
