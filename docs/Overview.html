@@ -105,7 +105,7 @@ async function init() {
   }
   
   var mouseOut = function(d) { 
-    tooltip.transition().duration(500).style("opacity",0); 
+    tooltip.transition().duration(1000).style("opacity",0); 
     
     d3.select(this)
       .attr("r",1)
