@@ -97,7 +97,7 @@ async function init() {
    tooltip.style("opacity",1)
       .style("left",(d3.event.pageX) + "px")
       .style("top",(d3.event.pageY) + "px")
-      .html(d.CountryName + "<br/>" + "Year: " + d3.timeFormat("%Y")(d.Year) + "</br>" + "CO2 Emissions: " + d3.format(".2f")(d.CO2_Mt));
+      .html(d.CountryName + "<br/>" + "Year: " + d3.timeFormat("%Y")(d.Year) + "</br>" + "CO2 Emissions (Mt): " + d3.format(".2f")(d.CO2_Mt) + "</br>" + "CO2 Emissions (per capita)" + d3.format(".2f")(d.CO2_percapita));
     
     d3.select(this)
       .attr("r",10)
